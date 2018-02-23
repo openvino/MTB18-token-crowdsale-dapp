@@ -1,52 +1,296 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  margin-left: 25%;
-  margin-right: 25%;
-  margin-top: 10%;
+  background: #0D1019;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#supply-spin,
+#raised-spin,
+#left-spin,
+#balance-spin,
+#buy-spin,
+#burn-spin {
+  display: none;
+}
+
+.wrap {
   font-family: "Open Sans", sans-serif;
+  position: relative;
+  overflow: hidden;
 }
-
-label {
-  display: inline-block;
-  width: 100px;
+.wrap .app {
+  overflow-y: scroll;
 }
-
-input {
-  width: 500px;
-  padding: 5px;
+.wrap .app header {
+  padding: 25px 16px 0 16px;
+}
+.wrap .app header .nHeader {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.wrap .app header .nHeader .logo {
+  width: 35px;
+  height: 35px;
+}
+.wrap .app header .nHeader .logo img {
+  border-radius: 50%;
+  width: 100%;
+  cursor: pointer;
+}
+.wrap .app header .nHeader .options {
+  text-align: right;
+}
+.wrap .app header .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 20px 0;
+}
+.wrap .app header .title .greet {
+  color: #fff;
+}
+.wrap .app header .title .greet p {
   font-size: 16px;
-}
-
-button {
-  font-size: 16px;
-  padding: 5px;
-}
-
-h1, h2 {
-  display: inline-block;
-  vertical-align: middle;
-  margin-top: 0px;
   margin-bottom: 10px;
+  letter-spacing: 0.5px;
+}
+.wrap .app header .title .greet h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+.wrap .app .ico {
+  padding: 0 16px;
+  color: #fff;
+}
+.wrap .app .ico .halfWidth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.wrap .app .ico .halfWidth .number {
+  width: 48%;
+  height: 160px;
+  border-radius: 10px;
+  position: relative;
+}
+.wrap .app .ico .halfWidth .number span {
+  font-size: 72px;
+  font-weight: 300;
+  margin: 0 16px;
+  line-height: 90px;
+}
+.wrap .app .ico .halfWidth .number p, .wrap .app .ico .halfWidth .number h4 {
+  padding-left: 16px;
+}
+.wrap .app .ico .halfWidth .number .line {
+  height: 2px;
+  margin-top: 10px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.wrap .app .ico .halfWidth .number h4 {
+  font-weight: 600;
+  line-height: 40px;
+  cursor: pointer;
+}
+.wrap .app .ico .halfWidth .number:first-child {
+  background: #FACE14;
+}
+.wrap .app .ico .halfWidth .number:last-child {
+  background: #F21E60;
+}
+.wrap .app .ico .fullWidth .number {
+  width: 100%;
+  height: 160px;
+  background: #8D4DE9;
+  border-radius: 10px;
+  margin-top: 15px;
+  position: relative;
+}
+.wrap .app .ico .fullWidth .number span {
+  font-size: 72px;
+  font-weight: 300;
+  margin: 0 16px;
+  line-height: 116px;
+  float: left;
+}
+.wrap .app .ico .fullWidth .number .fa {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  -webkit-transform: translate(, );
+          transform: translate(, );
+}
+.wrap .app .ico .fullWidth .number p {
+  padding-top: 72px;
+}
+.wrap .app .ico .fullWidth .number .line {
+  height: 2px;
+  margin-top: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  clear: both;
+}
+.wrap .app .ico .fullWidth .number h4 {
+  font-weight: 600;
+  padding-left: 16px;
+  line-height: 40px;
+  cursor: pointer;
+}
+.wrap .app .divisor {
+  margin: 16px 0 0 0;
+  padding: 16px 0 0 16px;
+}
+.wrap .app .divisor .title {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.4);
+}
+.wrap .app .wallet {
+  width: 100%;
+  padding: 0 16px;
+  margin: 16px 0;
+}
+.wrap .app .wallet .card {
+  width: 100%;
+  background: #fff;
+  border-radius: 10px;
+  margin-top: 16px;
+  position: relative;
+}
+.wrap .app .wallet .card .cardCol {
+  height: auto;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+.wrap .app .wallet .card .cardCol:last-child {
+  border-bottom: none;
+}
+.wrap .app .wallet .card .cardCol .logo {
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin: 16px 16px 5px 16px;
+}
+.wrap .app .wallet .card .cardCol .logo img {
+  width: 100%;
+  border-radius: 50%;
+}
+.wrap .app .wallet .card .cardCol .title {
+  padding-top: 26px;
+  font-weight: 600;
+  font-size: 14px;
+}
+.wrap .app .wallet .card .cardCol span {
+  float: right;
+  margin: -15px 15px 0 0;
+  font-size: 14px;
+  cursor: pointer;
+  color: #99cc66;
+  font-weight: 600;
+}
+.wrap .app .wallet .card .cardCol .number {
+  line-height: 72px;
+  margin: 0 16px;
+  font-size: 72px;
+  clear: both;
+  padding-bottom: 16px;
+  opacity: 0.7;
+}
+.wrap .app .investorTool {
+  width: 600px;
+  height: auto;
+  margin: 0 0 16px 0;
+  padding: 0 0 16px 16px;
+  overflow-x: auto;
+  white-space: nowrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.wrap .app .investorTool .card {
+  width: 276px;
+  height: 160px;
+  background: #fff;
+  float: left;
+  border-radius: 10px;
+  position: relative;
+}
+.wrap .app .investorTool .card:first-child {
+  margin-right: 16px;
+}
+.wrap .app .investorTool .card .icon {
+  margin: 16px;
+  margin-bottom: 10px;
+  float: left;
+}
+.wrap .app .investorTool .card .title {
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 14px;
+}
+.wrap .app .investorTool .card .text {
+  clear: both;
+  line-height: 24px;
+  margin: 0 16px;
+  font-size: 20px;
+}
+.wrap .app .investorTool .card .line {
+  height: 2px;
+  margin-top: 10px;
+  background: rgba(0, 0, 0, 0.1);
+}
+.wrap .app .investorTool .card .action h5 {
+  color: #99cc66;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  line-height: 50px;
+  padding-left: 16px;
+}
+.wrap .app .empty {
+  width: 100%;
 }
 
-h2 {
-  color: #AAA;
-  font-size: 32px;
-}
-
-h3 {
-  font-weight: normal;
-  color: #AAA;
-  font-size: 24px;
-}
-
-.black {
-  color: black;
-}
-
-#balance {
-  color: black;
-}
-
-.hint {
-  color: #666;
+@media screen and (max-width: 380px) {
+  .wrap {
+    width: 100vw;
+    height: 100vh;
+    background: #0D1019;
+  }
+  .wrap .app {
+    width: inherit;
+    height: inherit;
+    overflow-x: hidden;
+  }
 }

@@ -32,7 +32,11 @@ window.App = {
 
       accounts = accs;
       account = accounts[0];
+      document.getElementById("address").innerHTML = account;
 
+      self.supply();
+      self.raised();
+      self.leftTime();
       self.refreshBalance();
     });
   },
@@ -40,14 +44,17 @@ window.App = {
   buy: function() {
     var self = this;
 
+    document.getElementById("buy-spin").style.display = "block";
+
     MIKETANGOBRAVO18Crowdsale.deployed().then(function(instance) {
       return instance.buyTokens(account, {from: account, value: 100000000000000000});
     }).then(function(result) {
-      self.setStatus("Initiating transaction... (please wait)");
+      //self.setStatus("Initiating transaction... (please wait)");
       self.interval(result.receipt);
     }).catch(function(e) {
       console.log(e);
-      self.setStatus("Error buying coin; see log.");
+    }).finally(function() {
+      document.getElementById("buy-spin").style.display = "none";
     });
   },
 
@@ -56,8 +63,11 @@ window.App = {
 
     var refreshId = setInterval(function() {
       if (self.blockMined(receipt)) {
+        self.supply();
+        self.raised();
+        self.leftTime();
         self.refreshBalance();
-        self.setStatus("Transaction complete!");
+        document.getElementById("buy-spin").style.display = "none";
         if (typeof cb !== 'undefined') {
           cb();
         }
@@ -73,36 +83,44 @@ window.App = {
   supply: function() {
     var self = this;
 
+    document.getElementById("supply-spin").style.display = "block";
+
     MIKETANGOBRAVO18.deployed().then(function(instance) {
       return instance.totalSupply.call({from: account});
     }).then(function(result) {
-      self.setStatus(web3.fromWei(result.toString()) + " MTB18 TOKENS");
+      document.getElementById("supply").innerHTML = web3.fromWei(result.toString());
     }).catch(function(e) {
       console.log(e);
-      self.setStatus("Error; see log.");
+    }).finally(function() {
+      document.getElementById("supply-spin").style.display = "none";
     });
   },
 
   raised: function() {
     var self = this;
 
+    document.getElementById("raised-spin").style.display = "block";
+
     MIKETANGOBRAVO18Crowdsale.deployed().then(function(instance) {
       return instance.weiRaised.call({from: account});
     }).then(function(result) {
-      self.setStatus(web3.fromWei(result.toString()) + " ETH");
+      document.getElementById("raised").innerHTML = web3.fromWei(result.toString());
     }).catch(function(e) {
       console.log(e);
-      self.setStatus("Error; see log.");
+    }).finally(function() {
+      document.getElementById("raised-spin").style.display = "none";
     });
   },
 
   burn: function() {
     var self = this;
-    self.setStatus("Initiating transaction... (please wait)");
+
+    document.getElementById("burn-spin").style.display = "block";
 
     MIKETANGOBRAVO18.deployed().then(function(instance) {
       return instance.burn(web3.toWei(1), {from: account});
     }).then(function(result) {
+      document.getElementById("burn-spin").style.display = "none";
       for (var i = 0; i < result.logs.length; i++) {
         var log = result.logs[i];
         if (log.event == "Burn") {
@@ -110,10 +128,32 @@ window.App = {
           break;
         }
       }
+      self.supply();
       self.refreshBalance();
     }).catch(function(e) {
       console.log(e);
-      self.setStatus("Error; see log.");
+      //self.setStatus("Error; see log.");
+    }).finally(function() {
+      document.getElementById("burn-spin").style.display = "none";
+    });
+  },
+
+  leftTime: function() {
+    var self = this;
+
+    document.getElementById("left-spin").style.display = "block";
+
+    MIKETANGOBRAVO18Crowdsale.deployed().then(function(instance) {
+      return instance.endTime.call({from: account});
+    }).then(function(result) {
+      var today = new Date();
+      var christmasDay = new Date(result.toString()*1000);
+      var diffSec = Date.parse(christmasDay) - Date.parse(today);
+      document.getElementById("left").innerHTML = Math.ceil(diffSec / (1000*60*60*24));
+    }).catch(function(e) {
+      console.log(e);
+    }).finally(function() {
+      document.getElementById("left-spin").style.display = "none";
     });
   },
 
@@ -125,39 +165,21 @@ window.App = {
   refreshBalance: function() {
     var self = this;
 
+    document.getElementById("balance-spin").style.display = "block";
+
     var mtb18;
     MIKETANGOBRAVO18.deployed().then(function(instance) {
       mtb18 = instance;
       return mtb18.balanceOf.call(account, {from: account});
     }).then(function(value) {
-      var balance_element = document.getElementById("balance");
-      balance_element.innerHTML = web3.fromWei(value.valueOf());
+      document.getElementById("balance").innerHTML = web3.fromWei(value.valueOf());
     }).catch(function(e) {
       console.log(e);
-      self.setStatus("Error getting balance; see log.");
-    });
-  },
-
-  sendCoin: function() {
-    var self = this;
-
-    var amount = parseInt(document.getElementById("amount").value);
-    var receiver = document.getElementById("receiver").value;
-
-    this.setStatus("Initiating transaction... (please wait)");
-
-    var mtb18;
-    MIKETANGOBRAVO18.deployed().then(function(instance) {
-      mtb18 = instance;
-      return mtb18.sendCoin(receiver, amount, {from: account});
-    }).then(function() {
-      self.setStatus("Transaction complete!");
-      self.refreshBalance();
-    }).catch(function(e) {
-      console.log(e);
-      self.setStatus("Error sending coin; see log.");
+    }).finally(function() {
+      document.getElementById("balance-spin").style.display = "none";
     });
   }
+
 };
 
 window.addEventListener('load', function() {
