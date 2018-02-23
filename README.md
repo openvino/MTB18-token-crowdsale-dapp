@@ -1,4 +1,4 @@
-# MTB18 Crowdsale
+# MTB18 Token & Crowdsale & Dapp
 
 Creation of the world's first wine-backed cryptoasset.
 
@@ -12,6 +12,12 @@ To run and interact with the contract.
 $ npm install
 $ truffle compile
 $ truffle migrate --reset --network ropsten
+```
+
+To run and interact with the dapp.
+
+```
+$ npm run dev
 ```
 
 ### Prerequisites
@@ -44,7 +50,7 @@ $ npm install -g truffle
 
 ## Authors
 
-* **Federico J Elgarte** - [Shuffledex](https://github.com/Shuffledex)
+* **Federico Elgarte** - [Shuffledex](https://github.com/Shuffledex)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 

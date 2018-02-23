@@ -1,13 +1,13 @@
 {
-  "name": "token-interaction-dapp",
+  "name": "MTB18-token-crowdsale-dapp",
   "version": "0.0.1",
-  "description": "",
+  "description": "Smart contracts for MTB18 asset, Crowdsale and the Decentralized Initial Coin Offering Dashboard application",
   "scripts": {
     "lint": "eslint ./",
     "build": "webpack",
     "dev": "webpack-dev-server"
   },
-  "author": "Douglas von Kohorn",
+  "author": "Federico Elgarte (@Shuffledex)",
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.22.2",
