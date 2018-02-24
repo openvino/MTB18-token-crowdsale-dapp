@@ -1,6 +1,6 @@
 import "../stylesheets/app.css";
 
-import { default as Web3} from 'web3';
+import { default as Web3 } from 'web3';
 import { default as contract } from 'truffle-contract'
 
 import MIKETANGOBRAVO18_artifacts from '../../build/contracts/MIKETANGOBRAVO18.json'

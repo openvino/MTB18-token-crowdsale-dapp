@@ -8,7 +8,7 @@
 }
 
 body {
-  background: #0D1019;
+  background: #F4F0E8;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -57,13 +57,10 @@ body {
           justify-content: space-between;
 }
 .wrap .app header .nHeader .logo {
-  width: 35px;
-  height: 35px;
+  width: 155px;
 }
 .wrap .app header .nHeader .logo img {
-  border-radius: 50%;
   width: 100%;
-  cursor: pointer;
 }
 .wrap .app header .nHeader .options {
   text-align: right;
@@ -78,7 +75,7 @@ body {
   margin: 20px 0;
 }
 .wrap .app header .title .greet {
-  color: #fff;
+  color: #000;
 }
 .wrap .app header .title .greet p {
   font-size: 16px;
@@ -127,15 +124,15 @@ body {
   cursor: pointer;
 }
 .wrap .app .ico .halfWidth .number:first-child {
-  background: #FACE14;
+  background: #d5841b;
 }
 .wrap .app .ico .halfWidth .number:last-child {
-  background: #F21E60;
+  background: #96215C;
 }
 .wrap .app .ico .fullWidth .number {
   width: 100%;
   height: 160px;
-  background: #8D4DE9;
+  background: #9a999e;
   border-radius: 10px;
   margin-top: 15px;
   position: relative;
@@ -175,7 +172,7 @@ body {
 }
 .wrap .app .divisor .title {
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(0, 0, 0, 0.4);
 }
 .wrap .app .wallet {
   width: 100%;
@@ -216,7 +213,7 @@ body {
   margin: -15px 15px 0 0;
   font-size: 14px;
   cursor: pointer;
-  color: #99cc66;
+  color: #d5841b;
   font-weight: 600;
 }
 .wrap .app .wallet .card .cardCol .number {
@@ -271,7 +268,7 @@ body {
   background: rgba(0, 0, 0, 0.1);
 }
 .wrap .app .investorTool .card .action h5 {
-  color: #99cc66;
+  color: #d5841b;
   font-weight: 600;
   font-size: 14px;
   cursor: pointer;
