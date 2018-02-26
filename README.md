@@ -1,4 +1,4 @@
-# MTB18 Token & Crowdsale & Dapp
+# MTB18 token and crowdsale contracts
 
 Creation of the world's first wine-backed cryptoasset.
 
