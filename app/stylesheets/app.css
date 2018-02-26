@@ -29,7 +29,10 @@ body {
 #left-spin,
 #balance-spin,
 #buy-spin,
-#burn-spin {
+#burn-spin,
+#web3,
+#metamask,
+#ropsten {
   display: none;
 }
 
@@ -37,6 +40,7 @@ body {
   font-family: "Open Sans", sans-serif;
   position: relative;
   overflow: hidden;
+  width: 600px;
 }
 .wrap .app {
   overflow-y: scroll;

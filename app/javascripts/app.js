@@ -183,12 +183,19 @@ window.App = {
 };
 
 window.addEventListener('load', function() {
-  if (typeof web3 !== 'undefined') {
-    console.warn("Using web3 detected from external source. If you find that your accounts don't appear or you have 0 MTB18, ensure you've configured that source properly. If using MetaMask, see the following link. Feel free to delete this warning. :) http://truffleframework.com/tutorials/truffle-and-metamask")
+  if (typeof web3 !== 'undefined' && web3.currentProvider != null) {
     window.web3 = new Web3(web3.currentProvider);
+    web3.version.getNetwork((err, netId) => {
+      switch (netId) {
+        case "3":
+          document.getElementById("web3").style.display = "block";
+          break
+        default:
+          document.getElementById("ropsten").style.display = "block";
+      }
+    })
   } else {
-    console.warn("No web3 detected. Consider using Metamask. More info here: http://truffleframework.com/tutorials/truffle-and-metamask");
-    alert("No web3 detected. Consider using Metamask")
+    document.getElementById("metamask").style.display = "block";
   }
 
   App.start();
