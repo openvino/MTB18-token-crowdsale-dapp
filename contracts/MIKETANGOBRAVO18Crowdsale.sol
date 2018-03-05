@@ -62,6 +62,10 @@ contract MIKETANGOBRAVO18Crowdsale is CappedCrowdsale, FinalizableCrowdsale, Pau
     super.finalization();
   }
 
+  function remaining() public returns (uint256) {
+    return totalTokenCapToCreate.sub(token.totalSupply());
+  }
+
   // overriding Crowdsale#buyTokens
   function buyTokens(address beneficiary) public payable {
     require(!paused);

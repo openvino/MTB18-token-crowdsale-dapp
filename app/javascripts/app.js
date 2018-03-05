@@ -1,7 +1,9 @@
 import "../stylesheets/app.css";
+import "../../node_modules/tingle.js/dist/tingle.min.css";
 
 import { default as Web3 } from 'web3';
 import { default as contract } from 'truffle-contract'
+import tingle from 'tingle.js'
 
 import MIKETANGOBRAVO18_artifacts from '../../build/contracts/MIKETANGOBRAVO18.json'
 import MIKETANGOBRAVO18Crowdsale_artifacts from '../../build/contracts/MIKETANGOBRAVO18Crowdsale.json'
@@ -11,6 +13,10 @@ var MIKETANGOBRAVO18Crowdsale = contract(MIKETANGOBRAVO18Crowdsale_artifacts);
 
 var accounts;
 var account;
+var modal;
+var ethRate;
+var remaining;
+var dummyClose;
 
 window.App = {
   start: function() {
@@ -38,7 +44,38 @@ window.App = {
       self.raised();
       self.leftTime();
       self.refreshBalance();
+      self.getTicker();
+      self.remaining();
     });
+  },
+
+  openBuy: function() {
+    dummyClose = true;
+
+    modal = new tingle.modal({
+      footer: true,
+      stickyFooter: false,
+      closeMethods: ['overlay', 'button', 'escape'],
+      closeLabel: "Close",
+      cssClass: ['custom-tingle'],
+      onOpen: function() {
+      },
+      onClose: function() {
+      },
+      beforeClose: function() {
+        if (!dummyClose) {
+          App.buy();
+        }
+        return true;
+      }
+    });
+
+    modal.setContent("<form oninput='x.value=parseInt(inputRange.value)*parseFloat(rate.value);y.value=inputRange.value'><p>Amount of tokens.</p><div class='selecteurPrix'><div class='prixMin'>1 MTB18</div><div class='range-slider'><input class='input-range' id='inputRange' type='range' value='1' min='1' max='"+remaining+"' step='1'><input id='rate' type='number' value='"+ethRate+"' disabled='disabled' style='display:none'><div class='valeurPrix'><span class='range-value'><output name='y' id='y' for='a'>1</output> MTB18 (~ <output name='x' id='x' for='inputRange rate'>"+ethRate+"</output> ETH)</span></div></div><div class='prixMax'>"+remaining+"</div></div>");
+    modal.addFooterBtn('BUY', 'tingle-buy-button', function() {
+      dummyClose = false;
+      modal.close();
+    });
+    modal.open();
   },
 
   buy: function() {
@@ -47,9 +84,8 @@ window.App = {
     document.getElementById("buy-spin").style.display = "block";
 
     MIKETANGOBRAVO18Crowdsale.deployed().then(function(instance) {
-      return instance.buyTokens(account, {from: account, value: 100000000000000000});
+      return instance.buyTokens(account, {from: account, value: web3.toWei(parseFloat(document.getElementById("x").value))});
     }).then(function(result) {
-      //self.setStatus("Initiating transaction... (please wait)");
       self.interval(result.receipt);
     }).catch(function(e) {
       console.log(e);
@@ -178,7 +214,55 @@ window.App = {
     }).finally(function() {
       document.getElementById("balance-spin").style.display = "none";
     });
-  }
+  },
+
+  getTicker: function() {
+    var self = this;
+
+    fetch("https://api.coinmarketcap.com/v1/ticker/ethereum/")
+      .then(response => {
+        if (response.status === 200) {
+          return response.json();
+        } else {
+          throw new Error('Something went wrong on api server!');
+        }
+      })
+      .then(response => {
+        self.rate(response[0]);
+      }).catch(error => {
+        console.error(error);
+      });
+  },
+
+  rate: function(ticker) {
+    var self = this;
+
+    MIKETANGOBRAVO18Crowdsale.deployed().then(function(instance) {
+      return instance.rate.call();
+    }).then(function(result) {
+      var result = result.valueOf();
+      ethRate = self.truncate(1 / result, 5);
+      document.getElementById("ticker").innerHTML = "1 MTB18 will cost <br>" + ethRate + " ETH (~ " + self.truncate(ticker.price_usd / result, 2) + " usd)";
+    }).catch(function(e) {
+      console.log(e);
+    });
+  },
+
+  truncate: function(num, places) {
+    return Math.trunc(num * Math.pow(10, places)) / Math.pow(10, places);
+  },
+
+  remaining: function() {
+    var self = this;
+
+    MIKETANGOBRAVO18Crowdsale.deployed().then(function(instance) {
+      return instance.remaining.call();
+    }).then(function(result) {
+      remaining = web3.fromWei(result).toNumber();
+    }).catch(function(e) {
+      console.log(e);
+    });
+  },
 
 };
 

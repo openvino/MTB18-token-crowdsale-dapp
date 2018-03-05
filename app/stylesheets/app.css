@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
 
 * {
+  -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
@@ -8,6 +9,7 @@
 }
 
 body {
+  font-family: "Open Sans", sans-serif;
   background: #F4F0E8;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -37,7 +39,6 @@ body {
 }
 
 .wrap {
-  font-family: "Open Sans", sans-serif;
   position: relative;
   overflow: hidden;
   width: 600px;
@@ -281,6 +282,132 @@ body {
 }
 .wrap .app .empty {
   width: 100%;
+}
+
+.custom-tingle .tingle-modal-box {
+  border-radius: 10px;
+  width: 568px;
+}
+
+.custom-tingle .tingle-modal-box__footer {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #F4F0E8;
+  text-align: center;
+}
+
+.custom-tingle .tingle-modal-box__footer .tingle-buy-button {
+  font-weight: 600;
+  line-height: 40px;
+  cursor: pointer;
+  padding-right: 20px;
+  border: 0;
+  background: inherit;
+  font-size: 14px;
+  float: right;
+}
+
+.custom-tingle .tingle-modal-box__footer img {
+  width: 155px;
+}
+
+.custom-tingle .tingle-modal-box__content  {
+  padding: 26px;
+}
+
+.custom-tingle .tingle-modal-box__footer {
+  padding: 16px;
+}
+
+.custom-tingle form p {
+  font-weight: 600;
+  margin-bottom: 30px;
+  font-size: 14px
+}
+
+.selecteurPrix {
+  height: 60px;
+}
+
+.prixMin {
+  float: left;
+  margin-right: 15px;
+}
+
+.prixMin,
+.prixMax {
+  color: #94255C;
+}
+
+.valeurPrix {
+  margin-top: 25px;
+}
+
+.range-slider {
+  position: relative;
+  width: 385px;
+  float: left;
+  margin-right: 5px;
+}
+
+.range-slider .input-range {
+  -webkit-appearance: none;
+  width: 375px;
+  height: 5px;
+  border-radius: 5px;
+  background: #ccc;
+  outline: none;
+}
+
+.range-slider .input-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #94255C;
+  cursor: pointer;
+  -webkit-transition: background .15s ease-in-out;
+  transition: background .15s ease-in-out;
+}
+
+.range-slider .input-range::-webkit-slider-thumb:hover {
+  background: #94255C;
+}
+
+.range-slider .input-range:active::-webkit-slider-thumb {
+  background: #94255C;
+}
+
+.range-slider .input-range::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border: 0;
+  border-radius: 50%;
+  background: #94255C;
+  cursor: pointer;
+  -webkit-transition: background .15s ease-in-out;
+  transition: background .15s ease-in-out;
+}
+
+.range-slider .input-range::-moz-range-thumb:hover {
+  background: #94255C;
+}
+
+.range-slider .input-range:active::-moz-range-thumb {
+  background: #94255C;
+}
+
+.range-slider .range-value {
+  font-size: 20px
+}
+
+::-moz-range-track {
+  background: #ccc;
+  border: 0;
+}
+
+input::-moz-focus-inner {
+  border: 0;
 }
 
 @media screen and (max-width: 380px) {
