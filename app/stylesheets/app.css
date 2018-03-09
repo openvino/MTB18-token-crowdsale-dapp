@@ -345,14 +345,14 @@ body {
 
 .range-slider {
   position: relative;
-  width: 385px;
+  width: 370px;
   float: left;
   margin-right: 5px;
 }
 
 .range-slider .input-range {
   -webkit-appearance: none;
-  width: 375px;
+  width: 355px;
   height: 5px;
   border-radius: 5px;
   background: #ccc;
