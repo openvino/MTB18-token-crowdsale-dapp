@@ -1,4 +1,4 @@
-pragma solidity ^0.4.15;
+pragma solidity ^0.4.17;
 
 import 'zeppelin-solidity/contracts/crowdsale/CappedCrowdsale.sol';
 import 'zeppelin-solidity/contracts/crowdsale/FinalizableCrowdsale.sol';
@@ -18,7 +18,7 @@ contract MIKETANGOBRAVO18Crowdsale is CappedCrowdsale, FinalizableCrowdsale, Pau
     uint256 _totalCapInEthToRaise,
     uint256 _totalTokenCapToCreate,
     uint256 _initialTokenFundBalance
-  	)
+  	) public
     Crowdsale(_startTime, _endTime, _rate, _wallet)
     CappedCrowdsale(_totalCapInEthToRaise)
     FinalizableCrowdsale() {
@@ -33,7 +33,7 @@ contract MIKETANGOBRAVO18Crowdsale is CappedCrowdsale, FinalizableCrowdsale, Pau
 
   // overriding CappedCrowdsale#validPurchase
   // @return true if investors can buy at the moment
-  function validPurchase() internal constant returns (bool) {
+  function validPurchase() internal view returns (bool) {
     bool withinTokenCap = token.totalSupply().add(msg.value.mul(rate)) <= totalTokenCapToCreate;
     bool nonZeroPurchase = msg.value != 0;
     return super.validPurchase() && withinTokenCap && nonZeroPurchase;
@@ -41,7 +41,7 @@ contract MIKETANGOBRAVO18Crowdsale is CappedCrowdsale, FinalizableCrowdsale, Pau
 
   // overriding CappedCrowdsale#hasEnded
   // @return true if crowdsale event has ended
-  function hasEnded() public constant returns (bool) {
+  function hasEnded() public view returns (bool) {
     uint256 threshold = totalTokenCapToCreate.div(100).mul(99);
     bool thresholdReached = token.totalSupply() >= threshold;
     return super.hasEnded() || thresholdReached;
