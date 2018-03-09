@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 75);
+/******/ 	return __webpack_require__(__webpack_require__.s = 79);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -3612,7 +3612,7 @@ module.exports = {
 var BigNumber = __webpack_require__(23);
 var utils = __webpack_require__(2);
 var c = __webpack_require__(34);
-var SolidityParam = __webpack_require__(59);
+var SolidityParam = __webpack_require__(61);
 
 
 /**
@@ -3870,7 +3870,7 @@ module.exports = {
 var BigNumber = __webpack_require__(38);
 var utils = __webpack_require__(3);
 var c = __webpack_require__(39);
-var SolidityParam = __webpack_require__(63);
+var SolidityParam = __webpack_require__(65);
 
 
 /**
@@ -4126,7 +4126,7 @@ module.exports = {
 var BigNumber = __webpack_require__(30);
 var utils = __webpack_require__(4);
 var c = __webpack_require__(43);
-var SolidityParam = __webpack_require__(66);
+var SolidityParam = __webpack_require__(68);
 
 
 /**
@@ -4360,7 +4360,7 @@ module.exports = {
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(5);
-var SolidityParam = __webpack_require__(59);
+var SolidityParam = __webpack_require__(61);
 
 /**
  * SolidityType prototype is used to encode/decode solidity params of certain type
@@ -4930,7 +4930,7 @@ module.exports = {
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(6);
-var SolidityParam = __webpack_require__(63);
+var SolidityParam = __webpack_require__(65);
 
 /**
  * SolidityType prototype is used to encode/decode solidity params of certain type
@@ -5486,7 +5486,7 @@ module.exports = {
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(7);
-var SolidityParam = __webpack_require__(66);
+var SolidityParam = __webpack_require__(68);
 
 /**
  * SolidityType prototype is used to encode/decode solidity params of certain type
@@ -13236,9 +13236,9 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/*! bignumber.js v2.0.7 https://github.com/Mik
 
 
 
-var base64 = __webpack_require__(76)
-var ieee754 = __webpack_require__(103)
-var isArray = __webpack_require__(105)
+var base64 = __webpack_require__(80)
+var ieee754 = __webpack_require__(107)
+var isArray = __webpack_require__(109)
 
 exports.Buffer = Buffer
 exports.SlowBuffer = SlowBuffer
@@ -20563,7 +20563,7 @@ module.exports = g;
 ;(function (root, factory, undef) {
 	if (true) {
 		// CommonJS
-		module.exports = exports = factory(__webpack_require__(0), __webpack_require__(33), __webpack_require__(80), __webpack_require__(78), __webpack_require__(16), __webpack_require__(18), __webpack_require__(50), __webpack_require__(57), __webpack_require__(96), __webpack_require__(58), __webpack_require__(97), __webpack_require__(32), __webpack_require__(95), __webpack_require__(48), __webpack_require__(91), __webpack_require__(17), __webpack_require__(1), __webpack_require__(81), __webpack_require__(83), __webpack_require__(82), __webpack_require__(85), __webpack_require__(84), __webpack_require__(86), __webpack_require__(87), __webpack_require__(88), __webpack_require__(90), __webpack_require__(89), __webpack_require__(79), __webpack_require__(77), __webpack_require__(98), __webpack_require__(94), __webpack_require__(93), __webpack_require__(92));
+		module.exports = exports = factory(__webpack_require__(0), __webpack_require__(33), __webpack_require__(84), __webpack_require__(82), __webpack_require__(16), __webpack_require__(18), __webpack_require__(50), __webpack_require__(57), __webpack_require__(100), __webpack_require__(58), __webpack_require__(101), __webpack_require__(32), __webpack_require__(99), __webpack_require__(48), __webpack_require__(95), __webpack_require__(17), __webpack_require__(1), __webpack_require__(85), __webpack_require__(87), __webpack_require__(86), __webpack_require__(89), __webpack_require__(88), __webpack_require__(90), __webpack_require__(91), __webpack_require__(92), __webpack_require__(94), __webpack_require__(93), __webpack_require__(83), __webpack_require__(81), __webpack_require__(102), __webpack_require__(98), __webpack_require__(97), __webpack_require__(96));
 	}
 	else if (typeof define === "function" && define.amd) {
 		// AMD
@@ -20762,15 +20762,15 @@ module.exports = g;
 
 var f = __webpack_require__(5);
 
-var SolidityTypeAddress = __webpack_require__(116);
-var SolidityTypeBool = __webpack_require__(117);
-var SolidityTypeInt = __webpack_require__(120);
-var SolidityTypeUInt = __webpack_require__(123);
-var SolidityTypeDynamicBytes = __webpack_require__(119);
-var SolidityTypeString = __webpack_require__(122);
-var SolidityTypeReal = __webpack_require__(121);
-var SolidityTypeUReal = __webpack_require__(124);
-var SolidityTypeBytes = __webpack_require__(118);
+var SolidityTypeAddress = __webpack_require__(119);
+var SolidityTypeBool = __webpack_require__(120);
+var SolidityTypeInt = __webpack_require__(123);
+var SolidityTypeUInt = __webpack_require__(126);
+var SolidityTypeDynamicBytes = __webpack_require__(122);
+var SolidityTypeString = __webpack_require__(125);
+var SolidityTypeReal = __webpack_require__(124);
+var SolidityTypeUReal = __webpack_require__(127);
+var SolidityTypeBytes = __webpack_require__(121);
 
 var isDynamic = function (solidityType, type) {
    return solidityType.isDynamicType(type) ||
@@ -21031,15 +21031,15 @@ module.exports = coder;
 
 var f = __webpack_require__(6);
 
-var SolidityTypeAddress = __webpack_require__(155);
-var SolidityTypeBool = __webpack_require__(156);
-var SolidityTypeInt = __webpack_require__(159);
-var SolidityTypeUInt = __webpack_require__(162);
-var SolidityTypeDynamicBytes = __webpack_require__(158);
-var SolidityTypeString = __webpack_require__(161);
-var SolidityTypeReal = __webpack_require__(160);
-var SolidityTypeUReal = __webpack_require__(163);
-var SolidityTypeBytes = __webpack_require__(157);
+var SolidityTypeAddress = __webpack_require__(158);
+var SolidityTypeBool = __webpack_require__(159);
+var SolidityTypeInt = __webpack_require__(162);
+var SolidityTypeUInt = __webpack_require__(165);
+var SolidityTypeDynamicBytes = __webpack_require__(161);
+var SolidityTypeString = __webpack_require__(164);
+var SolidityTypeReal = __webpack_require__(163);
+var SolidityTypeUReal = __webpack_require__(166);
+var SolidityTypeBytes = __webpack_require__(160);
 
 /**
  * SolidityCoder prototype should be used to encode/decode solidity params of any type
@@ -21547,15 +21547,15 @@ module.exports = coder;
 
 var f = __webpack_require__(7);
 
-var SolidityTypeAddress = __webpack_require__(187);
-var SolidityTypeBool = __webpack_require__(188);
-var SolidityTypeInt = __webpack_require__(191);
-var SolidityTypeUInt = __webpack_require__(194);
-var SolidityTypeDynamicBytes = __webpack_require__(190);
-var SolidityTypeString = __webpack_require__(193);
-var SolidityTypeReal = __webpack_require__(192);
-var SolidityTypeUReal = __webpack_require__(195);
-var SolidityTypeBytes = __webpack_require__(189);
+var SolidityTypeAddress = __webpack_require__(190);
+var SolidityTypeBool = __webpack_require__(191);
+var SolidityTypeInt = __webpack_require__(194);
+var SolidityTypeUInt = __webpack_require__(197);
+var SolidityTypeDynamicBytes = __webpack_require__(193);
+var SolidityTypeString = __webpack_require__(196);
+var SolidityTypeReal = __webpack_require__(195);
+var SolidityTypeUReal = __webpack_require__(198);
+var SolidityTypeBytes = __webpack_require__(192);
 
 var isDynamic = function (solidityType, type) {
    return solidityType.isDynamicType(type) ||
@@ -25768,6 +25768,314 @@ module.exports = function(module) {
 
 /***/ }),
 /* 59 */
+/***/ (function(module, exports) {
+
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Tobias Koppers @sokra
+*/
+// css base code, injected by the css-loader
+module.exports = function() {
+	var list = [];
+
+	// return the list of modules as css string
+	list.toString = function toString() {
+		var result = [];
+		for(var i = 0; i < this.length; i++) {
+			var item = this[i];
+			if(item[2]) {
+				result.push("@media " + item[2] + "{" + item[1] + "}");
+			} else {
+				result.push(item[1]);
+			}
+		}
+		return result.join("");
+	};
+
+	// import a list of modules into the list
+	list.i = function(modules, mediaQuery) {
+		if(typeof modules === "string")
+			modules = [[null, modules, ""]];
+		var alreadyImportedModules = {};
+		for(var i = 0; i < this.length; i++) {
+			var id = this[i][0];
+			if(typeof id === "number")
+				alreadyImportedModules[id] = true;
+		}
+		for(i = 0; i < modules.length; i++) {
+			var item = modules[i];
+			// skip already imported module
+			// this implementation is not 100% perfect for weird media query combinations
+			//  when a module is imported multiple times with different media queries.
+			//  I hope this will never occur (Hey this way we have smaller bundles)
+			if(typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
+				if(mediaQuery && !item[2]) {
+					item[2] = mediaQuery;
+				} else if(mediaQuery) {
+					item[2] = "(" + item[2] + ") and (" + mediaQuery + ")";
+				}
+				list.push(item);
+			}
+		}
+	};
+	return list;
+};
+
+
+/***/ }),
+/* 60 */
+/***/ (function(module, exports) {
+
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Tobias Koppers @sokra
+*/
+var stylesInDom = {},
+	memoize = function(fn) {
+		var memo;
+		return function () {
+			if (typeof memo === "undefined") memo = fn.apply(this, arguments);
+			return memo;
+		};
+	},
+	isOldIE = memoize(function() {
+		return /msie [6-9]\b/.test(self.navigator.userAgent.toLowerCase());
+	}),
+	getHeadElement = memoize(function () {
+		return document.head || document.getElementsByTagName("head")[0];
+	}),
+	singletonElement = null,
+	singletonCounter = 0,
+	styleElementsInsertedAtTop = [];
+
+module.exports = function(list, options) {
+	if(typeof DEBUG !== "undefined" && DEBUG) {
+		if(typeof document !== "object") throw new Error("The style-loader cannot be used in a non-browser environment");
+	}
+
+	options = options || {};
+	// Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
+	// tags it will allow on a page
+	if (typeof options.singleton === "undefined") options.singleton = isOldIE();
+
+	// By default, add <style> tags to the bottom of <head>.
+	if (typeof options.insertAt === "undefined") options.insertAt = "bottom";
+
+	var styles = listToStyles(list);
+	addStylesToDom(styles, options);
+
+	return function update(newList) {
+		var mayRemove = [];
+		for(var i = 0; i < styles.length; i++) {
+			var item = styles[i];
+			var domStyle = stylesInDom[item.id];
+			domStyle.refs--;
+			mayRemove.push(domStyle);
+		}
+		if(newList) {
+			var newStyles = listToStyles(newList);
+			addStylesToDom(newStyles, options);
+		}
+		for(var i = 0; i < mayRemove.length; i++) {
+			var domStyle = mayRemove[i];
+			if(domStyle.refs === 0) {
+				for(var j = 0; j < domStyle.parts.length; j++)
+					domStyle.parts[j]();
+				delete stylesInDom[domStyle.id];
+			}
+		}
+	};
+}
+
+function addStylesToDom(styles, options) {
+	for(var i = 0; i < styles.length; i++) {
+		var item = styles[i];
+		var domStyle = stylesInDom[item.id];
+		if(domStyle) {
+			domStyle.refs++;
+			for(var j = 0; j < domStyle.parts.length; j++) {
+				domStyle.parts[j](item.parts[j]);
+			}
+			for(; j < item.parts.length; j++) {
+				domStyle.parts.push(addStyle(item.parts[j], options));
+			}
+		} else {
+			var parts = [];
+			for(var j = 0; j < item.parts.length; j++) {
+				parts.push(addStyle(item.parts[j], options));
+			}
+			stylesInDom[item.id] = {id: item.id, refs: 1, parts: parts};
+		}
+	}
+}
+
+function listToStyles(list) {
+	var styles = [];
+	var newStyles = {};
+	for(var i = 0; i < list.length; i++) {
+		var item = list[i];
+		var id = item[0];
+		var css = item[1];
+		var media = item[2];
+		var sourceMap = item[3];
+		var part = {css: css, media: media, sourceMap: sourceMap};
+		if(!newStyles[id])
+			styles.push(newStyles[id] = {id: id, parts: [part]});
+		else
+			newStyles[id].parts.push(part);
+	}
+	return styles;
+}
+
+function insertStyleElement(options, styleElement) {
+	var head = getHeadElement();
+	var lastStyleElementInsertedAtTop = styleElementsInsertedAtTop[styleElementsInsertedAtTop.length - 1];
+	if (options.insertAt === "top") {
+		if(!lastStyleElementInsertedAtTop) {
+			head.insertBefore(styleElement, head.firstChild);
+		} else if(lastStyleElementInsertedAtTop.nextSibling) {
+			head.insertBefore(styleElement, lastStyleElementInsertedAtTop.nextSibling);
+		} else {
+			head.appendChild(styleElement);
+		}
+		styleElementsInsertedAtTop.push(styleElement);
+	} else if (options.insertAt === "bottom") {
+		head.appendChild(styleElement);
+	} else {
+		throw new Error("Invalid value for parameter 'insertAt'. Must be 'top' or 'bottom'.");
+	}
+}
+
+function removeStyleElement(styleElement) {
+	styleElement.parentNode.removeChild(styleElement);
+	var idx = styleElementsInsertedAtTop.indexOf(styleElement);
+	if(idx >= 0) {
+		styleElementsInsertedAtTop.splice(idx, 1);
+	}
+}
+
+function createStyleElement(options) {
+	var styleElement = document.createElement("style");
+	styleElement.type = "text/css";
+	insertStyleElement(options, styleElement);
+	return styleElement;
+}
+
+function createLinkElement(options) {
+	var linkElement = document.createElement("link");
+	linkElement.rel = "stylesheet";
+	insertStyleElement(options, linkElement);
+	return linkElement;
+}
+
+function addStyle(obj, options) {
+	var styleElement, update, remove;
+
+	if (options.singleton) {
+		var styleIndex = singletonCounter++;
+		styleElement = singletonElement || (singletonElement = createStyleElement(options));
+		update = applyToSingletonTag.bind(null, styleElement, styleIndex, false);
+		remove = applyToSingletonTag.bind(null, styleElement, styleIndex, true);
+	} else if(obj.sourceMap &&
+		typeof URL === "function" &&
+		typeof URL.createObjectURL === "function" &&
+		typeof URL.revokeObjectURL === "function" &&
+		typeof Blob === "function" &&
+		typeof btoa === "function") {
+		styleElement = createLinkElement(options);
+		update = updateLink.bind(null, styleElement);
+		remove = function() {
+			removeStyleElement(styleElement);
+			if(styleElement.href)
+				URL.revokeObjectURL(styleElement.href);
+		};
+	} else {
+		styleElement = createStyleElement(options);
+		update = applyToTag.bind(null, styleElement);
+		remove = function() {
+			removeStyleElement(styleElement);
+		};
+	}
+
+	update(obj);
+
+	return function updateStyle(newObj) {
+		if(newObj) {
+			if(newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap)
+				return;
+			update(obj = newObj);
+		} else {
+			remove();
+		}
+	};
+}
+
+var replaceText = (function () {
+	var textStore = [];
+
+	return function (index, replacement) {
+		textStore[index] = replacement;
+		return textStore.filter(Boolean).join('\n');
+	};
+})();
+
+function applyToSingletonTag(styleElement, index, remove, obj) {
+	var css = remove ? "" : obj.css;
+
+	if (styleElement.styleSheet) {
+		styleElement.styleSheet.cssText = replaceText(index, css);
+	} else {
+		var cssNode = document.createTextNode(css);
+		var childNodes = styleElement.childNodes;
+		if (childNodes[index]) styleElement.removeChild(childNodes[index]);
+		if (childNodes.length) {
+			styleElement.insertBefore(cssNode, childNodes[index]);
+		} else {
+			styleElement.appendChild(cssNode);
+		}
+	}
+}
+
+function applyToTag(styleElement, obj) {
+	var css = obj.css;
+	var media = obj.media;
+
+	if(media) {
+		styleElement.setAttribute("media", media)
+	}
+
+	if(styleElement.styleSheet) {
+		styleElement.styleSheet.cssText = css;
+	} else {
+		while(styleElement.firstChild) {
+			styleElement.removeChild(styleElement.firstChild);
+		}
+		styleElement.appendChild(document.createTextNode(css));
+	}
+}
+
+function updateLink(linkElement, obj) {
+	var css = obj.css;
+	var sourceMap = obj.sourceMap;
+
+	if(sourceMap) {
+		// http://stackoverflow.com/a/26603875
+		css += "\n/*# sourceMappingURL=data:application/json;base64," + btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))) + " */";
+	}
+
+	var blob = new Blob([css], { type: "text/css" });
+
+	var oldSrc = linkElement.href;
+
+	linkElement.href = URL.createObjectURL(blob);
+
+	if(oldSrc)
+		URL.revokeObjectURL(oldSrc);
+}
+
+
+/***/ }),
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -25925,7 +26233,7 @@ module.exports = SolidityParam;
 
 
 /***/ }),
-/* 60 */
+/* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -26139,7 +26447,7 @@ module.exports = SolidityEvent;
 
 
 /***/ }),
-/* 61 */
+/* 63 */
 /***/ (function(module, exports) {
 
 /*
@@ -26230,7 +26538,7 @@ module.exports = Jsonrpc;
 
 
 /***/ }),
-/* 62 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory) {
@@ -26995,7 +27303,7 @@ module.exports = Jsonrpc;
 }));
 
 /***/ }),
-/* 63 */
+/* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -27153,7 +27461,7 @@ module.exports = SolidityParam;
 
 
 /***/ }),
-/* 64 */
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -27367,7 +27675,7 @@ module.exports = SolidityEvent;
 
 
 /***/ }),
-/* 65 */
+/* 67 */
 /***/ (function(module, exports) {
 
 /*
@@ -27464,7 +27772,7 @@ module.exports = Jsonrpc;
 
 
 /***/ }),
-/* 66 */
+/* 68 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -27622,7 +27930,7 @@ module.exports = SolidityParam;
 
 
 /***/ }),
-/* 67 */
+/* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -27837,7 +28145,7 @@ module.exports = SolidityEvent;
 
 
 /***/ }),
-/* 68 */
+/* 70 */
 /***/ (function(module, exports) {
 
 /*
@@ -27928,35 +28236,35 @@ module.exports = Jsonrpc;
 
 
 /***/ }),
-/* 69 */
+/* 71 */
 /***/ (function(module, exports) {
 
 module.exports = XMLHttpRequest;
 
 
 /***/ }),
-/* 70 */
-/***/ (function(module, exports) {
-
-module.exports = {"contract_name":"MIKETANGOBRAVO18","abi":[{"constant":true,"inputs":[],"name":"mintingFinished","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"name","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_spender","type":"address"},{"name":"_value","type":"uint256"}],"name":"approve","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"totalSupply","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_from","type":"address"},{"name":"_to","type":"address"},{"name":"_value","type":"uint256"}],"name":"transferFrom","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"decimals","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_to","type":"address"},{"name":"_amount","type":"uint256"}],"name":"mint","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_value","type":"uint256"}],"name":"burn","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_spender","type":"address"},{"name":"_subtractedValue","type":"uint256"}],"name":"decreaseApproval","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"_owner","type":"address"}],"name":"balanceOf","outputs":[{"name":"balance","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"finishMinting","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"owner","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"symbol","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_to","type":"address"},{"name":"_value","type":"uint256"}],"name":"transfer","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_spender","type":"address"},{"name":"_addedValue","type":"uint256"}],"name":"increaseApproval","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"_owner","type":"address"},{"name":"_spender","type":"address"}],"name":"allowance","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"anonymous":false,"inputs":[{"indexed":true,"name":"burner","type":"address"},{"indexed":false,"name":"value","type":"uint256"}],"name":"Burn","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"to","type":"address"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"Mint","type":"event"},{"anonymous":false,"inputs":[],"name":"MintFinished","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"previousOwner","type":"address"},{"indexed":true,"name":"newOwner","type":"address"}],"name":"OwnershipTransferred","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"owner","type":"address"},{"indexed":true,"name":"spender","type":"address"},{"indexed":false,"name":"value","type":"uint256"}],"name":"Approval","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"from","type":"address"},{"indexed":true,"name":"to","type":"address"},{"indexed":false,"name":"value","type":"uint256"}],"name":"Transfer","type":"event"}],"unlinked_binary":"0x606060405260038054600160a860020a03191633600160a060020a0316179055610c3c8061002e6000396000f3006060604052600436106100f05763ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166305d2035b81146100f557806306fdde031461011c578063095ea7b3146101a657806318160ddd146101c857806323b872dd146101ed578063313ce5671461021557806340c10f191461022857806342966c681461024a578063661884631461026257806370a08231146102845780637d64bcb4146102a35780638da5cb5b146102b657806395d89b41146102e5578063a9059cbb146102f8578063d73dd6231461031a578063dd62ed3e1461033c578063f2fde38b14610361575b600080fd5b341561010057600080fd5b610108610380565b604051901515815260200160405180910390f35b341561012757600080fd5b61012f610390565b60405160208082528190810183818151815260200191508051906020019080838360005b8381101561016b578082015183820152602001610153565b50505050905090810190601f1680156101985780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34156101b157600080fd5b610108600160a060020a03600435166024356103c7565b34156101d357600080fd5b6101db610433565b60405190815260200160405180910390f35b34156101f857600080fd5b610108600160a060020a0360043581169060243516604435610439565b341561022057600080fd5b6101db6105b9565b341561023357600080fd5b610108600160a060020a03600435166024356105be565b341561025557600080fd5b6102606004356106cc565b005b341561026d57600080fd5b610108600160a060020a0360043516602435610786565b341561028f57600080fd5b6101db600160a060020a0360043516610880565b34156102ae57600080fd5b61010861089b565b34156102c157600080fd5b6102c9610926565b604051600160a060020a03909116815260200160405180910390f35b34156102f057600080fd5b61012f610935565b341561030357600080fd5b610108600160a060020a036004351660243561096c565b341561032557600080fd5b610108600160a060020a0360043516602435610a7e565b341561034757600080fd5b6101db600160a060020a0360043581169060243516610b22565b341561036c57600080fd5b610260600160a060020a0360043516610b4d565b60035460a060020a900460ff1681565b60408051908101604052601081527f4d494b4554414e474f425241564f313800000000000000000000000000000000602082015281565b600160a060020a03338116600081815260026020908152604080832094871680845294909152808220859055909291907f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b9259085905190815260200160405180910390a350600192915050565b60015490565b6000600160a060020a038316151561045057600080fd5b600160a060020a03841660009081526020819052604090205482111561047557600080fd5b600160a060020a03808516600090815260026020908152604080832033909416835292905220548211156104a857600080fd5b600160a060020a0384166000908152602081905260409020546104d1908363ffffffff610be816565b600160a060020a038086166000908152602081905260408082209390935590851681522054610506908363ffffffff610bfa16565b600160a060020a038085166000908152602081815260408083209490945587831682526002815283822033909316825291909152205461054c908363ffffffff610be816565b600160a060020a03808616600081815260026020908152604080832033861684529091529081902093909355908516917fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef9085905190815260200160405180910390a35060019392505050565b601281565b60035460009033600160a060020a039081169116146105dc57600080fd5b60035460a060020a900460ff16156105f357600080fd5b600154610606908363ffffffff610bfa16565b600155600160a060020a038316600090815260208190526040902054610632908363ffffffff610bfa16565b600160a060020a0384166000818152602081905260409081902092909255907f0f6798a560793a54c3bcfe86a93cde1e73087d944c0ea20544137d41213968859084905190815260200160405180910390a2600160a060020a03831660007fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef8460405190815260200160405180910390a350600192915050565b600160a060020a0333166000908152602081905260408120548211156106f157600080fd5b5033600160a060020a0381166000908152602081905260409020546107169083610be8565b600160a060020a038216600090815260208190526040902055600154610742908363ffffffff610be816565b600155600160a060020a0381167fcc16f5dbb4873280815c1ee09dbd06736cffcc184412cf7a71a0fdb75d397ca58360405190815260200160405180910390a25050565b600160a060020a033381166000908152600260209081526040808320938616835292905290812054808311156107e357600160a060020a03338116600090815260026020908152604080832093881683529290529081205561081a565b6107f3818463ffffffff610be816565b600160a060020a033381166000908152600260209081526040808320938916835292905220555b600160a060020a0333811660008181526002602090815260408083209489168084529490915290819020547f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925915190815260200160405180910390a35060019392505050565b600160a060020a031660009081526020819052604090205490565b60035460009033600160a060020a039081169116146108b957600080fd5b60035460a060020a900460ff16156108d057600080fd5b6003805474ff0000000000000000000000000000000000000000191660a060020a1790557fae5184fba832cb2b1f702aca6117b8d265eaf03ad33eb133f19dde0f5920fa0860405160405180910390a150600190565b600354600160a060020a031681565b60408051908101604052600581527f4d54423138000000000000000000000000000000000000000000000000000000602082015281565b6000600160a060020a038316151561098357600080fd5b600160a060020a0333166000908152602081905260409020548211156109a857600080fd5b600160a060020a0333166000908152602081905260409020546109d1908363ffffffff610be816565b600160a060020a033381166000908152602081905260408082209390935590851681522054610a06908363ffffffff610bfa16565b60008085600160a060020a0316600160a060020a031681526020019081526020016000208190555082600160a060020a031633600160a060020a03167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef8460405190815260200160405180910390a350600192915050565b600160a060020a033381166000908152600260209081526040808320938616835292905290812054610ab6908363ffffffff610bfa16565b600160a060020a0333811660008181526002602090815260408083209489168084529490915290819020849055919290917f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b92591905190815260200160405180910390a350600192915050565b600160a060020a03918216600090815260026020908152604080832093909416825291909152205490565b60035433600160a060020a03908116911614610b6857600080fd5b600160a060020a0381161515610b7d57600080fd5b600354600160a060020a0380831691167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a36003805473ffffffffffffffffffffffffffffffffffffffff1916600160a060020a0392909216919091179055565b600082821115610bf457fe5b50900390565b600082820183811015610c0957fe5b93925050505600a165627a7a72305820de31595226eeda54c9deb0908bd63e46c91d0313fa9ef7b99bc7ad451358186f0029","networks":{"3":{"links":{},"events":{"0xcc16f5dbb4873280815c1ee09dbd06736cffcc184412cf7a71a0fdb75d397ca5":{"anonymous":false,"inputs":[{"indexed":true,"name":"burner","type":"address"},{"indexed":false,"name":"value","type":"uint256"}],"name":"Burn","type":"event"},"0x0f6798a560793a54c3bcfe86a93cde1e73087d944c0ea20544137d4121396885":{"anonymous":false,"inputs":[{"indexed":true,"name":"to","type":"address"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"Mint","type":"event"},"0xae5184fba832cb2b1f702aca6117b8d265eaf03ad33eb133f19dde0f5920fa08":{"anonymous":false,"inputs":[],"name":"MintFinished","type":"event"},"0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0":{"anonymous":false,"inputs":[{"indexed":true,"name":"previousOwner","type":"address"},{"indexed":true,"name":"newOwner","type":"address"}],"name":"OwnershipTransferred","type":"event"},"0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925":{"anonymous":false,"inputs":[{"indexed":true,"name":"owner","type":"address"},{"indexed":true,"name":"spender","type":"address"},{"indexed":false,"name":"value","type":"uint256"}],"name":"Approval","type":"event"},"0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef":{"anonymous":false,"inputs":[{"indexed":true,"name":"from","type":"address"},{"indexed":true,"name":"to","type":"address"},{"indexed":false,"name":"value","type":"uint256"}],"name":"Transfer","type":"event"}},"address":"0xb960652c29a96064b99b65a18910d22b9dfb51ab","updated_at":1519038608831}},"schema_version":"0.0.5","updated_at":1519038608831}
-
-/***/ }),
-/* 71 */
-/***/ (function(module, exports) {
-
-module.exports = {"contract_name":"MIKETANGOBRAVO18Crowdsale","abi":[{"constant":true,"inputs":[],"name":"rate","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"endTime","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"cap","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"unpause","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"weiRaised","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"finalize","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"wallet","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"paused","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"startTime","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"pause","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"isFinalized","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"owner","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"totalTokenCapToCreate","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"beneficiary","type":"address"}],"name":"buyTokens","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":true,"inputs":[],"name":"hasEnded","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"token","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[{"name":"_startTime","type":"uint256"},{"name":"_endTime","type":"uint256"},{"name":"_rate","type":"uint256"},{"name":"_wallet","type":"address"},{"name":"_totalCapInEthToRaise","type":"uint256"},{"name":"_totalTokenCapToCreate","type":"uint256"},{"name":"_initialTokenFundBalance","type":"uint256"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"payable":true,"stateMutability":"payable","type":"fallback"},{"anonymous":false,"inputs":[],"name":"Pause","type":"event"},{"anonymous":false,"inputs":[],"name":"Unpause","type":"event"},{"anonymous":false,"inputs":[],"name":"Finalized","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"previousOwner","type":"address"},{"indexed":true,"name":"newOwner","type":"address"}],"name":"OwnershipTransferred","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"purchaser","type":"address"},{"indexed":true,"name":"beneficiary","type":"address"},{"indexed":false,"name":"value","type":"uint256"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"TokenPurchase","type":"event"}],"unlinked_binary":"0x60606040526007805460a060020a61ffff0219169055341561002057600080fd5b60405160e0806125f5833981016040528080519190602001805191906020018051919060200180519190602001805191906020018051919060200180519150839050878787874284101561007357600080fd5b8383101561008057600080fd5b6000821161008d57600080fd5b600160a060020a03811615156100a257600080fd5b6100b7640100000000610aae6101ce82021704565b60008054600160a060020a0319908116600160a060020a039384161782556001969096556002949094556004929092556003805490941691161790915581116100ff57600080fd5b60065560078054600160a060020a03191633600160a060020a03908116919091179091556008869055600983905560008054600354908316926340c10f19929116908490604051602001526040517c010000000000000000000000000000000000000000000000000000000063ffffffff8516028152600160a060020a0390921660048301526024820152604401602060405180830381600087803b15156101a657600080fd5b6102c65a03f115156101b757600080fd5b505050604051805190505050505050505050610203565b60006101d86101f3565b604051809103906000f08015156101ee57600080fd5b905090565b604051610c6a8061198b83390190565b611779806102126000396000f3006060604052600436106100d75763ffffffff60e060020a6000350416632c4e722e81146100e25780633197cbb614610107578063355274ea1461011a5780633f4ba83a1461012d5780634042b66f146101405780634bb278f314610153578063521eb273146101665780635c975abb1461019557806378e97925146101bc5780638456cb59146101cf5780638d4e4083146101e25780638da5cb5b146101f557806392f6a74f14610208578063ec8ac4d81461021b578063ecb70fb71461022f578063f2fde38b14610242578063fc0c546a14610261575b6100e033610274565b005b34156100ed57600080fd5b6100f56103c1565b60405190815260200160405180910390f35b341561011257600080fd5b6100f56103c7565b341561012557600080fd5b6100f56103cd565b341561013857600080fd5b6100e06103d3565b341561014b57600080fd5b6100f5610453565b341561015e57600080fd5b6100e0610459565b341561017157600080fd5b61017961051a565b604051600160a060020a03909116815260200160405180910390f35b34156101a057600080fd5b6101a8610529565b604051901515815260200160405180910390f35b34156101c757600080fd5b6100f5610539565b34156101da57600080fd5b6100e061053f565b34156101ed57600080fd5b6101a86105c4565b341561020057600080fd5b6101796105e5565b341561021357600080fd5b6100f56105f4565b6100e0600160a060020a0360043516610274565b341561023a57600080fd5b6101a86105fa565b341561024d57600080fd5b6100e0600160a060020a03600435166106aa565b341561026c57600080fd5b610179610745565b600754600090819060a860020a900460ff161561029057600080fd5b600160a060020a03831615156102a557600080fd5b6102ad610754565b15156102b857600080fd5b6008543492506102cf90839063ffffffff61080a16565b6005549091506102e5908363ffffffff61084016565b60055560008054600160a060020a0316906340c10f1990859084906040516020015260405160e060020a63ffffffff8516028152600160a060020a0390921660048301526024820152604401602060405180830381600087803b151561034a57600080fd5b6102c65a03f1151561035b57600080fd5b505050604051805190505082600160a060020a031633600160a060020a03167f623b3804fa71d67900d064613da8f94b9617215ee90799290593e1745087ad18848460405191825260208201526040908101905180910390a36103bc61084f565b505050565b60085481565b60025481565b60065481565b60075433600160a060020a039081169116146103ee57600080fd5b60075460a860020a900460ff16151561040657600080fd5b6007805475ff000000000000000000000000000000000000000000191690557f7805862f689e2f13df9f062ff482ad3ad112aca9e0847911ed832e158c525b3360405160405180910390a1565b60055481565b60075433600160a060020a0390811691161461047457600080fd5b60075474010000000000000000000000000000000000000000900460ff161561049c57600080fd5b6104a46105fa565b15156104af57600080fd5b6104b7610885565b7f6823b073d48d6e3a7d385eeb601452d680e74bb46afe3255a7d778f3a9b1768160405160405180910390a16007805474ff0000000000000000000000000000000000000000191674010000000000000000000000000000000000000000179055565b600354600160a060020a031681565b60075460a860020a900460ff1681565b60015481565b60075433600160a060020a0390811691161461055a57600080fd5b60075460a860020a900460ff161561057157600080fd5b6007805475ff000000000000000000000000000000000000000000191660a860020a1790557f6985a02210a168e66602d3235cb6db0e70f92b3ba4d376a33c0f3d9434bff62560405160405180910390a1565b60075474010000000000000000000000000000000000000000900460ff1681565b600754600160a060020a031681565b60095481565b6000806000610626606361061a6064600954610a0090919063ffffffff16565b9063ffffffff61080a16565b600080549193508391600160a060020a0316906318160ddd90604051602001526040518163ffffffff1660e060020a028152600401602060405180830381600087803b151561067457600080fd5b6102c65a03f1151561068557600080fd5b505050604051805190501015905061069b610a17565b806106a35750805b9250505090565b60075433600160a060020a039081169116146106c557600080fd5b600160a060020a03811615156106da57600080fd5b600754600160a060020a0380831691167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a36007805473ffffffffffffffffffffffffffffffffffffffff1916600160a060020a0392909216919091179055565b600054600160a060020a031681565b60008060006009546107e46107746008543461080a90919063ffffffff16565b60008054600160a060020a0316906318160ddd90604051602001526040518163ffffffff1660e060020a028152600401602060405180830381600087803b15156107bd57600080fd5b6102c65a03f115156107ce57600080fd5b505050604051805191905063ffffffff61084016565b11159150503415156107f4610a38565b80156107fd5750815b80156106a3575092915050565b60008083151561081d5760009150610839565b5082820282848281151561082d57fe5b041461083557fe5b8091505b5092915050565b60008282018381101561083557fe5b600354600160a060020a03163480156108fc0290604051600060405180830381858888f19350505050151561088357600080fd5b565b600080546108fa90600160a060020a03166318160ddd83604051602001526040518163ffffffff1660e060020a028152600401602060405180830381600087803b15156108d157600080fd5b6102c65a03f115156108e257600080fd5b5050506040518051600954915063ffffffff610a6716565b9050600081111561098a5760008054600354600160a060020a03918216926340c10f19929091169084906040516020015260405160e060020a63ffffffff8516028152600160a060020a0390921660048301526024820152604401602060405180830381600087803b151561096e57600080fd5b6102c65a03f1151561097f57600080fd5b505050604051805150505b600054600354600160a060020a039182169163f2fde38b911660405160e060020a63ffffffff8416028152600160a060020a039091166004820152602401600060405180830381600087803b15156109e157600080fd5b6102c65a03f115156109f257600080fd5b5050506109fd610883565b50565b6000808284811515610a0e57fe5b04949350505050565b6006546005546000919010158080610a325750610a32610a79565b91505090565b600080600654610a533460055461084090919063ffffffff16565b11159050808015610a325750610a32610a81565b600082821115610a7357fe5b50900390565b600254421190565b60008060006001544210158015610a9a57506002544211155b9150503415158180156106a3575092915050565b6000610ab8610ad3565b604051809103906000f0801515610ace57600080fd5b905090565b604051610c6a80610ae4833901905600606060405260038054600160a860020a03191633600160a060020a0316179055610c3c8061002e6000396000f3006060604052600436106100f05763ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166305d2035b81146100f557806306fdde031461011c578063095ea7b3146101a657806318160ddd146101c857806323b872dd146101ed578063313ce5671461021557806340c10f191461022857806342966c681461024a578063661884631461026257806370a08231146102845780637d64bcb4146102a35780638da5cb5b146102b657806395d89b41146102e5578063a9059cbb146102f8578063d73dd6231461031a578063dd62ed3e1461033c578063f2fde38b14610361575b600080fd5b341561010057600080fd5b610108610380565b604051901515815260200160405180910390f35b341561012757600080fd5b61012f610390565b60405160208082528190810183818151815260200191508051906020019080838360005b8381101561016b578082015183820152602001610153565b50505050905090810190601f1680156101985780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34156101b157600080fd5b610108600160a060020a03600435166024356103c7565b34156101d357600080fd5b6101db610433565b60405190815260200160405180910390f35b34156101f857600080fd5b610108600160a060020a0360043581169060243516604435610439565b341561022057600080fd5b6101db6105b9565b341561023357600080fd5b610108600160a060020a03600435166024356105be565b341561025557600080fd5b6102606004356106cc565b005b341561026d57600080fd5b610108600160a060020a0360043516602435610786565b341561028f57600080fd5b6101db600160a060020a0360043516610880565b34156102ae57600080fd5b61010861089b565b34156102c157600080fd5b6102c9610926565b604051600160a060020a03909116815260200160405180910390f35b34156102f057600080fd5b61012f610935565b341561030357600080fd5b610108600160a060020a036004351660243561096c565b341561032557600080fd5b610108600160a060020a0360043516602435610a7e565b341561034757600080fd5b6101db600160a060020a0360043581169060243516610b22565b341561036c57600080fd5b610260600160a060020a0360043516610b4d565b60035460a060020a900460ff1681565b60408051908101604052601081527f4d494b4554414e474f425241564f313800000000000000000000000000000000602082015281565b600160a060020a03338116600081815260026020908152604080832094871680845294909152808220859055909291907f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b9259085905190815260200160405180910390a350600192915050565b60015490565b6000600160a060020a038316151561045057600080fd5b600160a060020a03841660009081526020819052604090205482111561047557600080fd5b600160a060020a03808516600090815260026020908152604080832033909416835292905220548211156104a857600080fd5b600160a060020a0384166000908152602081905260409020546104d1908363ffffffff610be816565b600160a060020a038086166000908152602081905260408082209390935590851681522054610506908363ffffffff610bfa16565b600160a060020a038085166000908152602081815260408083209490945587831682526002815283822033909316825291909152205461054c908363ffffffff610be816565b600160a060020a03808616600081815260026020908152604080832033861684529091529081902093909355908516917fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef9085905190815260200160405180910390a35060019392505050565b601281565b60035460009033600160a060020a039081169116146105dc57600080fd5b60035460a060020a900460ff16156105f357600080fd5b600154610606908363ffffffff610bfa16565b600155600160a060020a038316600090815260208190526040902054610632908363ffffffff610bfa16565b600160a060020a0384166000818152602081905260409081902092909255907f0f6798a560793a54c3bcfe86a93cde1e73087d944c0ea20544137d41213968859084905190815260200160405180910390a2600160a060020a03831660007fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef8460405190815260200160405180910390a350600192915050565b600160a060020a0333166000908152602081905260408120548211156106f157600080fd5b5033600160a060020a0381166000908152602081905260409020546107169083610be8565b600160a060020a038216600090815260208190526040902055600154610742908363ffffffff610be816565b600155600160a060020a0381167fcc16f5dbb4873280815c1ee09dbd06736cffcc184412cf7a71a0fdb75d397ca58360405190815260200160405180910390a25050565b600160a060020a033381166000908152600260209081526040808320938616835292905290812054808311156107e357600160a060020a03338116600090815260026020908152604080832093881683529290529081205561081a565b6107f3818463ffffffff610be816565b600160a060020a033381166000908152600260209081526040808320938916835292905220555b600160a060020a0333811660008181526002602090815260408083209489168084529490915290819020547f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925915190815260200160405180910390a35060019392505050565b600160a060020a031660009081526020819052604090205490565b60035460009033600160a060020a039081169116146108b957600080fd5b60035460a060020a900460ff16156108d057600080fd5b6003805474ff0000000000000000000000000000000000000000191660a060020a1790557fae5184fba832cb2b1f702aca6117b8d265eaf03ad33eb133f19dde0f5920fa0860405160405180910390a150600190565b600354600160a060020a031681565b60408051908101604052600581527f4d54423138000000000000000000000000000000000000000000000000000000602082015281565b6000600160a060020a038316151561098357600080fd5b600160a060020a0333166000908152602081905260409020548211156109a857600080fd5b600160a060020a0333166000908152602081905260409020546109d1908363ffffffff610be816565b600160a060020a033381166000908152602081905260408082209390935590851681522054610a06908363ffffffff610bfa16565b60008085600160a060020a0316600160a060020a031681526020019081526020016000208190555082600160a060020a031633600160a060020a03167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef8460405190815260200160405180910390a350600192915050565b600160a060020a033381166000908152600260209081526040808320938616835292905290812054610ab6908363ffffffff610bfa16565b600160a060020a0333811660008181526002602090815260408083209489168084529490915290819020849055919290917f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b92591905190815260200160405180910390a350600192915050565b600160a060020a03918216600090815260026020908152604080832093909416825291909152205490565b60035433600160a060020a03908116911614610b6857600080fd5b600160a060020a0381161515610b7d57600080fd5b600354600160a060020a0380831691167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a36003805473ffffffffffffffffffffffffffffffffffffffff1916600160a060020a0392909216919091179055565b600082821115610bf457fe5b50900390565b600082820183811015610c0957fe5b93925050505600a165627a7a72305820de31595226eeda54c9deb0908bd63e46c91d0313fa9ef7b99bc7ad451358186f0029a165627a7a72305820ae83e8f14cb2b569e855630d14245fc099fc427b27c68bd963298ac5a288efb70029606060405260038054600160a860020a03191633600160a060020a0316179055610c3c8061002e6000396000f3006060604052600436106100f05763ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166305d2035b81146100f557806306fdde031461011c578063095ea7b3146101a657806318160ddd146101c857806323b872dd146101ed578063313ce5671461021557806340c10f191461022857806342966c681461024a578063661884631461026257806370a08231146102845780637d64bcb4146102a35780638da5cb5b146102b657806395d89b41146102e5578063a9059cbb146102f8578063d73dd6231461031a578063dd62ed3e1461033c578063f2fde38b14610361575b600080fd5b341561010057600080fd5b610108610380565b604051901515815260200160405180910390f35b341561012757600080fd5b61012f610390565b60405160208082528190810183818151815260200191508051906020019080838360005b8381101561016b578082015183820152602001610153565b50505050905090810190601f1680156101985780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34156101b157600080fd5b610108600160a060020a03600435166024356103c7565b34156101d357600080fd5b6101db610433565b60405190815260200160405180910390f35b34156101f857600080fd5b610108600160a060020a0360043581169060243516604435610439565b341561022057600080fd5b6101db6105b9565b341561023357600080fd5b610108600160a060020a03600435166024356105be565b341561025557600080fd5b6102606004356106cc565b005b341561026d57600080fd5b610108600160a060020a0360043516602435610786565b341561028f57600080fd5b6101db600160a060020a0360043516610880565b34156102ae57600080fd5b61010861089b565b34156102c157600080fd5b6102c9610926565b604051600160a060020a03909116815260200160405180910390f35b34156102f057600080fd5b61012f610935565b341561030357600080fd5b610108600160a060020a036004351660243561096c565b341561032557600080fd5b610108600160a060020a0360043516602435610a7e565b341561034757600080fd5b6101db600160a060020a0360043581169060243516610b22565b341561036c57600080fd5b610260600160a060020a0360043516610b4d565b60035460a060020a900460ff1681565b60408051908101604052601081527f4d494b4554414e474f425241564f313800000000000000000000000000000000602082015281565b600160a060020a03338116600081815260026020908152604080832094871680845294909152808220859055909291907f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b9259085905190815260200160405180910390a350600192915050565b60015490565b6000600160a060020a038316151561045057600080fd5b600160a060020a03841660009081526020819052604090205482111561047557600080fd5b600160a060020a03808516600090815260026020908152604080832033909416835292905220548211156104a857600080fd5b600160a060020a0384166000908152602081905260409020546104d1908363ffffffff610be816565b600160a060020a038086166000908152602081905260408082209390935590851681522054610506908363ffffffff610bfa16565b600160a060020a038085166000908152602081815260408083209490945587831682526002815283822033909316825291909152205461054c908363ffffffff610be816565b600160a060020a03808616600081815260026020908152604080832033861684529091529081902093909355908516917fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef9085905190815260200160405180910390a35060019392505050565b601281565b60035460009033600160a060020a039081169116146105dc57600080fd5b60035460a060020a900460ff16156105f357600080fd5b600154610606908363ffffffff610bfa16565b600155600160a060020a038316600090815260208190526040902054610632908363ffffffff610bfa16565b600160a060020a0384166000818152602081905260409081902092909255907f0f6798a560793a54c3bcfe86a93cde1e73087d944c0ea20544137d41213968859084905190815260200160405180910390a2600160a060020a03831660007fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef8460405190815260200160405180910390a350600192915050565b600160a060020a0333166000908152602081905260408120548211156106f157600080fd5b5033600160a060020a0381166000908152602081905260409020546107169083610be8565b600160a060020a038216600090815260208190526040902055600154610742908363ffffffff610be816565b600155600160a060020a0381167fcc16f5dbb4873280815c1ee09dbd06736cffcc184412cf7a71a0fdb75d397ca58360405190815260200160405180910390a25050565b600160a060020a033381166000908152600260209081526040808320938616835292905290812054808311156107e357600160a060020a03338116600090815260026020908152604080832093881683529290529081205561081a565b6107f3818463ffffffff610be816565b600160a060020a033381166000908152600260209081526040808320938916835292905220555b600160a060020a0333811660008181526002602090815260408083209489168084529490915290819020547f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925915190815260200160405180910390a35060019392505050565b600160a060020a031660009081526020819052604090205490565b60035460009033600160a060020a039081169116146108b957600080fd5b60035460a060020a900460ff16156108d057600080fd5b6003805474ff0000000000000000000000000000000000000000191660a060020a1790557fae5184fba832cb2b1f702aca6117b8d265eaf03ad33eb133f19dde0f5920fa0860405160405180910390a150600190565b600354600160a060020a031681565b60408051908101604052600581527f4d54423138000000000000000000000000000000000000000000000000000000602082015281565b6000600160a060020a038316151561098357600080fd5b600160a060020a0333166000908152602081905260409020548211156109a857600080fd5b600160a060020a0333166000908152602081905260409020546109d1908363ffffffff610be816565b600160a060020a033381166000908152602081905260408082209390935590851681522054610a06908363ffffffff610bfa16565b60008085600160a060020a0316600160a060020a031681526020019081526020016000208190555082600160a060020a031633600160a060020a03167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef8460405190815260200160405180910390a350600192915050565b600160a060020a033381166000908152600260209081526040808320938616835292905290812054610ab6908363ffffffff610bfa16565b600160a060020a0333811660008181526002602090815260408083209489168084529490915290819020849055919290917f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b92591905190815260200160405180910390a350600192915050565b600160a060020a03918216600090815260026020908152604080832093909416825291909152205490565b60035433600160a060020a03908116911614610b6857600080fd5b600160a060020a0381161515610b7d57600080fd5b600354600160a060020a0380831691167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a36003805473ffffffffffffffffffffffffffffffffffffffff1916600160a060020a0392909216919091179055565b600082821115610bf457fe5b50900390565b600082820183811015610c0957fe5b93925050505600a165627a7a72305820de31595226eeda54c9deb0908bd63e46c91d0313fa9ef7b99bc7ad451358186f0029","networks":{"3":{"events":{"0x6985a02210a168e66602d3235cb6db0e70f92b3ba4d376a33c0f3d9434bff625":{"anonymous":false,"inputs":[],"name":"Pause","type":"event"},"0x7805862f689e2f13df9f062ff482ad3ad112aca9e0847911ed832e158c525b33":{"anonymous":false,"inputs":[],"name":"Unpause","type":"event"},"0x6823b073d48d6e3a7d385eeb601452d680e74bb46afe3255a7d778f3a9b17681":{"anonymous":false,"inputs":[],"name":"Finalized","type":"event"},"0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0":{"anonymous":false,"inputs":[{"indexed":true,"name":"previousOwner","type":"address"},{"indexed":true,"name":"newOwner","type":"address"}],"name":"OwnershipTransferred","type":"event"},"0x623b3804fa71d67900d064613da8f94b9617215ee90799290593e1745087ad18":{"anonymous":false,"inputs":[{"indexed":true,"name":"purchaser","type":"address"},{"indexed":true,"name":"beneficiary","type":"address"},{"indexed":false,"name":"value","type":"uint256"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"TokenPurchase","type":"event"}},"links":{},"address":"0xe945876a6b1163d0b458b830d85a92c6261e671c","updated_at":1519038608835}},"schema_version":"0.0.5","updated_at":1519038608835}
-
-/***/ }),
 /* 72 */
+/***/ (function(module, exports) {
+
+module.exports = {"contract_name":"MIKETANGOBRAVO18","abi":[{"constant":true,"inputs":[],"name":"mintingFinished","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"name","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_spender","type":"address"},{"name":"_value","type":"uint256"}],"name":"approve","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"totalSupply","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_from","type":"address"},{"name":"_to","type":"address"},{"name":"_value","type":"uint256"}],"name":"transferFrom","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"decimals","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_to","type":"address"},{"name":"_amount","type":"uint256"}],"name":"mint","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_value","type":"uint256"}],"name":"burn","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_spender","type":"address"},{"name":"_subtractedValue","type":"uint256"}],"name":"decreaseApproval","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"_owner","type":"address"}],"name":"balanceOf","outputs":[{"name":"balance","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"finishMinting","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"owner","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"symbol","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_to","type":"address"},{"name":"_value","type":"uint256"}],"name":"transfer","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_spender","type":"address"},{"name":"_addedValue","type":"uint256"}],"name":"increaseApproval","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"_owner","type":"address"},{"name":"_spender","type":"address"}],"name":"allowance","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"payable":false,"stateMutability":"nonpayable","type":"fallback"},{"anonymous":false,"inputs":[{"indexed":true,"name":"burner","type":"address"},{"indexed":false,"name":"value","type":"uint256"}],"name":"Burn","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"to","type":"address"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"Mint","type":"event"},{"anonymous":false,"inputs":[],"name":"MintFinished","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"previousOwner","type":"address"},{"indexed":true,"name":"newOwner","type":"address"}],"name":"OwnershipTransferred","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"owner","type":"address"},{"indexed":true,"name":"spender","type":"address"},{"indexed":false,"name":"value","type":"uint256"}],"name":"Approval","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"from","type":"address"},{"indexed":true,"name":"to","type":"address"},{"indexed":false,"name":"value","type":"uint256"}],"name":"Transfer","type":"event"}],"unlinked_binary":"0x606060405260038054600160a860020a03191633600160a060020a0316179055610c428061002e6000396000f3006060604052600436106100f05763ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166305d2035b81146100fd57806306fdde0314610124578063095ea7b3146101ae57806318160ddd146101d057806323b872dd146101f5578063313ce5671461021d57806340c10f191461023057806342966c6814610252578063661884631461026857806370a082311461028a5780637d64bcb4146102a95780638da5cb5b146102bc57806395d89b41146102eb578063a9059cbb146102fe578063d73dd62314610320578063dd62ed3e14610342578063f2fde38b14610367575b34156100fb57600080fd5b005b341561010857600080fd5b610110610386565b604051901515815260200160405180910390f35b341561012f57600080fd5b610137610396565b60405160208082528190810183818151815260200191508051906020019080838360005b8381101561017357808201518382015260200161015b565b50505050905090810190601f1680156101a05780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34156101b957600080fd5b610110600160a060020a03600435166024356103cd565b34156101db57600080fd5b6101e3610439565b60405190815260200160405180910390f35b341561020057600080fd5b610110600160a060020a036004358116906024351660443561043f565b341561022857600080fd5b6101e36105bf565b341561023b57600080fd5b610110600160a060020a03600435166024356105c4565b341561025d57600080fd5b6100fb6004356106d2565b341561027357600080fd5b610110600160a060020a036004351660243561078c565b341561029557600080fd5b6101e3600160a060020a0360043516610886565b34156102b457600080fd5b6101106108a1565b34156102c757600080fd5b6102cf61092c565b604051600160a060020a03909116815260200160405180910390f35b34156102f657600080fd5b61013761093b565b341561030957600080fd5b610110600160a060020a0360043516602435610972565b341561032b57600080fd5b610110600160a060020a0360043516602435610a84565b341561034d57600080fd5b6101e3600160a060020a0360043581169060243516610b28565b341561037257600080fd5b6100fb600160a060020a0360043516610b53565b60035460a060020a900460ff1681565b60408051908101604052601081527f4d494b4554414e474f425241564f313800000000000000000000000000000000602082015281565b600160a060020a03338116600081815260026020908152604080832094871680845294909152808220859055909291907f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b9259085905190815260200160405180910390a350600192915050565b60015490565b6000600160a060020a038316151561045657600080fd5b600160a060020a03841660009081526020819052604090205482111561047b57600080fd5b600160a060020a03808516600090815260026020908152604080832033909416835292905220548211156104ae57600080fd5b600160a060020a0384166000908152602081905260409020546104d7908363ffffffff610bee16565b600160a060020a03808616600090815260208190526040808220939093559085168152205461050c908363ffffffff610c0016565b600160a060020a0380851660009081526020818152604080832094909455878316825260028152838220339093168252919091522054610552908363ffffffff610bee16565b600160a060020a03808616600081815260026020908152604080832033861684529091529081902093909355908516917fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef9085905190815260200160405180910390a35060019392505050565b601281565b60035460009033600160a060020a039081169116146105e257600080fd5b60035460a060020a900460ff16156105f957600080fd5b60015461060c908363ffffffff610c0016565b600155600160a060020a038316600090815260208190526040902054610638908363ffffffff610c0016565b600160a060020a0384166000818152602081905260409081902092909255907f0f6798a560793a54c3bcfe86a93cde1e73087d944c0ea20544137d41213968859084905190815260200160405180910390a2600160a060020a03831660007fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef8460405190815260200160405180910390a350600192915050565b600160a060020a0333166000908152602081905260408120548211156106f757600080fd5b5033600160a060020a03811660009081526020819052604090205461071c9083610bee565b600160a060020a038216600090815260208190526040902055600154610748908363ffffffff610bee16565b600155600160a060020a0381167fcc16f5dbb4873280815c1ee09dbd06736cffcc184412cf7a71a0fdb75d397ca58360405190815260200160405180910390a25050565b600160a060020a033381166000908152600260209081526040808320938616835292905290812054808311156107e957600160a060020a033381166000908152600260209081526040808320938816835292905290812055610820565b6107f9818463ffffffff610bee16565b600160a060020a033381166000908152600260209081526040808320938916835292905220555b600160a060020a0333811660008181526002602090815260408083209489168084529490915290819020547f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925915190815260200160405180910390a35060019392505050565b600160a060020a031660009081526020819052604090205490565b60035460009033600160a060020a039081169116146108bf57600080fd5b60035460a060020a900460ff16156108d657600080fd5b6003805474ff0000000000000000000000000000000000000000191660a060020a1790557fae5184fba832cb2b1f702aca6117b8d265eaf03ad33eb133f19dde0f5920fa0860405160405180910390a150600190565b600354600160a060020a031681565b60408051908101604052600581527f4d54423138000000000000000000000000000000000000000000000000000000602082015281565b6000600160a060020a038316151561098957600080fd5b600160a060020a0333166000908152602081905260409020548211156109ae57600080fd5b600160a060020a0333166000908152602081905260409020546109d7908363ffffffff610bee16565b600160a060020a033381166000908152602081905260408082209390935590851681522054610a0c908363ffffffff610c0016565b60008085600160a060020a0316600160a060020a031681526020019081526020016000208190555082600160a060020a031633600160a060020a03167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef8460405190815260200160405180910390a350600192915050565b600160a060020a033381166000908152600260209081526040808320938616835292905290812054610abc908363ffffffff610c0016565b600160a060020a0333811660008181526002602090815260408083209489168084529490915290819020849055919290917f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b92591905190815260200160405180910390a350600192915050565b600160a060020a03918216600090815260026020908152604080832093909416825291909152205490565b60035433600160a060020a03908116911614610b6e57600080fd5b600160a060020a0381161515610b8357600080fd5b600354600160a060020a0380831691167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a36003805473ffffffffffffffffffffffffffffffffffffffff1916600160a060020a0392909216919091179055565b600082821115610bfa57fe5b50900390565b600082820183811015610c0f57fe5b93925050505600a165627a7a723058205117bd11d737ae602a10bc5acb11b19dfad4376c8d22938b833f1cab287edd4d0029","networks":{"3":{"links":{},"events":{"0xcc16f5dbb4873280815c1ee09dbd06736cffcc184412cf7a71a0fdb75d397ca5":{"anonymous":false,"inputs":[{"indexed":true,"name":"burner","type":"address"},{"indexed":false,"name":"value","type":"uint256"}],"name":"Burn","type":"event"},"0x0f6798a560793a54c3bcfe86a93cde1e73087d944c0ea20544137d4121396885":{"anonymous":false,"inputs":[{"indexed":true,"name":"to","type":"address"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"Mint","type":"event"},"0xae5184fba832cb2b1f702aca6117b8d265eaf03ad33eb133f19dde0f5920fa08":{"anonymous":false,"inputs":[],"name":"MintFinished","type":"event"},"0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0":{"anonymous":false,"inputs":[{"indexed":true,"name":"previousOwner","type":"address"},{"indexed":true,"name":"newOwner","type":"address"}],"name":"OwnershipTransferred","type":"event"},"0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925":{"anonymous":false,"inputs":[{"indexed":true,"name":"owner","type":"address"},{"indexed":true,"name":"spender","type":"address"},{"indexed":false,"name":"value","type":"uint256"}],"name":"Approval","type":"event"},"0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef":{"anonymous":false,"inputs":[{"indexed":true,"name":"from","type":"address"},{"indexed":true,"name":"to","type":"address"},{"indexed":false,"name":"value","type":"uint256"}],"name":"Transfer","type":"event"}},"address":"0x5b56e2f1379dcae341f2e562a8bf83bf1d318e20","updated_at":1520603406792}},"schema_version":"0.0.5","updated_at":1520603406792}
+
+/***/ }),
+/* 73 */
+/***/ (function(module, exports) {
+
+module.exports = {"contract_name":"MIKETANGOBRAVO18Crowdsale","abi":[{"constant":true,"inputs":[],"name":"rate","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"endTime","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"cap","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"unpause","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"weiRaised","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"finalize","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"wallet","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"remaining","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"paused","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"startTime","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"pause","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"isFinalized","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"owner","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"totalTokenCapToCreate","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"beneficiary","type":"address"}],"name":"buyTokens","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":true,"inputs":[],"name":"hasEnded","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"token","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[{"name":"_startTime","type":"uint256"},{"name":"_endTime","type":"uint256"},{"name":"_rate","type":"uint256"},{"name":"_wallet","type":"address"},{"name":"_totalCapInEthToRaise","type":"uint256"},{"name":"_totalTokenCapToCreate","type":"uint256"},{"name":"_initialTokenFundBalance","type":"uint256"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"payable":true,"stateMutability":"payable","type":"fallback"},{"anonymous":false,"inputs":[],"name":"Pause","type":"event"},{"anonymous":false,"inputs":[],"name":"Unpause","type":"event"},{"anonymous":false,"inputs":[],"name":"Finalized","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"previousOwner","type":"address"},{"indexed":true,"name":"newOwner","type":"address"}],"name":"OwnershipTransferred","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"purchaser","type":"address"},{"indexed":true,"name":"beneficiary","type":"address"},{"indexed":false,"name":"value","type":"uint256"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"TokenPurchase","type":"event"}],"unlinked_binary":"0x60606040526007805460a060020a61ffff0219169055341561002057600080fd5b60405160e08061266b833981016040528080519190602001805191906020018051919060200180519190602001805191906020018051919060200180519150839050878787874284101561007357600080fd5b8383101561008057600080fd5b6000821161008d57600080fd5b600160a060020a03811615156100a257600080fd5b6100b7640100000000610b1d6101ce82021704565b60008054600160a060020a0319908116600160a060020a039384161782556001969096556002949094556004929092556003805490941691161790915581116100ff57600080fd5b60065560078054600160a060020a03191633600160a060020a03908116919091179091556008869055600983905560008054600354908316926340c10f19929116908490604051602001526040517c010000000000000000000000000000000000000000000000000000000063ffffffff8516028152600160a060020a0390921660048301526024820152604401602060405180830381600087803b15156101a657600080fd5b6102c65a03f115156101b757600080fd5b505050604051805190505050505050505050610203565b60006101d86101f3565b604051809103906000f08015156101ee57600080fd5b905090565b604051610c70806119fb83390190565b6117e9806102126000396000f3006060604052600436106100e25763ffffffff60e060020a6000350416632c4e722e81146100ed5780633197cbb614610112578063355274ea146101255780633f4ba83a146101385780634042b66f1461014b5780634bb278f31461015e578063521eb2731461017157806355234ec0146101a05780635c975abb146101b357806378e97925146101da5780638456cb59146101ed5780638d4e4083146102005780638da5cb5b1461021357806392f6a74f14610226578063ec8ac4d814610239578063ecb70fb71461024d578063f2fde38b14610260578063fc0c546a1461027f575b6100eb33610292565b005b34156100f857600080fd5b6101006103df565b60405190815260200160405180910390f35b341561011d57600080fd5b6101006103e5565b341561013057600080fd5b6101006103eb565b341561014357600080fd5b6100eb6103f1565b341561015657600080fd5b610100610471565b341561016957600080fd5b6100eb610477565b341561017c57600080fd5b610184610538565b604051600160a060020a03909116815260200160405180910390f35b34156101ab57600080fd5b610100610547565b34156101be57600080fd5b6101c66105c1565b604051901515815260200160405180910390f35b34156101e557600080fd5b6101006105d1565b34156101f857600080fd5b6100eb6105d7565b341561020b57600080fd5b6101c661065c565b341561021e57600080fd5b61018461067d565b341561023157600080fd5b61010061068c565b6100eb600160a060020a0360043516610292565b341561025857600080fd5b6101c6610692565b341561026b57600080fd5b6100eb600160a060020a0360043516610742565b341561028a57600080fd5b6101846107dd565b600754600090819060a860020a900460ff16156102ae57600080fd5b600160a060020a03831615156102c357600080fd5b6102cb6107ec565b15156102d657600080fd5b6008543492506102ed90839063ffffffff6108a216565b600554909150610303908363ffffffff6108d816565b60055560008054600160a060020a0316906340c10f1990859084906040516020015260405160e060020a63ffffffff8516028152600160a060020a0390921660048301526024820152604401602060405180830381600087803b151561036857600080fd5b6102c65a03f1151561037957600080fd5b505050604051805190505082600160a060020a031633600160a060020a03167f623b3804fa71d67900d064613da8f94b9617215ee90799290593e1745087ad18848460405191825260208201526040908101905180910390a36103da6108e7565b505050565b60085481565b60025481565b60065481565b60075433600160a060020a0390811691161461040c57600080fd5b60075460a860020a900460ff16151561042457600080fd5b6007805475ff000000000000000000000000000000000000000000191690557f7805862f689e2f13df9f062ff482ad3ad112aca9e0847911ed832e158c525b3360405160405180910390a1565b60055481565b60075433600160a060020a0390811691161461049257600080fd5b60075474010000000000000000000000000000000000000000900460ff16156104ba57600080fd5b6104c2610692565b15156104cd57600080fd5b6104d561091d565b7f6823b073d48d6e3a7d385eeb601452d680e74bb46afe3255a7d778f3a9b1768160405160405180910390a16007805474ff0000000000000000000000000000000000000000191674010000000000000000000000000000000000000000179055565b600354600160a060020a031681565b600080546105bc90600160a060020a03166318160ddd83604051602001526040518163ffffffff1660e060020a028152600401602060405180830381600087803b151561059357600080fd5b6102c65a03f115156105a457600080fd5b5050506040518051600954915063ffffffff610a6f16565b905090565b60075460a860020a900460ff1681565b60015481565b60075433600160a060020a039081169116146105f257600080fd5b60075460a860020a900460ff161561060957600080fd5b6007805475ff000000000000000000000000000000000000000000191660a860020a1790557f6985a02210a168e66602d3235cb6db0e70f92b3ba4d376a33c0f3d9434bff62560405160405180910390a1565b60075474010000000000000000000000000000000000000000900460ff1681565b600754600160a060020a031681565b60095481565b60008060006106be60636106b26064600954610a8190919063ffffffff16565b9063ffffffff6108a216565b600080549193508391600160a060020a0316906318160ddd90604051602001526040518163ffffffff1660e060020a028152600401602060405180830381600087803b151561070c57600080fd5b6102c65a03f1151561071d57600080fd5b5050506040518051905010159050610733610a98565b8061073b5750805b9250505090565b60075433600160a060020a0390811691161461075d57600080fd5b600160a060020a038116151561077257600080fd5b600754600160a060020a0380831691167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a36007805473ffffffffffffffffffffffffffffffffffffffff1916600160a060020a0392909216919091179055565b600054600160a060020a031681565b600080600060095461087c61080c600854346108a290919063ffffffff16565b60008054600160a060020a0316906318160ddd90604051602001526040518163ffffffff1660e060020a028152600401602060405180830381600087803b151561085557600080fd5b6102c65a03f1151561086657600080fd5b505050604051805191905063ffffffff6108d816565b111591505034151561088c610ab9565b80156108955750815b801561073b575092915050565b6000808315156108b557600091506108d1565b508282028284828115156108c557fe5b04146108cd57fe5b8091505b5092915050565b6000828201838110156108cd57fe5b600354600160a060020a03163480156108fc0290604051600060405180830381858888f19350505050151561091b57600080fd5b565b6000805461096990600160a060020a03166318160ddd83604051602001526040518163ffffffff1660e060020a028152600401602060405180830381600087803b151561059357600080fd5b905060008111156109f95760008054600354600160a060020a03918216926340c10f19929091169084906040516020015260405160e060020a63ffffffff8516028152600160a060020a0390921660048301526024820152604401602060405180830381600087803b15156109dd57600080fd5b6102c65a03f115156109ee57600080fd5b505050604051805150505b600054600354600160a060020a039182169163f2fde38b911660405160e060020a63ffffffff8416028152600160a060020a039091166004820152602401600060405180830381600087803b1515610a5057600080fd5b6102c65a03f11515610a6157600080fd5b505050610a6c61091b565b50565b600082821115610a7b57fe5b50900390565b6000808284811515610a8f57fe5b04949350505050565b6006546005546000919010158080610ab35750610ab3610ae8565b91505090565b600080600654610ad4346005546108d890919063ffffffff16565b11159050808015610ab35750610ab3610af0565b600254421190565b60008060006001544210158015610b0957506002544211155b91505034151581801561073b575092915050565b6000610b27610b3d565b604051809103906000f08015156105bc57600080fd5b604051610c7080610b4e833901905600606060405260038054600160a860020a03191633600160a060020a0316179055610c428061002e6000396000f3006060604052600436106100f05763ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166305d2035b81146100fd57806306fdde0314610124578063095ea7b3146101ae57806318160ddd146101d057806323b872dd146101f5578063313ce5671461021d57806340c10f191461023057806342966c6814610252578063661884631461026857806370a082311461028a5780637d64bcb4146102a95780638da5cb5b146102bc57806395d89b41146102eb578063a9059cbb146102fe578063d73dd62314610320578063dd62ed3e14610342578063f2fde38b14610367575b34156100fb57600080fd5b005b341561010857600080fd5b610110610386565b604051901515815260200160405180910390f35b341561012f57600080fd5b610137610396565b60405160208082528190810183818151815260200191508051906020019080838360005b8381101561017357808201518382015260200161015b565b50505050905090810190601f1680156101a05780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34156101b957600080fd5b610110600160a060020a03600435166024356103cd565b34156101db57600080fd5b6101e3610439565b60405190815260200160405180910390f35b341561020057600080fd5b610110600160a060020a036004358116906024351660443561043f565b341561022857600080fd5b6101e36105bf565b341561023b57600080fd5b610110600160a060020a03600435166024356105c4565b341561025d57600080fd5b6100fb6004356106d2565b341561027357600080fd5b610110600160a060020a036004351660243561078c565b341561029557600080fd5b6101e3600160a060020a0360043516610886565b34156102b457600080fd5b6101106108a1565b34156102c757600080fd5b6102cf61092c565b604051600160a060020a03909116815260200160405180910390f35b34156102f657600080fd5b61013761093b565b341561030957600080fd5b610110600160a060020a0360043516602435610972565b341561032b57600080fd5b610110600160a060020a0360043516602435610a84565b341561034d57600080fd5b6101e3600160a060020a0360043581169060243516610b28565b341561037257600080fd5b6100fb600160a060020a0360043516610b53565b60035460a060020a900460ff1681565b60408051908101604052601081527f4d494b4554414e474f425241564f313800000000000000000000000000000000602082015281565b600160a060020a03338116600081815260026020908152604080832094871680845294909152808220859055909291907f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b9259085905190815260200160405180910390a350600192915050565b60015490565b6000600160a060020a038316151561045657600080fd5b600160a060020a03841660009081526020819052604090205482111561047b57600080fd5b600160a060020a03808516600090815260026020908152604080832033909416835292905220548211156104ae57600080fd5b600160a060020a0384166000908152602081905260409020546104d7908363ffffffff610bee16565b600160a060020a03808616600090815260208190526040808220939093559085168152205461050c908363ffffffff610c0016565b600160a060020a0380851660009081526020818152604080832094909455878316825260028152838220339093168252919091522054610552908363ffffffff610bee16565b600160a060020a03808616600081815260026020908152604080832033861684529091529081902093909355908516917fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef9085905190815260200160405180910390a35060019392505050565b601281565b60035460009033600160a060020a039081169116146105e257600080fd5b60035460a060020a900460ff16156105f957600080fd5b60015461060c908363ffffffff610c0016565b600155600160a060020a038316600090815260208190526040902054610638908363ffffffff610c0016565b600160a060020a0384166000818152602081905260409081902092909255907f0f6798a560793a54c3bcfe86a93cde1e73087d944c0ea20544137d41213968859084905190815260200160405180910390a2600160a060020a03831660007fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef8460405190815260200160405180910390a350600192915050565b600160a060020a0333166000908152602081905260408120548211156106f757600080fd5b5033600160a060020a03811660009081526020819052604090205461071c9083610bee565b600160a060020a038216600090815260208190526040902055600154610748908363ffffffff610bee16565b600155600160a060020a0381167fcc16f5dbb4873280815c1ee09dbd06736cffcc184412cf7a71a0fdb75d397ca58360405190815260200160405180910390a25050565b600160a060020a033381166000908152600260209081526040808320938616835292905290812054808311156107e957600160a060020a033381166000908152600260209081526040808320938816835292905290812055610820565b6107f9818463ffffffff610bee16565b600160a060020a033381166000908152600260209081526040808320938916835292905220555b600160a060020a0333811660008181526002602090815260408083209489168084529490915290819020547f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925915190815260200160405180910390a35060019392505050565b600160a060020a031660009081526020819052604090205490565b60035460009033600160a060020a039081169116146108bf57600080fd5b60035460a060020a900460ff16156108d657600080fd5b6003805474ff0000000000000000000000000000000000000000191660a060020a1790557fae5184fba832cb2b1f702aca6117b8d265eaf03ad33eb133f19dde0f5920fa0860405160405180910390a150600190565b600354600160a060020a031681565b60408051908101604052600581527f4d54423138000000000000000000000000000000000000000000000000000000602082015281565b6000600160a060020a038316151561098957600080fd5b600160a060020a0333166000908152602081905260409020548211156109ae57600080fd5b600160a060020a0333166000908152602081905260409020546109d7908363ffffffff610bee16565b600160a060020a033381166000908152602081905260408082209390935590851681522054610a0c908363ffffffff610c0016565b60008085600160a060020a0316600160a060020a031681526020019081526020016000208190555082600160a060020a031633600160a060020a03167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef8460405190815260200160405180910390a350600192915050565b600160a060020a033381166000908152600260209081526040808320938616835292905290812054610abc908363ffffffff610c0016565b600160a060020a0333811660008181526002602090815260408083209489168084529490915290819020849055919290917f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b92591905190815260200160405180910390a350600192915050565b600160a060020a03918216600090815260026020908152604080832093909416825291909152205490565b60035433600160a060020a03908116911614610b6e57600080fd5b600160a060020a0381161515610b8357600080fd5b600354600160a060020a0380831691167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a36003805473ffffffffffffffffffffffffffffffffffffffff1916600160a060020a0392909216919091179055565b600082821115610bfa57fe5b50900390565b600082820183811015610c0f57fe5b93925050505600a165627a7a723058205117bd11d737ae602a10bc5acb11b19dfad4376c8d22938b833f1cab287edd4d0029a165627a7a72305820765a7cc1090093e0bb557cd619af0ca44f0846db238410606f71b6a38686a4040029606060405260038054600160a860020a03191633600160a060020a0316179055610c428061002e6000396000f3006060604052600436106100f05763ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166305d2035b81146100fd57806306fdde0314610124578063095ea7b3146101ae57806318160ddd146101d057806323b872dd146101f5578063313ce5671461021d57806340c10f191461023057806342966c6814610252578063661884631461026857806370a082311461028a5780637d64bcb4146102a95780638da5cb5b146102bc57806395d89b41146102eb578063a9059cbb146102fe578063d73dd62314610320578063dd62ed3e14610342578063f2fde38b14610367575b34156100fb57600080fd5b005b341561010857600080fd5b610110610386565b604051901515815260200160405180910390f35b341561012f57600080fd5b610137610396565b60405160208082528190810183818151815260200191508051906020019080838360005b8381101561017357808201518382015260200161015b565b50505050905090810190601f1680156101a05780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34156101b957600080fd5b610110600160a060020a03600435166024356103cd565b34156101db57600080fd5b6101e3610439565b60405190815260200160405180910390f35b341561020057600080fd5b610110600160a060020a036004358116906024351660443561043f565b341561022857600080fd5b6101e36105bf565b341561023b57600080fd5b610110600160a060020a03600435166024356105c4565b341561025d57600080fd5b6100fb6004356106d2565b341561027357600080fd5b610110600160a060020a036004351660243561078c565b341561029557600080fd5b6101e3600160a060020a0360043516610886565b34156102b457600080fd5b6101106108a1565b34156102c757600080fd5b6102cf61092c565b604051600160a060020a03909116815260200160405180910390f35b34156102f657600080fd5b61013761093b565b341561030957600080fd5b610110600160a060020a0360043516602435610972565b341561032b57600080fd5b610110600160a060020a0360043516602435610a84565b341561034d57600080fd5b6101e3600160a060020a0360043581169060243516610b28565b341561037257600080fd5b6100fb600160a060020a0360043516610b53565b60035460a060020a900460ff1681565b60408051908101604052601081527f4d494b4554414e474f425241564f313800000000000000000000000000000000602082015281565b600160a060020a03338116600081815260026020908152604080832094871680845294909152808220859055909291907f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b9259085905190815260200160405180910390a350600192915050565b60015490565b6000600160a060020a038316151561045657600080fd5b600160a060020a03841660009081526020819052604090205482111561047b57600080fd5b600160a060020a03808516600090815260026020908152604080832033909416835292905220548211156104ae57600080fd5b600160a060020a0384166000908152602081905260409020546104d7908363ffffffff610bee16565b600160a060020a03808616600090815260208190526040808220939093559085168152205461050c908363ffffffff610c0016565b600160a060020a0380851660009081526020818152604080832094909455878316825260028152838220339093168252919091522054610552908363ffffffff610bee16565b600160a060020a03808616600081815260026020908152604080832033861684529091529081902093909355908516917fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef9085905190815260200160405180910390a35060019392505050565b601281565b60035460009033600160a060020a039081169116146105e257600080fd5b60035460a060020a900460ff16156105f957600080fd5b60015461060c908363ffffffff610c0016565b600155600160a060020a038316600090815260208190526040902054610638908363ffffffff610c0016565b600160a060020a0384166000818152602081905260409081902092909255907f0f6798a560793a54c3bcfe86a93cde1e73087d944c0ea20544137d41213968859084905190815260200160405180910390a2600160a060020a03831660007fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef8460405190815260200160405180910390a350600192915050565b600160a060020a0333166000908152602081905260408120548211156106f757600080fd5b5033600160a060020a03811660009081526020819052604090205461071c9083610bee565b600160a060020a038216600090815260208190526040902055600154610748908363ffffffff610bee16565b600155600160a060020a0381167fcc16f5dbb4873280815c1ee09dbd06736cffcc184412cf7a71a0fdb75d397ca58360405190815260200160405180910390a25050565b600160a060020a033381166000908152600260209081526040808320938616835292905290812054808311156107e957600160a060020a033381166000908152600260209081526040808320938816835292905290812055610820565b6107f9818463ffffffff610bee16565b600160a060020a033381166000908152600260209081526040808320938916835292905220555b600160a060020a0333811660008181526002602090815260408083209489168084529490915290819020547f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925915190815260200160405180910390a35060019392505050565b600160a060020a031660009081526020819052604090205490565b60035460009033600160a060020a039081169116146108bf57600080fd5b60035460a060020a900460ff16156108d657600080fd5b6003805474ff0000000000000000000000000000000000000000191660a060020a1790557fae5184fba832cb2b1f702aca6117b8d265eaf03ad33eb133f19dde0f5920fa0860405160405180910390a150600190565b600354600160a060020a031681565b60408051908101604052600581527f4d54423138000000000000000000000000000000000000000000000000000000602082015281565b6000600160a060020a038316151561098957600080fd5b600160a060020a0333166000908152602081905260409020548211156109ae57600080fd5b600160a060020a0333166000908152602081905260409020546109d7908363ffffffff610bee16565b600160a060020a033381166000908152602081905260408082209390935590851681522054610a0c908363ffffffff610c0016565b60008085600160a060020a0316600160a060020a031681526020019081526020016000208190555082600160a060020a031633600160a060020a03167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef8460405190815260200160405180910390a350600192915050565b600160a060020a033381166000908152600260209081526040808320938616835292905290812054610abc908363ffffffff610c0016565b600160a060020a0333811660008181526002602090815260408083209489168084529490915290819020849055919290917f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b92591905190815260200160405180910390a350600192915050565b600160a060020a03918216600090815260026020908152604080832093909416825291909152205490565b60035433600160a060020a03908116911614610b6e57600080fd5b600160a060020a0381161515610b8357600080fd5b600354600160a060020a0380831691167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a36003805473ffffffffffffffffffffffffffffffffffffffff1916600160a060020a0392909216919091179055565b600082821115610bfa57fe5b50900390565b600082820183811015610c0f57fe5b93925050505600a165627a7a723058205117bd11d737ae602a10bc5acb11b19dfad4376c8d22938b833f1cab287edd4d0029","networks":{"3":{"events":{"0x6985a02210a168e66602d3235cb6db0e70f92b3ba4d376a33c0f3d9434bff625":{"anonymous":false,"inputs":[],"name":"Pause","type":"event"},"0x7805862f689e2f13df9f062ff482ad3ad112aca9e0847911ed832e158c525b33":{"anonymous":false,"inputs":[],"name":"Unpause","type":"event"},"0x6823b073d48d6e3a7d385eeb601452d680e74bb46afe3255a7d778f3a9b17681":{"anonymous":false,"inputs":[],"name":"Finalized","type":"event"},"0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0":{"anonymous":false,"inputs":[{"indexed":true,"name":"previousOwner","type":"address"},{"indexed":true,"name":"newOwner","type":"address"}],"name":"OwnershipTransferred","type":"event"},"0x623b3804fa71d67900d064613da8f94b9617215ee90799290593e1745087ad18":{"anonymous":false,"inputs":[{"indexed":true,"name":"purchaser","type":"address"},{"indexed":true,"name":"beneficiary","type":"address"},{"indexed":false,"name":"value","type":"uint256"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"TokenPurchase","type":"event"}},"links":{},"address":"0x108ae12b3c154756409acdadffe4a0f9051e988a","updated_at":1520603406786}},"schema_version":"0.0.5","updated_at":1520603406786}
+
+/***/ }),
+/* 74 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(99);
+var content = __webpack_require__(103);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
-var update = __webpack_require__(110)(content, {});
+var update = __webpack_require__(60)(content, {});
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -27973,11 +28281,47 @@ if(false) {
 }
 
 /***/ }),
-/* 73 */
+/* 75 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Schema = __webpack_require__(146);
-var Contract = __webpack_require__(150);
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(104);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// add the styles to the DOM
+var update = __webpack_require__(60)(content, {});
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../css-loader/index.js!./tingle.min.css", function() {
+			var newContent = require("!!../../css-loader/index.js!./tingle.min.css");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 76 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;!function(t,o){ true?!(__WEBPACK_AMD_DEFINE_FACTORY__ = (o),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.call(exports, __webpack_require__, exports, module)) :
+				__WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__)):"object"==typeof exports?module.exports=o():t.tingle=o()}(this,function(){function t(t){var o={onClose:null,onOpen:null,beforeOpen:null,beforeClose:null,stickyFooter:!1,footer:!1,cssClass:[],closeLabel:"Close",closeMethods:["overlay","button","escape"]};this.opts=r({},o,t),this.init()}function o(){this.modalBoxFooter&&(this.modalBoxFooter.style.width=this.modalBox.clientWidth+"px",this.modalBoxFooter.style.left=this.modalBox.offsetLeft+"px")}function e(){this.modal=document.createElement("div"),this.modal.classList.add("tingle-modal"),0!==this.opts.closeMethods.length&&this.opts.closeMethods.indexOf("overlay")!==-1||this.modal.classList.add("tingle-modal--noOverlayClose"),this.modal.style.display="none",this.opts.cssClass.forEach(function(t){"string"==typeof t&&this.modal.classList.add(t)},this),this.opts.closeMethods.indexOf("button")!==-1&&(this.modalCloseBtn=document.createElement("button"),this.modalCloseBtn.classList.add("tingle-modal__close"),this.modalCloseBtnIcon=document.createElement("span"),this.modalCloseBtnIcon.classList.add("tingle-modal__closeIcon"),this.modalCloseBtnIcon.innerHTML="×",this.modalCloseBtnLabel=document.createElement("span"),this.modalCloseBtnLabel.classList.add("tingle-modal__closeLabel"),this.modalCloseBtnLabel.innerHTML=this.opts.closeLabel,this.modalCloseBtn.appendChild(this.modalCloseBtnIcon),this.modalCloseBtn.appendChild(this.modalCloseBtnLabel)),this.modalBox=document.createElement("div"),this.modalBox.classList.add("tingle-modal-box"),this.modalBoxContent=document.createElement("div"),this.modalBoxContent.classList.add("tingle-modal-box__content"),this.modalBox.appendChild(this.modalBoxContent),this.opts.closeMethods.indexOf("button")!==-1&&this.modal.appendChild(this.modalCloseBtn),this.modal.appendChild(this.modalBox)}function s(){this.modalBoxFooter=document.createElement("div"),this.modalBoxFooter.classList.add("tingle-modal-box__footer"),this.modalBox.appendChild(this.modalBoxFooter)}function i(){this._events={clickCloseBtn:this.close.bind(this),clickOverlay:l.bind(this),resize:this.checkOverflow.bind(this),keyboardNav:n.bind(this)},this.opts.closeMethods.indexOf("button")!==-1&&this.modalCloseBtn.addEventListener("click",this._events.clickCloseBtn),this.modal.addEventListener("mousedown",this._events.clickOverlay),window.addEventListener("resize",this._events.resize),document.addEventListener("keydown",this._events.keyboardNav)}function n(t){this.opts.closeMethods.indexOf("escape")!==-1&&27===t.which&&this.isOpen()&&this.close()}function l(t){this.opts.closeMethods.indexOf("overlay")!==-1&&!d(t.target,"tingle-modal")&&t.clientX<this.modal.clientWidth&&this.close()}function d(t,o){for(;(t=t.parentElement)&&!t.classList.contains(o););return t}function a(){this.opts.closeMethods.indexOf("button")!==-1&&this.modalCloseBtn.removeEventListener("click",this._events.clickCloseBtn),this.modal.removeEventListener("mousedown",this._events.clickOverlay),window.removeEventListener("resize",this._events.resize),document.removeEventListener("keydown",this._events.keyboardNav)}function r(){for(var t=1;t<arguments.length;t++)for(var o in arguments[t])arguments[t].hasOwnProperty(o)&&(arguments[0][o]=arguments[t][o]);return arguments[0]}function h(){var t,o=document.createElement("tingle-test-transition"),e={transition:"transitionend",OTransition:"oTransitionEnd",MozTransition:"transitionend",WebkitTransition:"webkitTransitionEnd"};for(t in e)if(void 0!==o.style[t])return e[t]}var c=h();return t.prototype.init=function(){this.modal||(e.call(this),i.call(this),document.body.insertBefore(this.modal,document.body.firstChild),this.opts.footer&&this.addFooter())},t.prototype.destroy=function(){null!==this.modal&&(a.call(this),this.modal.parentNode.removeChild(this.modal),this.modal=null)},t.prototype.open=function(){var t=this;"function"==typeof t.opts.beforeOpen&&t.opts.beforeOpen(),this.modal.style.removeProperty?this.modal.style.removeProperty("display"):this.modal.style.removeAttribute("display"),this._scrollPosition=window.pageYOffset,document.body.classList.add("tingle-enabled"),document.body.style.top=-this._scrollPosition+"px",this.setStickyFooter(this.opts.stickyFooter),this.modal.classList.add("tingle-modal--visible"),c?this.modal.addEventListener(c,function o(){"function"==typeof t.opts.onOpen&&t.opts.onOpen.call(t),t.modal.removeEventListener(c,o,!1)},!1):"function"==typeof t.opts.onOpen&&t.opts.onOpen.call(t),this.checkOverflow()},t.prototype.isOpen=function(){return!!this.modal.classList.contains("tingle-modal--visible")},t.prototype.close=function(){if("function"==typeof this.opts.beforeClose){var t=this.opts.beforeClose.call(this);if(!t)return}document.body.classList.remove("tingle-enabled"),window.scrollTo(0,this._scrollPosition),this.modal.classList.remove("tingle-modal--visible");var o=this;c?this.modal.addEventListener(c,function t(){o.modal.removeEventListener(c,t,!1),o.modal.style.display="none","function"==typeof o.opts.onClose&&o.opts.onClose.call(this)},!1):(o.modal.style.display="none","function"==typeof o.opts.onClose&&o.opts.onClose.call(this))},t.prototype.setContent=function(t){"string"==typeof t?this.modalBoxContent.innerHTML=t:(this.modalBoxContent.innerHTML="",this.modalBoxContent.appendChild(t))},t.prototype.getContent=function(){return this.modalBoxContent},t.prototype.addFooter=function(){s.call(this)},t.prototype.setFooterContent=function(t){this.modalBoxFooter.innerHTML=t},t.prototype.getFooterContent=function(){return this.modalBoxFooter},t.prototype.setStickyFooter=function(t){this.isOverflow()||(t=!1),t?this.modalBox.contains(this.modalBoxFooter)&&(this.modalBox.removeChild(this.modalBoxFooter),this.modal.appendChild(this.modalBoxFooter),this.modalBoxFooter.classList.add("tingle-modal-box__footer--sticky"),o.call(this),this.modalBoxContent.style["padding-bottom"]=this.modalBoxFooter.clientHeight+20+"px"):this.modalBoxFooter&&(this.modalBox.contains(this.modalBoxFooter)||(this.modal.removeChild(this.modalBoxFooter),this.modalBox.appendChild(this.modalBoxFooter),this.modalBoxFooter.style.width="auto",this.modalBoxFooter.style.left="",this.modalBoxContent.style["padding-bottom"]="",this.modalBoxFooter.classList.remove("tingle-modal-box__footer--sticky")))},t.prototype.addFooterBtn=function(t,o,e){var s=document.createElement("button");return s.innerHTML=t,s.addEventListener("click",e),"string"==typeof o&&o.length&&o.split(" ").forEach(function(t){s.classList.add(t)}),this.modalBoxFooter.appendChild(s),s},t.prototype.resize=function(){console.warn("Resize is deprecated and will be removed in version 1.0")},t.prototype.isOverflow=function(){var t=window.innerHeight,o=this.modalBox.clientHeight;return o>=t},t.prototype.checkOverflow=function(){this.modal.classList.contains("tingle-modal--visible")&&(this.isOverflow()?this.modal.classList.add("tingle-modal--overflow"):this.modal.classList.remove("tingle-modal--overflow"),!this.isOverflow()&&this.opts.stickyFooter?this.setStickyFooter(!1):this.isOverflow()&&this.opts.stickyFooter&&(o.call(this),this.setStickyFooter(!0)))},{modal:t}});
+
+/***/ }),
+/* 77 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Schema = __webpack_require__(149);
+var Contract = __webpack_require__(153);
 
 var contract = function(options) {
   options = Schema.normalizeOptions(options);
@@ -28043,10 +28387,10 @@ if (typeof window !== "undefined") {
 
 
 /***/ }),
-/* 74 */
+/* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Web3 = __webpack_require__(198);
+var Web3 = __webpack_require__(201);
 
 // dont override global variable
 if (typeof window !== 'undefined' && typeof window.Web3 === 'undefined') {
@@ -28057,21 +28401,25 @@ module.exports = Web3;
 
 
 /***/ }),
-/* 75 */
+/* 79 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__stylesheets_app_css__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__stylesheets_app_css__ = __webpack_require__(74);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__stylesheets_app_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__stylesheets_app_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_web3__ = __webpack_require__(74);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_web3___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_web3__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_truffle_contract__ = __webpack_require__(73);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_truffle_contract___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_truffle_contract__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__build_contracts_MIKETANGOBRAVO18_json__ = __webpack_require__(70);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__build_contracts_MIKETANGOBRAVO18_json___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__build_contracts_MIKETANGOBRAVO18_json__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__build_contracts_MIKETANGOBRAVO18Crowdsale_json__ = __webpack_require__(71);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__build_contracts_MIKETANGOBRAVO18Crowdsale_json___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__build_contracts_MIKETANGOBRAVO18Crowdsale_json__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_tingle_js_dist_tingle_min_css__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_tingle_js_dist_tingle_min_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__node_modules_tingle_js_dist_tingle_min_css__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_web3__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_web3___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_web3__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_truffle_contract__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_truffle_contract___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_truffle_contract__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_tingle_js__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_tingle_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_tingle_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__build_contracts_MIKETANGOBRAVO18_json__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__build_contracts_MIKETANGOBRAVO18_json___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__build_contracts_MIKETANGOBRAVO18_json__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__build_contracts_MIKETANGOBRAVO18Crowdsale_json__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__build_contracts_MIKETANGOBRAVO18Crowdsale_json___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__build_contracts_MIKETANGOBRAVO18Crowdsale_json__);
 
 
 
@@ -28080,11 +28428,17 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-var MIKETANGOBRAVO18 = __WEBPACK_IMPORTED_MODULE_2_truffle_contract___default()(__WEBPACK_IMPORTED_MODULE_3__build_contracts_MIKETANGOBRAVO18_json___default.a);
-var MIKETANGOBRAVO18Crowdsale = __WEBPACK_IMPORTED_MODULE_2_truffle_contract___default()(__WEBPACK_IMPORTED_MODULE_4__build_contracts_MIKETANGOBRAVO18Crowdsale_json___default.a);
+
+
+var MIKETANGOBRAVO18 = __WEBPACK_IMPORTED_MODULE_3_truffle_contract___default()(__WEBPACK_IMPORTED_MODULE_5__build_contracts_MIKETANGOBRAVO18_json___default.a);
+var MIKETANGOBRAVO18Crowdsale = __WEBPACK_IMPORTED_MODULE_3_truffle_contract___default()(__WEBPACK_IMPORTED_MODULE_6__build_contracts_MIKETANGOBRAVO18Crowdsale_json___default.a);
 
 var accounts;
 var account;
+var modal;
+var ethRate;
+var remaining;
+var dummyClose;
 
 window.App = {
   start: function() {
@@ -28112,7 +28466,38 @@ window.App = {
       self.raised();
       self.leftTime();
       self.refreshBalance();
+      self.getTicker();
+      self.remaining();
     });
+  },
+
+  openBuy: function() {
+    dummyClose = true;
+
+    modal = new __WEBPACK_IMPORTED_MODULE_4_tingle_js___default.a.modal({
+      footer: true,
+      stickyFooter: false,
+      closeMethods: ['overlay', 'button', 'escape'],
+      closeLabel: "Close",
+      cssClass: ['custom-tingle'],
+      onOpen: function() {
+      },
+      onClose: function() {
+      },
+      beforeClose: function() {
+        if (!dummyClose) {
+          App.buy();
+        }
+        return true;
+      }
+    });
+
+    modal.setContent("<form oninput='x.value=parseInt(inputRange.value)*parseFloat(rate.value);y.value=inputRange.value'><p>Amount of tokens.</p><div class='selecteurPrix'><div class='prixMin'>1 MTB18</div><div class='range-slider'><input class='input-range' id='inputRange' type='range' value='1' min='1' max='"+remaining+"' step='1'><input id='rate' type='number' value='"+ethRate+"' disabled='disabled' style='display:none'><div class='valeurPrix'><span class='range-value'><output name='y' id='y' for='a'>1</output> MTB18 (~ <output name='x' id='x' for='inputRange rate'>"+ethRate+"</output> ETH)</span></div></div><div class='prixMax'>"+remaining+"</div></div>");
+    modal.addFooterBtn('BUY', 'tingle-buy-button', function() {
+      dummyClose = false;
+      modal.close();
+    });
+    modal.open();
   },
 
   buy: function() {
@@ -28121,9 +28506,8 @@ window.App = {
     document.getElementById("buy-spin").style.display = "block";
 
     MIKETANGOBRAVO18Crowdsale.deployed().then(function(instance) {
-      return instance.buyTokens(account, {from: account, value: 100000000000000000});
+      return instance.buyTokens(account, {from: account, value: web3.toWei(parseFloat(document.getElementById("x").value))});
     }).then(function(result) {
-      //self.setStatus("Initiating transaction... (please wait)");
       self.interval(result.receipt);
     }).catch(function(e) {
       console.log(e);
@@ -28252,13 +28636,61 @@ window.App = {
     }).finally(function() {
       document.getElementById("balance-spin").style.display = "none";
     });
-  }
+  },
+
+  getTicker: function() {
+    var self = this;
+
+    fetch("https://api.coinmarketcap.com/v1/ticker/ethereum/")
+      .then(response => {
+        if (response.status === 200) {
+          return response.json();
+        } else {
+          throw new Error('Something went wrong on api server!');
+        }
+      })
+      .then(response => {
+        self.rate(response[0]);
+      }).catch(error => {
+        console.error(error);
+      });
+  },
+
+  rate: function(ticker) {
+    var self = this;
+
+    MIKETANGOBRAVO18Crowdsale.deployed().then(function(instance) {
+      return instance.rate.call();
+    }).then(function(result) {
+      var result = result.valueOf();
+      ethRate = self.truncate(1 / result, 5);
+      document.getElementById("ticker").innerHTML = "1 MTB18 will cost <br>" + ethRate + " ETH (~ " + self.truncate(ticker.price_usd / result, 2) + " usd)";
+    }).catch(function(e) {
+      console.log(e);
+    });
+  },
+
+  truncate: function(num, places) {
+    return Math.trunc(num * Math.pow(10, places)) / Math.pow(10, places);
+  },
+
+  remaining: function() {
+    var self = this;
+
+    MIKETANGOBRAVO18Crowdsale.deployed().then(function(instance) {
+      return instance.remaining.call();
+    }).then(function(result) {
+      remaining = web3.fromWei(result).toNumber();
+    }).catch(function(e) {
+      console.log(e);
+    });
+  },
 
 };
 
 window.addEventListener('load', function() {
   if (typeof web3 !== 'undefined' && web3.currentProvider != null) {
-    window.web3 = new __WEBPACK_IMPORTED_MODULE_1_web3___default.a(web3.currentProvider);
+    window.web3 = new __WEBPACK_IMPORTED_MODULE_2_web3___default.a(web3.currentProvider);
     web3.version.getNetwork((err, netId) => {
       switch (netId) {
         case "3":
@@ -28277,7 +28709,7 @@ window.addEventListener('load', function() {
 
 
 /***/ }),
-/* 76 */
+/* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28400,7 +28832,7 @@ function fromByteArray (uint8) {
 
 
 /***/ }),
-/* 77 */
+/* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
@@ -28637,7 +29069,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 78 */
+/* 82 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory) {
@@ -28791,7 +29223,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 79 */
+/* 83 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
@@ -28862,7 +29294,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 80 */
+/* 84 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory) {
@@ -28943,7 +29375,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 81 */
+/* 85 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
@@ -29026,7 +29458,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 82 */
+/* 86 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
@@ -29147,7 +29579,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 83 */
+/* 87 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
@@ -29210,7 +29642,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 84 */
+/* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
@@ -29255,7 +29687,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 85 */
+/* 89 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
@@ -29314,7 +29746,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 86 */
+/* 90 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
@@ -29368,7 +29800,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 87 */
+/* 91 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
@@ -29417,7 +29849,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 88 */
+/* 92 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
@@ -29462,7 +29894,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 89 */
+/* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
@@ -29497,7 +29929,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 90 */
+/* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
@@ -29547,7 +29979,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 91 */
+/* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
@@ -29697,7 +30129,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 92 */
+/* 96 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
@@ -29892,7 +30324,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 93 */
+/* 97 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
@@ -30089,7 +30521,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 94 */
+/* 98 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
@@ -30233,7 +30665,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 95 */
+/* 99 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory) {
@@ -30505,7 +30937,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 96 */
+/* 100 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
@@ -30590,7 +31022,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 97 */
+/* 101 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
@@ -30678,7 +31110,7 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 98 */
+/* 102 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
@@ -31453,77 +31885,35 @@ function fromByteArray (uint8) {
 }));
 
 /***/ }),
-/* 99 */
+/* 103 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(100)();
+exports = module.exports = __webpack_require__(59)();
 // imports
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);", ""]);
 
 // module
-exports.push([module.i, "* {\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n}\n\nbody {\n  background: #F4F0E8;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n}\n\n::-webkit-scrollbar {\n  display: none;\n}\n\n#supply-spin,\n#raised-spin,\n#left-spin,\n#balance-spin,\n#buy-spin,\n#burn-spin,\n#web3,\n#metamask,\n#ropsten {\n  display: none;\n}\n\n.wrap {\n  font-family: \"Open Sans\", sans-serif;\n  position: relative;\n  overflow: hidden;\n  width: 600px;\n}\n.wrap .app {\n  overflow-y: scroll;\n}\n.wrap .app header {\n  padding: 25px 16px 0 16px;\n}\n.wrap .app header .nHeader {\n  height: 50px;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n}\n.wrap .app header .nHeader .logo {\n  width: 155px;\n}\n.wrap .app header .nHeader .logo img {\n  width: 100%;\n}\n.wrap .app header .nHeader .options {\n  text-align: right;\n}\n.wrap .app header .title {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n  margin: 20px 0;\n}\n.wrap .app header .title .greet {\n  color: #000;\n}\n.wrap .app header .title .greet p {\n  font-size: 16px;\n  margin-bottom: 10px;\n  letter-spacing: 0.5px;\n}\n.wrap .app header .title .greet h1 {\n  font-size: 40px;\n  font-weight: 500;\n}\n.wrap .app .ico {\n  padding: 0 16px;\n  color: #fff;\n}\n.wrap .app .ico .halfWidth {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n}\n.wrap .app .ico .halfWidth .number {\n  width: 48%;\n  height: 160px;\n  border-radius: 10px;\n  position: relative;\n}\n.wrap .app .ico .halfWidth .number span {\n  font-size: 72px;\n  font-weight: 300;\n  margin: 0 16px;\n  line-height: 90px;\n}\n.wrap .app .ico .halfWidth .number p, .wrap .app .ico .halfWidth .number h4 {\n  padding-left: 16px;\n}\n.wrap .app .ico .halfWidth .number .line {\n  height: 2px;\n  margin-top: 10px;\n  background: rgba(255, 255, 255, 0.3);\n}\n.wrap .app .ico .halfWidth .number h4 {\n  font-weight: 600;\n  line-height: 40px;\n  cursor: pointer;\n}\n.wrap .app .ico .halfWidth .number:first-child {\n  background: #d5841b;\n}\n.wrap .app .ico .halfWidth .number:last-child {\n  background: #96215C;\n}\n.wrap .app .ico .fullWidth .number {\n  width: 100%;\n  height: 160px;\n  background: #9a999e;\n  border-radius: 10px;\n  margin-top: 15px;\n  position: relative;\n}\n.wrap .app .ico .fullWidth .number span {\n  font-size: 72px;\n  font-weight: 300;\n  margin: 0 16px;\n  line-height: 116px;\n  float: left;\n}\n.wrap .app .ico .fullWidth .number .fa {\n  position: absolute;\n  top: 20px;\n  right: 20px;\n  -webkit-transform: translate(, );\n          transform: translate(, );\n}\n.wrap .app .ico .fullWidth .number p {\n  padding-top: 72px;\n}\n.wrap .app .ico .fullWidth .number .line {\n  height: 2px;\n  margin-top: 10px;\n  background: rgba(255, 255, 255, 0.3);\n  clear: both;\n}\n.wrap .app .ico .fullWidth .number h4 {\n  font-weight: 600;\n  padding-left: 16px;\n  line-height: 40px;\n  cursor: pointer;\n}\n.wrap .app .divisor {\n  margin: 16px 0 0 0;\n  padding: 16px 0 0 16px;\n}\n.wrap .app .divisor .title {\n  font-size: 14px;\n  color: rgba(0, 0, 0, 0.4);\n}\n.wrap .app .wallet {\n  width: 100%;\n  padding: 0 16px;\n  margin: 16px 0;\n}\n.wrap .app .wallet .card {\n  width: 100%;\n  background: #fff;\n  border-radius: 10px;\n  margin-top: 16px;\n  position: relative;\n}\n.wrap .app .wallet .card .cardCol {\n  height: auto;\n  border-bottom: 2px solid rgba(0, 0, 0, 0.1);\n}\n.wrap .app .wallet .card .cardCol:last-child {\n  border-bottom: none;\n}\n.wrap .app .wallet .card .cardCol .logo {\n  width: 30px;\n  height: 30px;\n  float: left;\n  margin: 16px 16px 5px 16px;\n}\n.wrap .app .wallet .card .cardCol .logo img {\n  width: 100%;\n  border-radius: 50%;\n}\n.wrap .app .wallet .card .cardCol .title {\n  padding-top: 26px;\n  font-weight: 600;\n  font-size: 14px;\n}\n.wrap .app .wallet .card .cardCol span {\n  float: right;\n  margin: -15px 15px 0 0;\n  font-size: 14px;\n  cursor: pointer;\n  color: #d5841b;\n  font-weight: 600;\n}\n.wrap .app .wallet .card .cardCol .number {\n  line-height: 72px;\n  margin: 0 16px;\n  font-size: 72px;\n  clear: both;\n  padding-bottom: 16px;\n  opacity: 0.7;\n}\n.wrap .app .investorTool {\n  width: 600px;\n  height: auto;\n  margin: 0 0 16px 0;\n  padding: 0 0 16px 16px;\n  overflow-x: auto;\n  white-space: nowrap;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n}\n.wrap .app .investorTool .card {\n  width: 276px;\n  height: 160px;\n  background: #fff;\n  float: left;\n  border-radius: 10px;\n  position: relative;\n}\n.wrap .app .investorTool .card:first-child {\n  margin-right: 16px;\n}\n.wrap .app .investorTool .card .icon {\n  margin: 16px;\n  margin-bottom: 10px;\n  float: left;\n}\n.wrap .app .investorTool .card .title {\n  margin-top: 20px;\n  font-weight: 600;\n  font-size: 14px;\n}\n.wrap .app .investorTool .card .text {\n  clear: both;\n  line-height: 24px;\n  margin: 0 16px;\n  font-size: 20px;\n}\n.wrap .app .investorTool .card .line {\n  height: 2px;\n  margin-top: 10px;\n  background: rgba(0, 0, 0, 0.1);\n}\n.wrap .app .investorTool .card .action h5 {\n  color: #d5841b;\n  font-weight: 600;\n  font-size: 14px;\n  cursor: pointer;\n  line-height: 50px;\n  padding-left: 16px;\n}\n.wrap .app .empty {\n  width: 100%;\n}\n\n@media screen and (max-width: 380px) {\n  .wrap {\n    width: 100vw;\n    height: 100vh;\n    background: #0D1019;\n  }\n  .wrap .app {\n    width: inherit;\n    height: inherit;\n    overflow-x: hidden;\n  }\n}\n", ""]);
+exports.push([module.i, "* {\n  -moz-box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n}\n\nbody {\n  font-family: \"Open Sans\", sans-serif;\n  background: #F4F0E8;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n}\n\n::-webkit-scrollbar {\n  display: none;\n}\n\n#supply-spin,\n#raised-spin,\n#left-spin,\n#balance-spin,\n#buy-spin,\n#burn-spin,\n#web3,\n#metamask,\n#ropsten {\n  display: none;\n}\n\n.wrap {\n  position: relative;\n  overflow: hidden;\n  width: 600px;\n}\n.wrap .app {\n  overflow-y: scroll;\n}\n.wrap .app header {\n  padding: 25px 16px 0 16px;\n}\n.wrap .app header .nHeader {\n  height: 50px;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n}\n.wrap .app header .nHeader .logo {\n  width: 155px;\n}\n.wrap .app header .nHeader .logo img {\n  width: 100%;\n}\n.wrap .app header .nHeader .options {\n  text-align: right;\n}\n.wrap .app header .title {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n  margin: 20px 0;\n}\n.wrap .app header .title .greet {\n  color: #000;\n}\n.wrap .app header .title .greet p {\n  font-size: 16px;\n  margin-bottom: 10px;\n  letter-spacing: 0.5px;\n}\n.wrap .app header .title .greet h1 {\n  font-size: 40px;\n  font-weight: 500;\n}\n.wrap .app .ico {\n  padding: 0 16px;\n  color: #fff;\n}\n.wrap .app .ico .halfWidth {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between;\n}\n.wrap .app .ico .halfWidth .number {\n  width: 48%;\n  height: 160px;\n  border-radius: 10px;\n  position: relative;\n}\n.wrap .app .ico .halfWidth .number span {\n  font-size: 72px;\n  font-weight: 300;\n  margin: 0 16px;\n  line-height: 90px;\n}\n.wrap .app .ico .halfWidth .number p, .wrap .app .ico .halfWidth .number h4 {\n  padding-left: 16px;\n}\n.wrap .app .ico .halfWidth .number .line {\n  height: 2px;\n  margin-top: 10px;\n  background: rgba(255, 255, 255, 0.3);\n}\n.wrap .app .ico .halfWidth .number h4 {\n  font-weight: 600;\n  line-height: 40px;\n  cursor: pointer;\n}\n.wrap .app .ico .halfWidth .number:first-child {\n  background: #d5841b;\n}\n.wrap .app .ico .halfWidth .number:last-child {\n  background: #96215C;\n}\n.wrap .app .ico .fullWidth .number {\n  width: 100%;\n  height: 160px;\n  background: #9a999e;\n  border-radius: 10px;\n  margin-top: 15px;\n  position: relative;\n}\n.wrap .app .ico .fullWidth .number span {\n  font-size: 72px;\n  font-weight: 300;\n  margin: 0 16px;\n  line-height: 116px;\n  float: left;\n}\n.wrap .app .ico .fullWidth .number .fa {\n  position: absolute;\n  top: 20px;\n  right: 20px;\n  -webkit-transform: translate(, );\n          transform: translate(, );\n}\n.wrap .app .ico .fullWidth .number p {\n  padding-top: 72px;\n}\n.wrap .app .ico .fullWidth .number .line {\n  height: 2px;\n  margin-top: 10px;\n  background: rgba(255, 255, 255, 0.3);\n  clear: both;\n}\n.wrap .app .ico .fullWidth .number h4 {\n  font-weight: 600;\n  padding-left: 16px;\n  line-height: 40px;\n  cursor: pointer;\n}\n.wrap .app .divisor {\n  margin: 16px 0 0 0;\n  padding: 16px 0 0 16px;\n}\n.wrap .app .divisor .title {\n  font-size: 14px;\n  color: rgba(0, 0, 0, 0.4);\n}\n.wrap .app .wallet {\n  width: 100%;\n  padding: 0 16px;\n  margin: 16px 0;\n}\n.wrap .app .wallet .card {\n  width: 100%;\n  background: #fff;\n  border-radius: 10px;\n  margin-top: 16px;\n  position: relative;\n}\n.wrap .app .wallet .card .cardCol {\n  height: auto;\n  border-bottom: 2px solid rgba(0, 0, 0, 0.1);\n}\n.wrap .app .wallet .card .cardCol:last-child {\n  border-bottom: none;\n}\n.wrap .app .wallet .card .cardCol .logo {\n  width: 30px;\n  height: 30px;\n  float: left;\n  margin: 16px 16px 5px 16px;\n}\n.wrap .app .wallet .card .cardCol .logo img {\n  width: 100%;\n  border-radius: 50%;\n}\n.wrap .app .wallet .card .cardCol .title {\n  padding-top: 26px;\n  font-weight: 600;\n  font-size: 14px;\n}\n.wrap .app .wallet .card .cardCol span {\n  float: right;\n  margin: -15px 15px 0 0;\n  font-size: 14px;\n  cursor: pointer;\n  color: #d5841b;\n  font-weight: 600;\n}\n.wrap .app .wallet .card .cardCol .number {\n  line-height: 72px;\n  margin: 0 16px;\n  font-size: 72px;\n  clear: both;\n  padding-bottom: 16px;\n  opacity: 0.7;\n}\n.wrap .app .investorTool {\n  width: 600px;\n  height: auto;\n  margin: 0 0 16px 0;\n  padding: 0 0 16px 16px;\n  overflow-x: auto;\n  white-space: nowrap;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n}\n.wrap .app .investorTool .card {\n  width: 276px;\n  height: 160px;\n  background: #fff;\n  float: left;\n  border-radius: 10px;\n  position: relative;\n}\n.wrap .app .investorTool .card:first-child {\n  margin-right: 16px;\n}\n.wrap .app .investorTool .card .icon {\n  margin: 16px;\n  margin-bottom: 10px;\n  float: left;\n}\n.wrap .app .investorTool .card .title {\n  margin-top: 20px;\n  font-weight: 600;\n  font-size: 14px;\n}\n.wrap .app .investorTool .card .text {\n  clear: both;\n  line-height: 24px;\n  margin: 0 16px;\n  font-size: 20px;\n}\n.wrap .app .investorTool .card .line {\n  height: 2px;\n  margin-top: 10px;\n  background: rgba(0, 0, 0, 0.1);\n}\n.wrap .app .investorTool .card .action h5 {\n  color: #d5841b;\n  font-weight: 600;\n  font-size: 14px;\n  cursor: pointer;\n  line-height: 50px;\n  padding-left: 16px;\n}\n.wrap .app .empty {\n  width: 100%;\n}\n\n.custom-tingle .tingle-modal-box {\n  border-radius: 10px;\n  width: 568px;\n}\n\n.custom-tingle .tingle-modal-box__footer {\n  border-bottom-right-radius: 10px;\n  border-bottom-left-radius: 10px;\n  background-color: #F4F0E8;\n  text-align: center;\n}\n\n.custom-tingle .tingle-modal-box__footer .tingle-buy-button {\n  font-weight: 600;\n  line-height: 40px;\n  cursor: pointer;\n  padding-right: 20px;\n  border: 0;\n  background: inherit;\n  font-size: 14px;\n  float: right;\n}\n\n.custom-tingle .tingle-modal-box__footer img {\n  width: 155px;\n}\n\n.custom-tingle .tingle-modal-box__content  {\n  padding: 26px;\n}\n\n.custom-tingle .tingle-modal-box__footer {\n  padding: 16px;\n}\n\n.custom-tingle form p {\n  font-weight: 600;\n  margin-bottom: 30px;\n  font-size: 14px\n}\n\n.selecteurPrix {\n  height: 60px;\n}\n\n.prixMin {\n  float: left;\n  margin-right: 15px;\n}\n\n.prixMin,\n.prixMax {\n  color: #94255C;\n}\n\n.valeurPrix {\n  margin-top: 25px;\n}\n\n.range-slider {\n  position: relative;\n  width: 385px;\n  float: left;\n  margin-right: 5px;\n}\n\n.range-slider .input-range {\n  -webkit-appearance: none;\n  width: 375px;\n  height: 5px;\n  border-radius: 5px;\n  background: #ccc;\n  outline: none;\n}\n\n.range-slider .input-range::-webkit-slider-thumb {\n  -webkit-appearance: none;\n  width: 20px;\n  height: 20px;\n  border-radius: 50%;\n  background: #94255C;\n  cursor: pointer;\n  -webkit-transition: background .15s ease-in-out;\n  transition: background .15s ease-in-out;\n}\n\n.range-slider .input-range::-webkit-slider-thumb:hover {\n  background: #94255C;\n}\n\n.range-slider .input-range:active::-webkit-slider-thumb {\n  background: #94255C;\n}\n\n.range-slider .input-range::-moz-range-thumb {\n  width: 20px;\n  height: 20px;\n  border: 0;\n  border-radius: 50%;\n  background: #94255C;\n  cursor: pointer;\n  -webkit-transition: background .15s ease-in-out;\n  transition: background .15s ease-in-out;\n}\n\n.range-slider .input-range::-moz-range-thumb:hover {\n  background: #94255C;\n}\n\n.range-slider .input-range:active::-moz-range-thumb {\n  background: #94255C;\n}\n\n.range-slider .range-value {\n  font-size: 20px\n}\n\n::-moz-range-track {\n  background: #ccc;\n  border: 0;\n}\n\ninput::-moz-focus-inner {\n  border: 0;\n}\n\n@media screen and (max-width: 380px) {\n  .wrap {\n    width: 100vw;\n    height: 100vh;\n    background: #0D1019;\n  }\n  .wrap .app {\n    width: inherit;\n    height: inherit;\n    overflow-x: hidden;\n  }\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 100 */
-/***/ (function(module, exports) {
+/* 104 */
+/***/ (function(module, exports, __webpack_require__) {
 
-/*
-	MIT License http://www.opensource.org/licenses/mit-license.php
-	Author Tobias Koppers @sokra
-*/
-// css base code, injected by the css-loader
-module.exports = function() {
-	var list = [];
+exports = module.exports = __webpack_require__(59)();
+// imports
 
-	// return the list of modules as css string
-	list.toString = function toString() {
-		var result = [];
-		for(var i = 0; i < this.length; i++) {
-			var item = this[i];
-			if(item[2]) {
-				result.push("@media " + item[2] + "{" + item[1] + "}");
-			} else {
-				result.push(item[1]);
-			}
-		}
-		return result.join("");
-	};
 
-	// import a list of modules into the list
-	list.i = function(modules, mediaQuery) {
-		if(typeof modules === "string")
-			modules = [[null, modules, ""]];
-		var alreadyImportedModules = {};
-		for(var i = 0; i < this.length; i++) {
-			var id = this[i][0];
-			if(typeof id === "number")
-				alreadyImportedModules[id] = true;
-		}
-		for(i = 0; i < modules.length; i++) {
-			var item = modules[i];
-			// skip already imported module
-			// this implementation is not 100% perfect for weird media query combinations
-			//  when a module is imported multiple times with different media queries.
-			//  I hope this will never occur (Hey this way we have smaller bundles)
-			if(typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
-				if(mediaQuery && !item[2]) {
-					item[2] = mediaQuery;
-				} else if(mediaQuery) {
-					item[2] = "(" + item[2] + ") and (" + mediaQuery + ")";
-				}
-				list.push(item);
-			}
-		}
-	};
-	return list;
-};
+// module
+exports.push([module.i, ".tingle-modal *{box-sizing:border-box}.tingle-modal{position:fixed;top:0;right:0;bottom:0;left:0;z-index:1000;display:-webkit-box;display:-ms-flexbox;display:flex;visibility:hidden;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;overflow:hidden;-webkit-overflow-scrolling:touch;background:rgba(0,0,0,.8);opacity:0;cursor:pointer;-webkit-transition:-webkit-transform .2s ease;transition:-webkit-transform .2s ease;transition:transform .2s ease;transition:transform .2s ease,-webkit-transform .2s ease}.tingle-modal--noClose .tingle-modal__close,.tingle-modal__closeLabel{display:none}.tingle-modal--confirm .tingle-modal-box{text-align:center}.tingle-modal--noOverlayClose{cursor:default}.tingle-modal__close{position:fixed;top:10px;right:28px;z-index:1000;padding:0;width:5rem;height:5rem;border:none;background-color:transparent;color:#f0f0f0;font-size:6rem;font-family:monospace;line-height:1;cursor:pointer;-webkit-transition:color .3s ease;transition:color .3s ease}.tingle-modal__close:hover{color:#fff}.tingle-modal-box{position:relative;-ms-flex-negative:0;flex-shrink:0;margin-top:auto;margin-bottom:auto;width:60%;border-radius:4px;background:#fff;opacity:1;cursor:auto;-webkit-transition:-webkit-transform .3s cubic-bezier(.175,.885,.32,1.275);transition:-webkit-transform .3s cubic-bezier(.175,.885,.32,1.275);transition:transform .3s cubic-bezier(.175,.885,.32,1.275);transition:transform .3s cubic-bezier(.175,.885,.32,1.275),-webkit-transform .3s cubic-bezier(.175,.885,.32,1.275);-webkit-transform:scale(.8);-ms-transform:scale(.8);transform:scale(.8)}.tingle-modal-box__content{padding:3rem}.tingle-modal-box__footer{padding:1.5rem 2rem;width:auto;border-bottom-right-radius:4px;border-bottom-left-radius:4px;background-color:#f5f5f5;cursor:auto}.tingle-modal-box__footer::after{display:table;clear:both;content:\"\"}.tingle-modal-box__footer--sticky{position:fixed;bottom:-200px;z-index:10001;opacity:1;-webkit-transition:bottom .3s ease-in-out .3s;transition:bottom .3s ease-in-out .3s}.tingle-enabled{position:fixed;overflow:hidden;left:0;right:0}.tingle-modal--visible .tingle-modal-box__footer{bottom:0}.tingle-enabled .tingle-content-wrapper{-webkit-filter:blur(8px);filter:blur(8px)}.tingle-modal--visible{visibility:visible;opacity:1}.tingle-modal--visible .tingle-modal-box{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1)}.tingle-modal--overflow{overflow-y:scroll;padding-top:8vh}.tingle-btn{display:inline-block;margin:0 .5rem;padding:1rem 2rem;border:none;background-color:grey;box-shadow:none;color:#fff;vertical-align:middle;text-decoration:none;font-size:inherit;font-family:inherit;line-height:normal;cursor:pointer;-webkit-transition:background-color .4s ease;transition:background-color .4s ease}.tingle-btn--primary{background-color:#3498db}.tingle-btn--danger{background-color:#e74c3c}.tingle-btn--default{background-color:#34495e}.tingle-btn--pull-left{float:left}.tingle-btn--pull-right{float:right}@media (max-width :540px){.tingle-modal{top:0;display:block;padding-top:60px;width:100%}.tingle-modal-box{width:auto;border-radius:0}.tingle-modal-box__content{overflow-y:scroll}.tingle-modal--noClose{top:0}.tingle-modal--noOverlayClose{padding-top:0}.tingle-modal-box__footer .tingle-btn{display:block;float:none;margin-bottom:1rem;width:100%}.tingle-modal__close{top:0;right:0;left:0;display:block;width:100%;height:60px;border:none;background-color:#2c3e50;box-shadow:none;color:#fff;line-height:55px}.tingle-modal__closeLabel{display:inline-block;vertical-align:middle;font-size:1.5rem;font-family:-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen,Ubuntu,Cantarell,\"Fira Sans\",\"Droid Sans\",\"Helvetica Neue\",sans-serif}.tingle-modal__closeIcon{display:inline-block;margin-right:.5rem;vertical-align:middle;font-size:4rem}}@supports ((-webkit-backdrop-filter:blur(12px)) or (backdrop-filter:blur(12px))){.tingle-modal{-webkit-backdrop-filter:blur(20px);backdrop-filter:blur(20px)}@media (max-width :540px){.tingle-modal{-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}}.tingle-enabled .tingle-content-wrapper{-webkit-filter:none;filter:none}}", ""]);
+
+// exports
 
 
 /***/ }),
-/* 101 */
+/* 105 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31531,7 +31921,7 @@ module.exports = function() {
 
 /* eslint-disable */
 
-var utils = __webpack_require__(102);
+var utils = __webpack_require__(106);
 var uint256Coder = utils.uint256Coder;
 var coderBoolean = utils.coderBoolean;
 var coderFixedBytes = utils.coderFixedBytes;
@@ -31663,15 +32053,15 @@ module.exports = {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(31).Buffer))
 
 /***/ }),
-/* 102 */
+/* 106 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(Buffer) {
 
 var BN = __webpack_require__(56);
-var numberToBN = __webpack_require__(107);
-var keccak256 = __webpack_require__(106).keccak_256;
+var numberToBN = __webpack_require__(111);
+var keccak256 = __webpack_require__(110).keccak_256;
 
 // from ethereumjs-util
 function stripZeros(aInput) {
@@ -32087,7 +32477,7 @@ module.exports = {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(31).Buffer))
 
 /***/ }),
-/* 103 */
+/* 107 */
 /***/ (function(module, exports) {
 
 exports.read = function (buffer, offset, isLE, mLen, nBytes) {
@@ -32177,7 +32567,7 @@ exports.write = function (buffer, value, offset, isLE, mLen, nBytes) {
 
 
 /***/ }),
-/* 104 */
+/* 108 */
 /***/ (function(module, exports) {
 
 /**
@@ -32196,7 +32586,7 @@ module.exports = function isHexPrefixed(str) {
 
 
 /***/ }),
-/* 105 */
+/* 109 */
 /***/ (function(module, exports) {
 
 var toString = {}.toString;
@@ -32207,7 +32597,7 @@ module.exports = Array.isArray || function (arr) {
 
 
 /***/ }),
-/* 106 */
+/* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(process, global) {/**
@@ -32682,14 +33072,14 @@ module.exports = Array.isArray || function (arr) {
   }
 }(this));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(108), __webpack_require__(47)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(112), __webpack_require__(47)))
 
 /***/ }),
-/* 107 */
+/* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var BN = __webpack_require__(56);
-var stripHexPrefix = __webpack_require__(109);
+var stripHexPrefix = __webpack_require__(113);
 
 /**
  * Returns a BN object, converts a number value to a BN
@@ -32729,7 +33119,7 @@ module.exports = function numberToBN(arg) {
 
 
 /***/ }),
-/* 108 */
+/* 112 */
 /***/ (function(module, exports) {
 
 // shim for using process in browser
@@ -32919,10 +33309,10 @@ process.umask = function() { return 0; };
 
 
 /***/ }),
-/* 109 */
+/* 113 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isHexPrefixed = __webpack_require__(104);
+var isHexPrefixed = __webpack_require__(108);
 
 /**
  * Removes '0x' from a given `String` is present
@@ -32939,264 +33329,12 @@ module.exports = function stripHexPrefix(str) {
 
 
 /***/ }),
-/* 110 */
-/***/ (function(module, exports) {
-
-/*
-	MIT License http://www.opensource.org/licenses/mit-license.php
-	Author Tobias Koppers @sokra
-*/
-var stylesInDom = {},
-	memoize = function(fn) {
-		var memo;
-		return function () {
-			if (typeof memo === "undefined") memo = fn.apply(this, arguments);
-			return memo;
-		};
-	},
-	isOldIE = memoize(function() {
-		return /msie [6-9]\b/.test(self.navigator.userAgent.toLowerCase());
-	}),
-	getHeadElement = memoize(function () {
-		return document.head || document.getElementsByTagName("head")[0];
-	}),
-	singletonElement = null,
-	singletonCounter = 0,
-	styleElementsInsertedAtTop = [];
-
-module.exports = function(list, options) {
-	if(typeof DEBUG !== "undefined" && DEBUG) {
-		if(typeof document !== "object") throw new Error("The style-loader cannot be used in a non-browser environment");
-	}
-
-	options = options || {};
-	// Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
-	// tags it will allow on a page
-	if (typeof options.singleton === "undefined") options.singleton = isOldIE();
-
-	// By default, add <style> tags to the bottom of <head>.
-	if (typeof options.insertAt === "undefined") options.insertAt = "bottom";
-
-	var styles = listToStyles(list);
-	addStylesToDom(styles, options);
-
-	return function update(newList) {
-		var mayRemove = [];
-		for(var i = 0; i < styles.length; i++) {
-			var item = styles[i];
-			var domStyle = stylesInDom[item.id];
-			domStyle.refs--;
-			mayRemove.push(domStyle);
-		}
-		if(newList) {
-			var newStyles = listToStyles(newList);
-			addStylesToDom(newStyles, options);
-		}
-		for(var i = 0; i < mayRemove.length; i++) {
-			var domStyle = mayRemove[i];
-			if(domStyle.refs === 0) {
-				for(var j = 0; j < domStyle.parts.length; j++)
-					domStyle.parts[j]();
-				delete stylesInDom[domStyle.id];
-			}
-		}
-	};
-}
-
-function addStylesToDom(styles, options) {
-	for(var i = 0; i < styles.length; i++) {
-		var item = styles[i];
-		var domStyle = stylesInDom[item.id];
-		if(domStyle) {
-			domStyle.refs++;
-			for(var j = 0; j < domStyle.parts.length; j++) {
-				domStyle.parts[j](item.parts[j]);
-			}
-			for(; j < item.parts.length; j++) {
-				domStyle.parts.push(addStyle(item.parts[j], options));
-			}
-		} else {
-			var parts = [];
-			for(var j = 0; j < item.parts.length; j++) {
-				parts.push(addStyle(item.parts[j], options));
-			}
-			stylesInDom[item.id] = {id: item.id, refs: 1, parts: parts};
-		}
-	}
-}
-
-function listToStyles(list) {
-	var styles = [];
-	var newStyles = {};
-	for(var i = 0; i < list.length; i++) {
-		var item = list[i];
-		var id = item[0];
-		var css = item[1];
-		var media = item[2];
-		var sourceMap = item[3];
-		var part = {css: css, media: media, sourceMap: sourceMap};
-		if(!newStyles[id])
-			styles.push(newStyles[id] = {id: id, parts: [part]});
-		else
-			newStyles[id].parts.push(part);
-	}
-	return styles;
-}
-
-function insertStyleElement(options, styleElement) {
-	var head = getHeadElement();
-	var lastStyleElementInsertedAtTop = styleElementsInsertedAtTop[styleElementsInsertedAtTop.length - 1];
-	if (options.insertAt === "top") {
-		if(!lastStyleElementInsertedAtTop) {
-			head.insertBefore(styleElement, head.firstChild);
-		} else if(lastStyleElementInsertedAtTop.nextSibling) {
-			head.insertBefore(styleElement, lastStyleElementInsertedAtTop.nextSibling);
-		} else {
-			head.appendChild(styleElement);
-		}
-		styleElementsInsertedAtTop.push(styleElement);
-	} else if (options.insertAt === "bottom") {
-		head.appendChild(styleElement);
-	} else {
-		throw new Error("Invalid value for parameter 'insertAt'. Must be 'top' or 'bottom'.");
-	}
-}
-
-function removeStyleElement(styleElement) {
-	styleElement.parentNode.removeChild(styleElement);
-	var idx = styleElementsInsertedAtTop.indexOf(styleElement);
-	if(idx >= 0) {
-		styleElementsInsertedAtTop.splice(idx, 1);
-	}
-}
-
-function createStyleElement(options) {
-	var styleElement = document.createElement("style");
-	styleElement.type = "text/css";
-	insertStyleElement(options, styleElement);
-	return styleElement;
-}
-
-function createLinkElement(options) {
-	var linkElement = document.createElement("link");
-	linkElement.rel = "stylesheet";
-	insertStyleElement(options, linkElement);
-	return linkElement;
-}
-
-function addStyle(obj, options) {
-	var styleElement, update, remove;
-
-	if (options.singleton) {
-		var styleIndex = singletonCounter++;
-		styleElement = singletonElement || (singletonElement = createStyleElement(options));
-		update = applyToSingletonTag.bind(null, styleElement, styleIndex, false);
-		remove = applyToSingletonTag.bind(null, styleElement, styleIndex, true);
-	} else if(obj.sourceMap &&
-		typeof URL === "function" &&
-		typeof URL.createObjectURL === "function" &&
-		typeof URL.revokeObjectURL === "function" &&
-		typeof Blob === "function" &&
-		typeof btoa === "function") {
-		styleElement = createLinkElement(options);
-		update = updateLink.bind(null, styleElement);
-		remove = function() {
-			removeStyleElement(styleElement);
-			if(styleElement.href)
-				URL.revokeObjectURL(styleElement.href);
-		};
-	} else {
-		styleElement = createStyleElement(options);
-		update = applyToTag.bind(null, styleElement);
-		remove = function() {
-			removeStyleElement(styleElement);
-		};
-	}
-
-	update(obj);
-
-	return function updateStyle(newObj) {
-		if(newObj) {
-			if(newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap)
-				return;
-			update(obj = newObj);
-		} else {
-			remove();
-		}
-	};
-}
-
-var replaceText = (function () {
-	var textStore = [];
-
-	return function (index, replacement) {
-		textStore[index] = replacement;
-		return textStore.filter(Boolean).join('\n');
-	};
-})();
-
-function applyToSingletonTag(styleElement, index, remove, obj) {
-	var css = remove ? "" : obj.css;
-
-	if (styleElement.styleSheet) {
-		styleElement.styleSheet.cssText = replaceText(index, css);
-	} else {
-		var cssNode = document.createTextNode(css);
-		var childNodes = styleElement.childNodes;
-		if (childNodes[index]) styleElement.removeChild(childNodes[index]);
-		if (childNodes.length) {
-			styleElement.insertBefore(cssNode, childNodes[index]);
-		} else {
-			styleElement.appendChild(cssNode);
-		}
-	}
-}
-
-function applyToTag(styleElement, obj) {
-	var css = obj.css;
-	var media = obj.media;
-
-	if(media) {
-		styleElement.setAttribute("media", media)
-	}
-
-	if(styleElement.styleSheet) {
-		styleElement.styleSheet.cssText = css;
-	} else {
-		while(styleElement.firstChild) {
-			styleElement.removeChild(styleElement.firstChild);
-		}
-		styleElement.appendChild(document.createTextNode(css));
-	}
-}
-
-function updateLink(linkElement, obj) {
-	var css = obj.css;
-	var sourceMap = obj.sourceMap;
-
-	if(sourceMap) {
-		// http://stackoverflow.com/a/26603875
-		css += "\n/*# sourceMappingURL=data:application/json;base64," + btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))) + " */";
-	}
-
-	var blob = new Blob([css], { type: "text/css" });
-
-	var oldSrc = linkElement.href;
-
-	linkElement.href = URL.createObjectURL(blob);
-
-	if(oldSrc)
-		URL.revokeObjectURL(oldSrc);
-}
-
-
-/***/ }),
-/* 111 */
+/* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // TODO: remove web3 requirement
 // Call functions directly on the provider.
-var Web3 = __webpack_require__(112);
+var Web3 = __webpack_require__(115);
 
 var Blockchain = {
   parse: function(uri) {
@@ -33258,10 +33396,10 @@ module.exports = Blockchain;
 
 
 /***/ }),
-/* 112 */
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Web3 = __webpack_require__(127);
+var Web3 = __webpack_require__(130);
 
 // dont override global variable
 if (typeof window !== 'undefined' && typeof window.Web3 === 'undefined') {
@@ -33272,25 +33410,25 @@ module.exports = Web3;
 
 
 /***/ }),
-/* 113 */
+/* 116 */
 /***/ (function(module, exports) {
 
 module.exports = [{"constant":true,"inputs":[{"name":"_owner","type":"address"}],"name":"name","outputs":[{"name":"o_name","type":"bytes32"}],"type":"function"},{"constant":true,"inputs":[{"name":"_name","type":"bytes32"}],"name":"owner","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":true,"inputs":[{"name":"_name","type":"bytes32"}],"name":"content","outputs":[{"name":"","type":"bytes32"}],"type":"function"},{"constant":true,"inputs":[{"name":"_name","type":"bytes32"}],"name":"addr","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"}],"name":"reserve","outputs":[],"type":"function"},{"constant":true,"inputs":[{"name":"_name","type":"bytes32"}],"name":"subRegistrar","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_newOwner","type":"address"}],"name":"transfer","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_registrar","type":"address"}],"name":"setSubRegistrar","outputs":[],"type":"function"},{"constant":false,"inputs":[],"name":"Registrar","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_a","type":"address"},{"name":"_primary","type":"bool"}],"name":"setAddress","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_content","type":"bytes32"}],"name":"setContent","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"}],"name":"disown","outputs":[],"type":"function"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_name","type":"bytes32"},{"indexed":false,"name":"_winner","type":"address"}],"name":"AuctionEnded","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_name","type":"bytes32"},{"indexed":false,"name":"_bidder","type":"address"},{"indexed":false,"name":"_value","type":"uint256"}],"name":"NewBid","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"name","type":"bytes32"}],"name":"Changed","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"name","type":"bytes32"},{"indexed":true,"name":"addr","type":"address"}],"name":"PrimaryChanged","type":"event"}]
 
 /***/ }),
-/* 114 */
+/* 117 */
 /***/ (function(module, exports) {
 
 module.exports = [{"constant":true,"inputs":[{"name":"_name","type":"bytes32"}],"name":"owner","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_refund","type":"address"}],"name":"disown","outputs":[],"type":"function"},{"constant":true,"inputs":[{"name":"_name","type":"bytes32"}],"name":"addr","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"}],"name":"reserve","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_newOwner","type":"address"}],"name":"transfer","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_a","type":"address"}],"name":"setAddr","outputs":[],"type":"function"},{"anonymous":false,"inputs":[{"indexed":true,"name":"name","type":"bytes32"}],"name":"Changed","type":"event"}]
 
 /***/ }),
-/* 115 */
+/* 118 */
 /***/ (function(module, exports) {
 
 module.exports = [{"constant":false,"inputs":[{"name":"from","type":"bytes32"},{"name":"to","type":"address"},{"name":"value","type":"uint256"}],"name":"transfer","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"from","type":"bytes32"},{"name":"to","type":"address"},{"name":"indirectId","type":"bytes32"},{"name":"value","type":"uint256"}],"name":"icapTransfer","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"to","type":"bytes32"}],"name":"deposit","outputs":[],"payable":true,"type":"function"},{"anonymous":false,"inputs":[{"indexed":true,"name":"from","type":"address"},{"indexed":false,"name":"value","type":"uint256"}],"name":"AnonymousDeposit","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"from","type":"address"},{"indexed":true,"name":"to","type":"bytes32"},{"indexed":false,"name":"value","type":"uint256"}],"name":"Deposit","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"from","type":"bytes32"},{"indexed":true,"name":"to","type":"address"},{"indexed":false,"name":"value","type":"uint256"}],"name":"Transfer","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"from","type":"bytes32"},{"indexed":true,"name":"to","type":"address"},{"indexed":false,"name":"indirectId","type":"bytes32"},{"indexed":false,"name":"value","type":"uint256"}],"name":"IcapTransfer","type":"event"}]
 
 /***/ }),
-/* 116 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(5);
@@ -33322,7 +33460,7 @@ module.exports = SolidityTypeAddress;
 
 
 /***/ }),
-/* 117 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(5);
@@ -33354,7 +33492,7 @@ module.exports = SolidityTypeBool;
 
 
 /***/ }),
-/* 118 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(5);
@@ -33389,7 +33527,7 @@ module.exports = SolidityTypeBytes;
 
 
 /***/ }),
-/* 119 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(5);
@@ -33415,7 +33553,7 @@ module.exports = SolidityTypeDynamicBytes;
 
 
 /***/ }),
-/* 120 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(5);
@@ -33453,7 +33591,7 @@ module.exports = SolidityTypeInt;
 
 
 /***/ }),
-/* 121 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(5);
@@ -33491,7 +33629,7 @@ module.exports = SolidityTypeReal;
 
 
 /***/ }),
-/* 122 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(5);
@@ -33517,7 +33655,7 @@ module.exports = SolidityTypeString;
 
 
 /***/ }),
-/* 123 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(5);
@@ -33555,7 +33693,7 @@ module.exports = SolidityTypeUInt;
 
 
 /***/ }),
-/* 124 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(5);
@@ -33593,7 +33731,7 @@ module.exports = SolidityTypeUReal;
 
 
 /***/ }),
-/* 125 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33609,13 +33747,13 @@ if (typeof XMLHttpRequest === 'undefined') {
 
 
 /***/ }),
-/* 126 */
+/* 129 */
 /***/ (function(module, exports) {
 
 module.exports = {"version":"0.18.4"}
 
 /***/ }),
-/* 127 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -33645,23 +33783,23 @@ module.exports = {"version":"0.18.4"}
  * @date 2014
  */
 
-var RequestManager = __webpack_require__(142);
+var RequestManager = __webpack_require__(145);
 var Iban = __webpack_require__(36);
-var Eth = __webpack_require__(136);
-var DB = __webpack_require__(135);
-var Shh = __webpack_require__(139);
-var Net = __webpack_require__(137);
-var Personal = __webpack_require__(138);
-var Swarm = __webpack_require__(140);
-var Settings = __webpack_require__(143);
-var version = __webpack_require__(126);
+var Eth = __webpack_require__(139);
+var DB = __webpack_require__(138);
+var Shh = __webpack_require__(142);
+var Net = __webpack_require__(140);
+var Personal = __webpack_require__(141);
+var Swarm = __webpack_require__(143);
+var Settings = __webpack_require__(146);
+var version = __webpack_require__(129);
 var utils = __webpack_require__(2);
 var sha3 = __webpack_require__(24);
-var extend = __webpack_require__(131);
-var Batch = __webpack_require__(129);
+var extend = __webpack_require__(134);
+var Batch = __webpack_require__(132);
 var Property = __webpack_require__(19);
-var HttpProvider = __webpack_require__(133);
-var IpcProvider = __webpack_require__(134);
+var HttpProvider = __webpack_require__(136);
+var IpcProvider = __webpack_require__(137);
 var BigNumber = __webpack_require__(23);
 
 
@@ -33771,7 +33909,7 @@ module.exports = Web3;
 
 
 /***/ }),
-/* 128 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -33797,7 +33935,7 @@ module.exports = Web3;
  */
 
 var sha3 = __webpack_require__(24);
-var SolidityEvent = __webpack_require__(60);
+var SolidityEvent = __webpack_require__(62);
 var formatters = __webpack_require__(9);
 var utils = __webpack_require__(2);
 var Filter = __webpack_require__(35);
@@ -33865,7 +34003,7 @@ module.exports = AllSolidityEvents;
 
 
 /***/ }),
-/* 129 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -33890,7 +34028,7 @@ module.exports = AllSolidityEvents;
  * @date 2015
  */
 
-var Jsonrpc = __webpack_require__(61);
+var Jsonrpc = __webpack_require__(63);
 var errors = __webpack_require__(25);
 
 var Batch = function (web3) {
@@ -33937,7 +34075,7 @@ module.exports = Batch;
 
 
 /***/ }),
-/* 130 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -33964,9 +34102,9 @@ module.exports = Batch;
 
 var utils = __webpack_require__(2);
 var coder = __webpack_require__(51);
-var SolidityEvent = __webpack_require__(60);
-var SolidityFunction = __webpack_require__(132);
-var AllEvents = __webpack_require__(128);
+var SolidityEvent = __webpack_require__(62);
+var SolidityFunction = __webpack_require__(135);
+var AllEvents = __webpack_require__(131);
 
 /**
  * Should be called to encode constructor params
@@ -34253,7 +34391,7 @@ module.exports = ContractFactory;
 
 
 /***/ }),
-/* 131 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var formatters = __webpack_require__(9);
@@ -34307,7 +34445,7 @@ module.exports = extend;
 
 
 /***/ }),
-/* 132 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -34575,7 +34713,7 @@ module.exports = SolidityFunction;
 
 
 /***/ }),
-/* 133 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -34612,10 +34750,10 @@ if (typeof window !== 'undefined' && window.XMLHttpRequest) {
     XMLHttpRequest = window.XMLHttpRequest; // jshint ignore: line
 // node
 } else {
-    XMLHttpRequest = __webpack_require__(125).XMLHttpRequest; // jshint ignore: line
+    XMLHttpRequest = __webpack_require__(128).XMLHttpRequest; // jshint ignore: line
 }
 
-var XHR2 = __webpack_require__(69); // jshint ignore: line
+var XHR2 = __webpack_require__(71); // jshint ignore: line
 
 /**
  * HttpProvider should be used to send rpc calls over http
@@ -34734,7 +34872,7 @@ module.exports = HttpProvider;
 
 
 /***/ }),
-/* 134 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34948,7 +35086,7 @@ module.exports = IpcProvider;
 
 
 /***/ }),
-/* 135 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -35020,7 +35158,7 @@ module.exports = DB;
 
 
 /***/ }),
-/* 136 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35054,13 +35192,13 @@ var utils = __webpack_require__(2);
 var Method = __webpack_require__(14);
 var Property = __webpack_require__(19);
 var c = __webpack_require__(34);
-var Contract = __webpack_require__(130);
+var Contract = __webpack_require__(133);
 var watches = __webpack_require__(37);
 var Filter = __webpack_require__(35);
-var IsSyncing = __webpack_require__(144);
-var namereg = __webpack_require__(141);
+var IsSyncing = __webpack_require__(147);
+var namereg = __webpack_require__(144);
 var Iban = __webpack_require__(36);
-var transfer = __webpack_require__(145);
+var transfer = __webpack_require__(148);
 
 var blockCall = function (args) {
     return (utils.isString(args[0]) && args[0].indexOf('0x') === 0) ? "eth_getBlockByHash" : "eth_getBlockByNumber";
@@ -35381,7 +35519,7 @@ module.exports = Eth;
 
 
 /***/ }),
-/* 137 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -35439,7 +35577,7 @@ module.exports = Net;
 
 
 /***/ }),
-/* 138 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35539,7 +35677,7 @@ module.exports = Personal;
 
 
 /***/ }),
-/* 139 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -35631,7 +35769,7 @@ module.exports = Shh;
 
 
 /***/ }),
-/* 140 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35783,7 +35921,7 @@ module.exports = Swarm;
 
 
 /***/ }),
-/* 141 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -35808,8 +35946,8 @@ module.exports = Swarm;
  * @date 2015
  */
 
-var globalRegistrarAbi = __webpack_require__(113);
-var icapRegistrarAbi= __webpack_require__(114);
+var globalRegistrarAbi = __webpack_require__(116);
+var icapRegistrarAbi= __webpack_require__(117);
 
 var globalNameregAddress = '0xc6d9d2cd449a754c494264e1809c50e34d64562b';
 var icapNameregAddress = '0xa1a111bc074c9cfa781f0c38e63bd51c91b8af00';
@@ -35828,7 +35966,7 @@ module.exports = {
 
 
 /***/ }),
-/* 142 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -35857,7 +35995,7 @@ module.exports = {
  * @date 2014
  */
 
-var Jsonrpc = __webpack_require__(61);
+var Jsonrpc = __webpack_require__(63);
 var utils = __webpack_require__(2);
 var c = __webpack_require__(34);
 var errors = __webpack_require__(25);
@@ -36099,7 +36237,7 @@ module.exports = RequestManager;
 
 
 /***/ }),
-/* 143 */
+/* 146 */
 /***/ (function(module, exports) {
 
 
@@ -36114,7 +36252,7 @@ module.exports = Settings;
 
 
 /***/ }),
-/* 144 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -36213,7 +36351,7 @@ module.exports = IsSyncing;
 
 
 /***/ }),
-/* 145 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -36239,7 +36377,7 @@ module.exports = IsSyncing;
  */
 
 var Iban = __webpack_require__(36);
-var exchangeAbi = __webpack_require__(115);
+var exchangeAbi = __webpack_require__(118);
 
 /**
  * Should be used to make Iban transfer
@@ -36311,11 +36449,11 @@ module.exports = transfer;
 
 
 /***/ }),
-/* 146 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var sha3 = __webpack_require__(147);
-var schema_version = __webpack_require__(149).version;
+var sha3 = __webpack_require__(150);
+var schema_version = __webpack_require__(152).version;
 
 var TruffleSchema = {
   // Normalize options passed in to be the exact options required
@@ -36498,13 +36636,13 @@ module.exports = TruffleSchema;
 
 
 /***/ }),
-/* 147 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory, undef) {
 	if (true) {
 		// CommonJS
-		module.exports = exports = factory(__webpack_require__(62), __webpack_require__(148));
+		module.exports = exports = factory(__webpack_require__(64), __webpack_require__(151));
 	}
 	else if (typeof define === "function" && define.amd) {
 		// AMD
@@ -36826,13 +36964,13 @@ module.exports = TruffleSchema;
 }));
 
 /***/ }),
-/* 148 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 ;(function (root, factory) {
 	if (true) {
 		// CommonJS
-		module.exports = exports = factory(__webpack_require__(62));
+		module.exports = exports = factory(__webpack_require__(64));
 	}
 	else if (typeof define === "function" && define.amd) {
 		// AMD
@@ -37135,18 +37273,18 @@ module.exports = TruffleSchema;
 }));
 
 /***/ }),
-/* 149 */
+/* 152 */
 /***/ (function(module, exports) {
 
 module.exports = {"_from":"truffle-contract-schema@0.0.5","_id":"truffle-contract-schema@0.0.5","_inBundle":false,"_integrity":"sha1-Xp0gvQvyon/pQxB0gknUhO7kmWE=","_location":"/truffle-contract-schema","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"truffle-contract-schema@0.0.5","name":"truffle-contract-schema","escapedName":"truffle-contract-schema","rawSpec":"0.0.5","saveSpec":null,"fetchSpec":"0.0.5"},"_requiredBy":["/truffle-contract"],"_resolved":"https://registry.npmjs.org/truffle-contract-schema/-/truffle-contract-schema-0.0.5.tgz","_shasum":"5e9d20bd0bf2a27fe94310748249d484eee49961","_spec":"truffle-contract-schema@0.0.5","_where":"/Users/federicoelgarte/Documents/token-interaction-dapp/node_modules/truffle-contract","author":{"name":"Tim Coulter","email":"tim.coulter@consensys.net"},"bugs":{"url":"https://github.com/trufflesuite/truffle-schema/issues"},"bundleDependencies":false,"dependencies":{"crypto-js":"^3.1.9-1"},"deprecated":false,"description":"JSON schema for contract artifacts","devDependencies":{"mocha":"^3.2.0"},"homepage":"https://github.com/trufflesuite/truffle-schema#readme","keywords":["ethereum","json","schema","contract","artifacts"],"license":"MIT","main":"index.js","name":"truffle-contract-schema","repository":{"type":"git","url":"git+https://github.com/trufflesuite/truffle-schema.git"},"scripts":{"test":"mocha"},"version":"0.0.5"}
 
 /***/ }),
-/* 150 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(global, module) {var ethJSABI = __webpack_require__(101);
-var BlockchainUtils = __webpack_require__(111);
-var Web3 = __webpack_require__(151);
+/* WEBPACK VAR INJECTION */(function(global, module) {var ethJSABI = __webpack_require__(105);
+var BlockchainUtils = __webpack_require__(114);
+var Web3 = __webpack_require__(154);
 
 // For browserified version. If browserify gave us an empty version,
 // look for the one provided by the user.
@@ -37943,10 +38081,10 @@ var contract = (function(module) {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(47), __webpack_require__(55)(module)))
 
 /***/ }),
-/* 151 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Web3 = __webpack_require__(166);
+var Web3 = __webpack_require__(169);
 
 // dont override global variable
 if (typeof window !== 'undefined' && typeof window.Web3 === 'undefined') {
@@ -37957,25 +38095,25 @@ module.exports = Web3;
 
 
 /***/ }),
-/* 152 */
+/* 155 */
 /***/ (function(module, exports) {
 
 module.exports = [{"constant":true,"inputs":[{"name":"_owner","type":"address"}],"name":"name","outputs":[{"name":"o_name","type":"bytes32"}],"type":"function"},{"constant":true,"inputs":[{"name":"_name","type":"bytes32"}],"name":"owner","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":true,"inputs":[{"name":"_name","type":"bytes32"}],"name":"content","outputs":[{"name":"","type":"bytes32"}],"type":"function"},{"constant":true,"inputs":[{"name":"_name","type":"bytes32"}],"name":"addr","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"}],"name":"reserve","outputs":[],"type":"function"},{"constant":true,"inputs":[{"name":"_name","type":"bytes32"}],"name":"subRegistrar","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_newOwner","type":"address"}],"name":"transfer","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_registrar","type":"address"}],"name":"setSubRegistrar","outputs":[],"type":"function"},{"constant":false,"inputs":[],"name":"Registrar","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_a","type":"address"},{"name":"_primary","type":"bool"}],"name":"setAddress","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_content","type":"bytes32"}],"name":"setContent","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"}],"name":"disown","outputs":[],"type":"function"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_name","type":"bytes32"},{"indexed":false,"name":"_winner","type":"address"}],"name":"AuctionEnded","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_name","type":"bytes32"},{"indexed":false,"name":"_bidder","type":"address"},{"indexed":false,"name":"_value","type":"uint256"}],"name":"NewBid","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"name","type":"bytes32"}],"name":"Changed","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"name","type":"bytes32"},{"indexed":true,"name":"addr","type":"address"}],"name":"PrimaryChanged","type":"event"}]
 
 /***/ }),
-/* 153 */
+/* 156 */
 /***/ (function(module, exports) {
 
 module.exports = [{"constant":true,"inputs":[{"name":"_name","type":"bytes32"}],"name":"owner","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_refund","type":"address"}],"name":"disown","outputs":[],"type":"function"},{"constant":true,"inputs":[{"name":"_name","type":"bytes32"}],"name":"addr","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"}],"name":"reserve","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_newOwner","type":"address"}],"name":"transfer","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_a","type":"address"}],"name":"setAddr","outputs":[],"type":"function"},{"anonymous":false,"inputs":[{"indexed":true,"name":"name","type":"bytes32"}],"name":"Changed","type":"event"}]
 
 /***/ }),
-/* 154 */
+/* 157 */
 /***/ (function(module, exports) {
 
 module.exports = [{"constant":false,"inputs":[{"name":"from","type":"bytes32"},{"name":"to","type":"address"},{"name":"value","type":"uint256"}],"name":"transfer","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"from","type":"bytes32"},{"name":"to","type":"address"},{"name":"indirectId","type":"bytes32"},{"name":"value","type":"uint256"}],"name":"icapTransfer","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"to","type":"bytes32"}],"name":"deposit","outputs":[],"type":"function"},{"anonymous":false,"inputs":[{"indexed":true,"name":"from","type":"address"},{"indexed":false,"name":"value","type":"uint256"}],"name":"AnonymousDeposit","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"from","type":"address"},{"indexed":true,"name":"to","type":"bytes32"},{"indexed":false,"name":"value","type":"uint256"}],"name":"Deposit","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"from","type":"bytes32"},{"indexed":true,"name":"to","type":"address"},{"indexed":false,"name":"value","type":"uint256"}],"name":"Transfer","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"from","type":"bytes32"},{"indexed":true,"name":"to","type":"address"},{"indexed":false,"name":"indirectId","type":"bytes32"},{"indexed":false,"name":"value","type":"uint256"}],"name":"IcapTransfer","type":"event"}]
 
 /***/ }),
-/* 155 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(6);
@@ -38012,7 +38150,7 @@ module.exports = SolidityTypeAddress;
 
 
 /***/ }),
-/* 156 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(6);
@@ -38048,7 +38186,7 @@ module.exports = SolidityTypeBool;
 
 
 /***/ }),
-/* 157 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(6);
@@ -38092,7 +38230,7 @@ module.exports = SolidityTypeBytes;
 
 
 /***/ }),
-/* 158 */
+/* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(6);
@@ -38123,7 +38261,7 @@ module.exports = SolidityTypeDynamicBytes;
 
 
 /***/ }),
-/* 159 */
+/* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(6);
@@ -38165,7 +38303,7 @@ module.exports = SolidityTypeInt;
 
 
 /***/ }),
-/* 160 */
+/* 163 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(6);
@@ -38207,7 +38345,7 @@ module.exports = SolidityTypeReal;
 
 
 /***/ }),
-/* 161 */
+/* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(6);
@@ -38238,7 +38376,7 @@ module.exports = SolidityTypeString;
 
 
 /***/ }),
-/* 162 */
+/* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(6);
@@ -38280,7 +38418,7 @@ module.exports = SolidityTypeUInt;
 
 
 /***/ }),
-/* 163 */
+/* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(6);
@@ -38322,7 +38460,7 @@ module.exports = SolidityTypeUReal;
 
 
 /***/ }),
-/* 164 */
+/* 167 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38338,13 +38476,13 @@ if (typeof XMLHttpRequest === 'undefined') {
 
 
 /***/ }),
-/* 165 */
+/* 168 */
 /***/ (function(module, exports) {
 
 module.exports = {"version":"0.16.0"}
 
 /***/ }),
-/* 166 */
+/* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -38374,22 +38512,22 @@ module.exports = {"version":"0.16.0"}
  * @date 2014
  */
 
-var RequestManager = __webpack_require__(180);
+var RequestManager = __webpack_require__(183);
 var Iban = __webpack_require__(41);
-var Eth = __webpack_require__(175);
-var DB = __webpack_require__(174);
-var Shh = __webpack_require__(178);
-var Net = __webpack_require__(176);
-var Personal = __webpack_require__(177);
-var Settings = __webpack_require__(181);
-var version = __webpack_require__(165);
+var Eth = __webpack_require__(178);
+var DB = __webpack_require__(177);
+var Shh = __webpack_require__(181);
+var Net = __webpack_require__(179);
+var Personal = __webpack_require__(180);
+var Settings = __webpack_require__(184);
+var version = __webpack_require__(168);
 var utils = __webpack_require__(3);
 var sha3 = __webpack_require__(26);
-var extend = __webpack_require__(170);
-var Batch = __webpack_require__(168);
+var extend = __webpack_require__(173);
+var Batch = __webpack_require__(171);
 var Property = __webpack_require__(28);
-var HttpProvider = __webpack_require__(172);
-var IpcProvider = __webpack_require__(173);
+var HttpProvider = __webpack_require__(175);
+var IpcProvider = __webpack_require__(176);
 
 
 
@@ -38496,7 +38634,7 @@ module.exports = Web3;
 
 
 /***/ }),
-/* 167 */
+/* 170 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -38522,7 +38660,7 @@ module.exports = Web3;
  */
 
 var sha3 = __webpack_require__(26);
-var SolidityEvent = __webpack_require__(64);
+var SolidityEvent = __webpack_require__(66);
 var formatters = __webpack_require__(11);
 var utils = __webpack_require__(3);
 var Filter = __webpack_require__(40);
@@ -38590,7 +38728,7 @@ module.exports = AllSolidityEvents;
 
 
 /***/ }),
-/* 168 */
+/* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -38615,7 +38753,7 @@ module.exports = AllSolidityEvents;
  * @date 2015
  */
 
-var Jsonrpc = __webpack_require__(65);
+var Jsonrpc = __webpack_require__(67);
 var errors = __webpack_require__(27);
 
 var Batch = function (web3) {
@@ -38662,7 +38800,7 @@ module.exports = Batch;
 
 
 /***/ }),
-/* 169 */
+/* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -38689,9 +38827,9 @@ module.exports = Batch;
 
 var utils = __webpack_require__(3);
 var coder = __webpack_require__(52);
-var SolidityEvent = __webpack_require__(64);
-var SolidityFunction = __webpack_require__(171);
-var AllEvents = __webpack_require__(167);
+var SolidityEvent = __webpack_require__(66);
+var SolidityFunction = __webpack_require__(174);
+var AllEvents = __webpack_require__(170);
 
 /**
  * Should be called to encode constructor params
@@ -38966,7 +39104,7 @@ module.exports = ContractFactory;
 
 
 /***/ }),
-/* 170 */
+/* 173 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var formatters = __webpack_require__(11);
@@ -39020,7 +39158,7 @@ module.exports = extend;
 
 
 /***/ }),
-/* 171 */
+/* 174 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -39273,7 +39411,7 @@ module.exports = SolidityFunction;
 
 
 /***/ }),
-/* 172 */
+/* 175 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39318,7 +39456,7 @@ if (typeof Meteor !== 'undefined' && Meteor.isServer) { // jshint ignore: line
 
 // node
 } else {
-    XMLHttpRequest = __webpack_require__(164).XMLHttpRequest; // jshint ignore: line
+    XMLHttpRequest = __webpack_require__(167).XMLHttpRequest; // jshint ignore: line
 }
 
 /**
@@ -39426,7 +39564,7 @@ module.exports = HttpProvider;
 
 
 /***/ }),
-/* 173 */
+/* 176 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39640,7 +39778,7 @@ module.exports = IpcProvider;
 
 
 /***/ }),
-/* 174 */
+/* 177 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -39712,7 +39850,7 @@ module.exports = DB;
 
 
 /***/ }),
-/* 175 */
+/* 178 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39746,13 +39884,13 @@ var utils = __webpack_require__(3);
 var Method = __webpack_require__(20);
 var Property = __webpack_require__(28);
 var c = __webpack_require__(39);
-var Contract = __webpack_require__(169);
+var Contract = __webpack_require__(172);
 var watches = __webpack_require__(42);
 var Filter = __webpack_require__(40);
-var IsSyncing = __webpack_require__(182);
-var namereg = __webpack_require__(179);
+var IsSyncing = __webpack_require__(185);
+var namereg = __webpack_require__(182);
 var Iban = __webpack_require__(41);
-var transfer = __webpack_require__(183);
+var transfer = __webpack_require__(186);
 
 var blockCall = function (args) {
     return (utils.isString(args[0]) && args[0].indexOf('0x') === 0) ? "eth_getBlockByHash" : "eth_getBlockByNumber";
@@ -40062,7 +40200,7 @@ module.exports = Eth;
 
 
 /***/ }),
-/* 176 */
+/* 179 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -40120,7 +40258,7 @@ module.exports = Net;
 
 
 /***/ }),
-/* 177 */
+/* 180 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40212,7 +40350,7 @@ module.exports = Personal;
 
 
 /***/ }),
-/* 178 */
+/* 181 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -40304,7 +40442,7 @@ module.exports = Shh;
 
 
 /***/ }),
-/* 179 */
+/* 182 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -40329,8 +40467,8 @@ module.exports = Shh;
  * @date 2015
  */
 
-var globalRegistrarAbi = __webpack_require__(152);
-var icapRegistrarAbi= __webpack_require__(153);
+var globalRegistrarAbi = __webpack_require__(155);
+var icapRegistrarAbi= __webpack_require__(156);
 
 var globalNameregAddress = '0xc6d9d2cd449a754c494264e1809c50e34d64562b';
 var icapNameregAddress = '0xa1a111bc074c9cfa781f0c38e63bd51c91b8af00';
@@ -40349,7 +40487,7 @@ module.exports = {
 
 
 /***/ }),
-/* 180 */
+/* 183 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -40378,7 +40516,7 @@ module.exports = {
  * @date 2014
  */
 
-var Jsonrpc = __webpack_require__(65);
+var Jsonrpc = __webpack_require__(67);
 var utils = __webpack_require__(3);
 var c = __webpack_require__(39);
 var errors = __webpack_require__(27);
@@ -40620,7 +40758,7 @@ module.exports = RequestManager;
 
 
 /***/ }),
-/* 181 */
+/* 184 */
 /***/ (function(module, exports) {
 
 
@@ -40635,7 +40773,7 @@ module.exports = Settings;
 
 
 /***/ }),
-/* 182 */
+/* 185 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -40734,7 +40872,7 @@ module.exports = IsSyncing;
 
 
 /***/ }),
-/* 183 */
+/* 186 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -40760,7 +40898,7 @@ module.exports = IsSyncing;
  */
 
 var Iban = __webpack_require__(41);
-var exchangeAbi = __webpack_require__(154);
+var exchangeAbi = __webpack_require__(157);
 
 /**
  * Should be used to make Iban transfer
@@ -40832,25 +40970,25 @@ module.exports = transfer;
 
 
 /***/ }),
-/* 184 */
+/* 187 */
 /***/ (function(module, exports) {
 
 module.exports = [{"constant":true,"inputs":[{"name":"_owner","type":"address"}],"name":"name","outputs":[{"name":"o_name","type":"bytes32"}],"type":"function"},{"constant":true,"inputs":[{"name":"_name","type":"bytes32"}],"name":"owner","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":true,"inputs":[{"name":"_name","type":"bytes32"}],"name":"content","outputs":[{"name":"","type":"bytes32"}],"type":"function"},{"constant":true,"inputs":[{"name":"_name","type":"bytes32"}],"name":"addr","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"}],"name":"reserve","outputs":[],"type":"function"},{"constant":true,"inputs":[{"name":"_name","type":"bytes32"}],"name":"subRegistrar","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_newOwner","type":"address"}],"name":"transfer","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_registrar","type":"address"}],"name":"setSubRegistrar","outputs":[],"type":"function"},{"constant":false,"inputs":[],"name":"Registrar","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_a","type":"address"},{"name":"_primary","type":"bool"}],"name":"setAddress","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_content","type":"bytes32"}],"name":"setContent","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"}],"name":"disown","outputs":[],"type":"function"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_name","type":"bytes32"},{"indexed":false,"name":"_winner","type":"address"}],"name":"AuctionEnded","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_name","type":"bytes32"},{"indexed":false,"name":"_bidder","type":"address"},{"indexed":false,"name":"_value","type":"uint256"}],"name":"NewBid","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"name","type":"bytes32"}],"name":"Changed","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"name","type":"bytes32"},{"indexed":true,"name":"addr","type":"address"}],"name":"PrimaryChanged","type":"event"}]
 
 /***/ }),
-/* 185 */
+/* 188 */
 /***/ (function(module, exports) {
 
 module.exports = [{"constant":true,"inputs":[{"name":"_name","type":"bytes32"}],"name":"owner","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_refund","type":"address"}],"name":"disown","outputs":[],"type":"function"},{"constant":true,"inputs":[{"name":"_name","type":"bytes32"}],"name":"addr","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"}],"name":"reserve","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_newOwner","type":"address"}],"name":"transfer","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_name","type":"bytes32"},{"name":"_a","type":"address"}],"name":"setAddr","outputs":[],"type":"function"},{"anonymous":false,"inputs":[{"indexed":true,"name":"name","type":"bytes32"}],"name":"Changed","type":"event"}]
 
 /***/ }),
-/* 186 */
+/* 189 */
 /***/ (function(module, exports) {
 
 module.exports = [{"constant":false,"inputs":[{"name":"from","type":"bytes32"},{"name":"to","type":"address"},{"name":"value","type":"uint256"}],"name":"transfer","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"from","type":"bytes32"},{"name":"to","type":"address"},{"name":"indirectId","type":"bytes32"},{"name":"value","type":"uint256"}],"name":"icapTransfer","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"to","type":"bytes32"}],"name":"deposit","outputs":[],"payable":true,"type":"function"},{"anonymous":false,"inputs":[{"indexed":true,"name":"from","type":"address"},{"indexed":false,"name":"value","type":"uint256"}],"name":"AnonymousDeposit","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"from","type":"address"},{"indexed":true,"name":"to","type":"bytes32"},{"indexed":false,"name":"value","type":"uint256"}],"name":"Deposit","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"from","type":"bytes32"},{"indexed":true,"name":"to","type":"address"},{"indexed":false,"name":"value","type":"uint256"}],"name":"Transfer","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"from","type":"bytes32"},{"indexed":true,"name":"to","type":"address"},{"indexed":false,"name":"indirectId","type":"bytes32"},{"indexed":false,"name":"value","type":"uint256"}],"name":"IcapTransfer","type":"event"}]
 
 /***/ }),
-/* 187 */
+/* 190 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(7);
@@ -40882,7 +41020,7 @@ module.exports = SolidityTypeAddress;
 
 
 /***/ }),
-/* 188 */
+/* 191 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(7);
@@ -40914,7 +41052,7 @@ module.exports = SolidityTypeBool;
 
 
 /***/ }),
-/* 189 */
+/* 192 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(7);
@@ -40949,7 +41087,7 @@ module.exports = SolidityTypeBytes;
 
 
 /***/ }),
-/* 190 */
+/* 193 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(7);
@@ -40975,7 +41113,7 @@ module.exports = SolidityTypeDynamicBytes;
 
 
 /***/ }),
-/* 191 */
+/* 194 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(7);
@@ -41013,7 +41151,7 @@ module.exports = SolidityTypeInt;
 
 
 /***/ }),
-/* 192 */
+/* 195 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(7);
@@ -41051,7 +41189,7 @@ module.exports = SolidityTypeReal;
 
 
 /***/ }),
-/* 193 */
+/* 196 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(7);
@@ -41077,7 +41215,7 @@ module.exports = SolidityTypeString;
 
 
 /***/ }),
-/* 194 */
+/* 197 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(7);
@@ -41115,7 +41253,7 @@ module.exports = SolidityTypeUInt;
 
 
 /***/ }),
-/* 195 */
+/* 198 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var f = __webpack_require__(7);
@@ -41153,7 +41291,7 @@ module.exports = SolidityTypeUReal;
 
 
 /***/ }),
-/* 196 */
+/* 199 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41169,13 +41307,13 @@ if (typeof XMLHttpRequest === 'undefined') {
 
 
 /***/ }),
-/* 197 */
+/* 200 */
 /***/ (function(module, exports) {
 
 module.exports = {"version":"0.20.5"}
 
 /***/ }),
-/* 198 */
+/* 201 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -41205,23 +41343,23 @@ module.exports = {"version":"0.20.5"}
  * @date 2014
  */
 
-var RequestManager = __webpack_require__(213);
+var RequestManager = __webpack_require__(216);
 var Iban = __webpack_require__(45);
-var Eth = __webpack_require__(207);
-var DB = __webpack_require__(206);
-var Shh = __webpack_require__(210);
-var Net = __webpack_require__(208);
-var Personal = __webpack_require__(209);
-var Swarm = __webpack_require__(211);
-var Settings = __webpack_require__(214);
-var version = __webpack_require__(197);
+var Eth = __webpack_require__(210);
+var DB = __webpack_require__(209);
+var Shh = __webpack_require__(213);
+var Net = __webpack_require__(211);
+var Personal = __webpack_require__(212);
+var Swarm = __webpack_require__(214);
+var Settings = __webpack_require__(217);
+var version = __webpack_require__(200);
 var utils = __webpack_require__(4);
 var sha3 = __webpack_require__(29);
-var extend = __webpack_require__(202);
-var Batch = __webpack_require__(200);
+var extend = __webpack_require__(205);
+var Batch = __webpack_require__(203);
 var Property = __webpack_require__(22);
-var HttpProvider = __webpack_require__(204);
-var IpcProvider = __webpack_require__(205);
+var HttpProvider = __webpack_require__(207);
+var IpcProvider = __webpack_require__(208);
 var BigNumber = __webpack_require__(30);
 
 
@@ -41333,7 +41471,7 @@ module.exports = Web3;
 
 
 /***/ }),
-/* 199 */
+/* 202 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -41359,7 +41497,7 @@ module.exports = Web3;
  */
 
 var sha3 = __webpack_require__(29);
-var SolidityEvent = __webpack_require__(67);
+var SolidityEvent = __webpack_require__(69);
 var formatters = __webpack_require__(13);
 var utils = __webpack_require__(4);
 var Filter = __webpack_require__(44);
@@ -41426,7 +41564,7 @@ module.exports = AllSolidityEvents;
 
 
 /***/ }),
-/* 200 */
+/* 203 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -41451,7 +41589,7 @@ module.exports = AllSolidityEvents;
  * @date 2015
  */
 
-var Jsonrpc = __webpack_require__(68);
+var Jsonrpc = __webpack_require__(70);
 var errors = __webpack_require__(21);
 
 var Batch = function (web3) {
@@ -41498,7 +41636,7 @@ module.exports = Batch;
 
 
 /***/ }),
-/* 201 */
+/* 204 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -41525,9 +41663,9 @@ module.exports = Batch;
 
 var utils = __webpack_require__(4);
 var coder = __webpack_require__(54);
-var SolidityEvent = __webpack_require__(67);
-var SolidityFunction = __webpack_require__(203);
-var AllEvents = __webpack_require__(199);
+var SolidityEvent = __webpack_require__(69);
+var SolidityFunction = __webpack_require__(206);
+var AllEvents = __webpack_require__(202);
 
 /**
  * Should be called to encode constructor params
@@ -41814,7 +41952,7 @@ module.exports = ContractFactory;
 
 
 /***/ }),
-/* 202 */
+/* 205 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var formatters = __webpack_require__(13);
@@ -41868,7 +42006,7 @@ module.exports = extend;
 
 
 /***/ }),
-/* 203 */
+/* 206 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -42157,7 +42295,7 @@ module.exports = SolidityFunction;
 
 
 /***/ }),
-/* 204 */
+/* 207 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(Buffer) {/*
@@ -42193,10 +42331,10 @@ if (typeof window !== 'undefined' && window.XMLHttpRequest) {
   XMLHttpRequest = window.XMLHttpRequest; // jshint ignore: line
 // node
 } else {
-  XMLHttpRequest = __webpack_require__(196).XMLHttpRequest; // jshint ignore: line
+  XMLHttpRequest = __webpack_require__(199).XMLHttpRequest; // jshint ignore: line
 }
 
-var XHR2 = __webpack_require__(69); // jshint ignore: line
+var XHR2 = __webpack_require__(71); // jshint ignore: line
 
 /**
  * HttpProvider should be used to send rpc calls over http
@@ -42327,7 +42465,7 @@ module.exports = HttpProvider;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(31).Buffer))
 
 /***/ }),
-/* 205 */
+/* 208 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42541,7 +42679,7 @@ module.exports = IpcProvider;
 
 
 /***/ }),
-/* 206 */
+/* 209 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -42613,7 +42751,7 @@ module.exports = DB;
 
 
 /***/ }),
-/* 207 */
+/* 210 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42647,13 +42785,13 @@ var utils = __webpack_require__(4);
 var Method = __webpack_require__(15);
 var Property = __webpack_require__(22);
 var c = __webpack_require__(43);
-var Contract = __webpack_require__(201);
+var Contract = __webpack_require__(204);
 var watches = __webpack_require__(46);
 var Filter = __webpack_require__(44);
-var IsSyncing = __webpack_require__(215);
-var namereg = __webpack_require__(212);
+var IsSyncing = __webpack_require__(218);
+var namereg = __webpack_require__(215);
 var Iban = __webpack_require__(45);
-var transfer = __webpack_require__(216);
+var transfer = __webpack_require__(219);
 
 var blockCall = function (args) {
     return (utils.isString(args[0]) && args[0].indexOf('0x') === 0) ? "eth_getBlockByHash" : "eth_getBlockByNumber";
@@ -42974,7 +43112,7 @@ module.exports = Eth;
 
 
 /***/ }),
-/* 208 */
+/* 211 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -43032,7 +43170,7 @@ module.exports = Net;
 
 
 /***/ }),
-/* 209 */
+/* 212 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43154,7 +43292,7 @@ module.exports = Personal;
 
 
 /***/ }),
-/* 210 */
+/* 213 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -43304,7 +43442,7 @@ module.exports = Shh;
 
 
 /***/ }),
-/* 211 */
+/* 214 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43456,7 +43594,7 @@ module.exports = Swarm;
 
 
 /***/ }),
-/* 212 */
+/* 215 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -43481,8 +43619,8 @@ module.exports = Swarm;
  * @date 2015
  */
 
-var globalRegistrarAbi = __webpack_require__(184);
-var icapRegistrarAbi= __webpack_require__(185);
+var globalRegistrarAbi = __webpack_require__(187);
+var icapRegistrarAbi= __webpack_require__(188);
 
 var globalNameregAddress = '0xc6d9d2cd449a754c494264e1809c50e34d64562b';
 var icapNameregAddress = '0xa1a111bc074c9cfa781f0c38e63bd51c91b8af00';
@@ -43501,7 +43639,7 @@ module.exports = {
 
 
 /***/ }),
-/* 213 */
+/* 216 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -43530,7 +43668,7 @@ module.exports = {
  * @date 2014
  */
 
-var Jsonrpc = __webpack_require__(68);
+var Jsonrpc = __webpack_require__(70);
 var utils = __webpack_require__(4);
 var c = __webpack_require__(43);
 var errors = __webpack_require__(21);
@@ -43772,7 +43910,7 @@ module.exports = RequestManager;
 
 
 /***/ }),
-/* 214 */
+/* 217 */
 /***/ (function(module, exports) {
 
 
@@ -43787,7 +43925,7 @@ module.exports = Settings;
 
 
 /***/ }),
-/* 215 */
+/* 218 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -43886,7 +44024,7 @@ module.exports = IsSyncing;
 
 
 /***/ }),
-/* 216 */
+/* 219 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -43912,7 +44050,7 @@ module.exports = IsSyncing;
  */
 
 var Iban = __webpack_require__(45);
-var exchangeAbi = __webpack_require__(186);
+var exchangeAbi = __webpack_require__(189);
 
 /**
  * Should be used to make Iban transfer

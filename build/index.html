@@ -10,6 +10,7 @@
 
   <body>
     <div class="wrap">
+
       <div class="app">
         <header>
           <div class="nHeader">
@@ -25,8 +26,6 @@
         </header>
 
         <div id="web3">
-
-          <span id="status"></span>
 
           <div class="ico">
             <div class="halfWidth">
@@ -78,10 +77,10 @@
               <i class="fas fa-circle-notch fa-spin" id="buy-spin" style="color:black;position:absolute;right:20px;top:20px;"></i>
               <div class="icon"><i class="fas fa-shopping-cart fa-lg" style="color:#b2b2b2;"></i></div>
               <p class="title">Buy token</p>
-              <h1 class="text">You will invest <br> 0.1 ETH</h1>
+              <h1 class="text" id="ticker"></h1>
               <div class="line"></div>
               <div class="action">
-                <h5 onclick="App.buy();return false;">START</h5>
+                <h5 onclick="App.openBuy();return false;">START</h5>
               </div>
             </div>
             <div class="card">
@@ -103,7 +102,7 @@
             <div class="card" style="padding:20px;">
               <div class="cardCol">
                 <p>To use this dashboard need <a href="https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en">METAMASK</a> installed in your Google Chrome browser</p><br>
-                <iframe _ngcontent-c1="" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/6Gf_kRE4MJU" width="530"></iframe>
+                <iframe width="530" height="315" src="https://www.youtube.com/embed/6Gf_kRE4MJU?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
               </div>
             </div>
           </div>
