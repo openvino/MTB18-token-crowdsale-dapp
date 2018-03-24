@@ -28,10 +28,10 @@ const duration = {
 
 async function liveDeploy(deployer, accounts) {
 
-	/* Deploy at March 23 - 22PM GMT-3 */
+	/* Deploy at March 24 - 22PM GMT-3 */
 
 	// Start March 25 - 10AM GMT-3
-	const startTime = latestTime() + duration.days(1) + duration.hours(12);
+	const startTime = latestTime() + duration.hours(12);
 	// End April 1 - 23:59PM GMT-3
 	const endTime = startTime + duration.weeks(1) + duration.hours(14);
 
