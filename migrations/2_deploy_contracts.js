@@ -23,7 +23,7 @@ const duration = {
   hours:   function(val) { return val * this.minutes(60) },
   days:    function(val) { return val * this.hours(24) },
   weeks:   function(val) { return val * this.days(7) },
-  years:   function(val) { return val * this.days(365) }kmn  
+  years:   function(val) { return val * this.days(365) }
 };
 
 async function liveDeploy(deployer, accounts) {
