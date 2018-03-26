@@ -31,18 +31,20 @@ async function liveDeploy(deployer, accounts) {
 	/* Deploy at March 24 - 22PM GMT-3 */
 
 	// Start March 25 - 10AM GMT-3
-	const startTime = latestTime() + duration.hours(12);
+	//const startTime = latestTime() + duration.hours(12);
 	// End April 1 - 23:59PM GMT-3
-	const endTime = startTime + duration.weeks(1) + duration.hours(14);
+	//const endTime = startTime + duration.weeks(1) + duration.hours(14);
 
-	const wallet = accounts[0];
+	const startTime = 1522108801; // 03/27/2018 @ 12:00am (UTC)
+	const endTime = 1522627140; // 04/01/2018 @ 11:59pm (UTC)
+
 	const totalCapInEthToRaise = web3.toWei(crowdsaleParams.totalCapInEthToRaise, 'ether');
 	const totalTokenCapToCreate = bigWei(crowdsaleParams.totalTokenCapToCreate);
 	const initialTokenFundBalance = bigWei(crowdsaleParams.initialTokenFundBalance);
 
-	console.log([startTime, endTime, rate, wallet, fundWallet, totalCapInEthToRaise, totalTokenCapToCreate.toPrecision(), initialTokenFundBalance.toPrecision()])
+	console.log([startTime, endTime, rate, fundWallet, totalCapInEthToRaise, totalTokenCapToCreate.toPrecision(), initialTokenFundBalance.toPrecision()])
 
-	return deployer.deploy(MIKETANGOBRAVO18Crowdsale, startTime, endTime, rate, wallet, fundWallet, totalCapInEthToRaise, totalTokenCapToCreate, initialTokenFundBalance).then(async () => {
+	return deployer.deploy(MIKETANGOBRAVO18Crowdsale, startTime, endTime, rate, fundWallet, totalCapInEthToRaise, totalTokenCapToCreate, initialTokenFundBalance).then(async () => {
 		const instance = await MIKETANGOBRAVO18Crowdsale.deployed();
 		const token = await instance.token.call();
 		console.log("Token Address", token);

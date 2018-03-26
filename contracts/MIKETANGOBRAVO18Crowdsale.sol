@@ -9,23 +9,24 @@ contract MIKETANGOBRAVO18Crowdsale is CappedCrowdsale, FinalizableCrowdsale, Pau
 
   uint256 public rate;
   uint256 public totalTokenCapToCreate;
+  address public fundWallet;
 
   function MIKETANGOBRAVO18Crowdsale (
   	uint256 _startTime,
   	uint256 _endTime,
   	uint256 _rate,
-  	address _wallet,
     address _fundWallet,
     uint256 _totalCapInEthToRaise,
     uint256 _totalTokenCapToCreate,
     uint256 _initialTokenFundBalance
   	) public
-    Crowdsale(_startTime, _endTime, _rate, _wallet)
+    Crowdsale(_startTime, _endTime, _rate, _fundWallet)
     CappedCrowdsale(_totalCapInEthToRaise)
     FinalizableCrowdsale() {
       rate = _rate;
+      fundWallet = _fundWallet;
       totalTokenCapToCreate = _totalTokenCapToCreate;
-      token.mint(_fundWallet, _initialTokenFundBalance);  
+      token.mint(fundWallet, _initialTokenFundBalance);  
     }
 
   function createTokenContract() internal returns (MintableToken) {
@@ -54,11 +55,11 @@ contract MIKETANGOBRAVO18Crowdsale is CappedCrowdsale, FinalizableCrowdsale, Pau
     uint256 remaining = totalTokenCapToCreate.sub(token.totalSupply());
 
     if (remaining > 0) {
-      token.mint(wallet, remaining);
+      token.mint(fundWallet, remaining);
     }
 
-    // change Token owner to wallet Fund.
-    token.transferOwnership(wallet);
+    // change Token owner to fundWallet Fund.
+    token.transferOwnership(fundWallet);
 
     super.finalization();
   }
