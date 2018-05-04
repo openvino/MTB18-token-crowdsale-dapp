@@ -1,7 +1,7 @@
 {
-	"totalCapInEthToRaise": 4.096,
+	"totalCapInEthToRaise": 32,
 	"totalTokenCapToCreate": 16384,
 	"initialTokenFundBalance": 12288,
-	"rate": 1000,
+	"rate": 128,
 	"fundWallet": "0xD60b471BD8C62dc4d2f04493413c6CB73b7ce464"
 }
