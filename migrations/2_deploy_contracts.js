@@ -35,8 +35,8 @@ async function liveDeploy(deployer, accounts) {
 	// End April 1 - 23:59PM GMT-3
 	//const endTime = startTime + duration.weeks(1) + duration.hours(14);
 
-	const startTime = 1522108801; // 03/27/2018 @ 12:00am (UTC)
-	const endTime = 1522627140; // 04/01/2018 @ 11:59pm (UTC)
+	const startTime = 1525618800; // 05/06/2018 @ 3:00pm (UTC)
+	const endTime = 1526871600; // 05/21/2018 @ 3:00am (UTC)
 
 	const totalCapInEthToRaise = web3.toWei(crowdsaleParams.totalCapInEthToRaise, 'ether');
 	const totalTokenCapToCreate = bigWei(crowdsaleParams.totalTokenCapToCreate);

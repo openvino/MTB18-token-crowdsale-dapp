@@ -26,7 +26,7 @@ contract MIKETANGOBRAVO18Crowdsale is CappedCrowdsale, FinalizableCrowdsale, Pau
       rate = _rate;
       fundWallet = _fundWallet;
       totalTokenCapToCreate = _totalTokenCapToCreate;
-      token.mint(fundWallet, _initialTokenFundBalance);  
+      token.mint(fundWallet, _initialTokenFundBalance);
     }
 
   function createTokenContract() internal returns (MintableToken) {
